@@ -111,3 +111,36 @@ genuinely different places.
 coverage. Every gap in the remaining 4.5% is explained by one of the
 limitations above — none are unexplained data loss. This clears the pilot's
 pass condition from the feasibility note.
+
+## 6. National-Scale Audit (done ahead of full build)
+
+Before scaling beyond the 5 pilot states, the LGD and Census files
+(which already cover all of India) were audited directly:
+
+- **Leading-zero code bug: 99 districts nationwide affected**, not just
+  Ganganagar. Any LGD code under 100 (mostly Jammu & Kashmir, Ladakh,
+  Himachal Pradesh, Punjab, Haryana, Uttarakhand, Delhi) is zero-padded to
+  3 digits in the LGD file but stored without padding in the Census file.
+  This is already fixed by normalizing codes to integers before joining —
+  confirmed to resolve all 99 cases, not just the one found in the pilot.
+- **Post-2011 new districts: 125 of 785 nationwide (15.9%)** have no
+  Census 2011 population match — much higher than the pilot's 4.3%, because
+  the pilot states happened to have few reorganizations. Telangana alone
+  has 23 new districts (its 2016 split), Chhattisgarh 15, Andhra Pradesh 13.
+  **This needs a decision before the full build**: either source a newer
+  population estimate for these ~126 districts, or accept that ~16% of
+  districts nationwide will be missing this feature.
+- **The rename crosswalk is necessarily incremental** — it can only be
+  built as each state's actual RHS district names are seen and compared
+  against LGD, since old names aren't predictable in advance. One known
+  major rename added as a head start: Madhya Pradesh's Hoshangabad →
+  Narmadapuram (2021). Expect more to surface as extraction continues.
+
+## 7. Reusable Pipeline
+
+`merge_pipeline.py` generalizes the pilot's one-off script: takes any RHS
+extract + any state list, applies the same crosswalk/fuzzy-match/exact-match
+logic, and outputs both the merged file and a `.review.csv` listing every
+non-exact match for manual review before trusting it. Verified to reproduce
+the pilot's exact 629-row result before being adopted.
+

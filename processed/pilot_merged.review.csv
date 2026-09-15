@@ -1,0 +1,74 @@
+state,year,rhs_district,matched_lgd_name,match_type,district_census2011_code,population_found
+Karnataka,2019-20,Bangalore Rural,Bengaluru Rural,fuzzy,583,yes
+Karnataka,2019-20,Bangalore Urban,Bengaluru Urban,fuzzy,572,yes
+Karnataka,2019-20,Belgaum,Belagavi,crosswalk,555,yes
+Karnataka,2019-20,Bellary,Ballari,crosswalk,565,yes
+Karnataka,2019-20,Bijapur,Vijayapura,crosswalk,557,yes
+Karnataka,2019-20,Chamrajnagar,Chamarajanagara,fuzzy,578,yes
+Karnataka,2019-20,Chikkaballapur,Chikkaballapura,fuzzy,582,yes
+Karnataka,2019-20,Chikmagalur,Chikkamagaluru,fuzzy,570,yes
+Karnataka,2019-20,Davanagere,Davangere,fuzzy,567,yes
+Karnataka,2019-20,Gulbarga,Kalaburagi,crosswalk,579,yes
+Karnataka,2019-20,Mysore,Mysuru,crosswalk,577,yes
+Karnataka,2019-20,Ramanagar,Ramanagara,fuzzy,584,yes
+Karnataka,2019-20,Shimoga,Shivamogga,fuzzy,568,yes
+Karnataka,2019-20,Tumkur,Tumakuru,fuzzy,571,yes
+Maharashtra,2019-20,Ahmadnagar,Ahmednagar,fuzzy,522,yes
+Maharashtra,2019-20,Aurangabad,Chhatrapati Sambhajinagar,crosswalk,515,yes
+Maharashtra,2019-20,Bid,Beed,crosswalk,523,yes
+Maharashtra,2019-20,Brihan Mumbai,,none,,no
+Maharashtra,2019-20,Buldana,Buldhana,fuzzy,500,yes
+Maharashtra,2019-20,Gondiya,Gondia,fuzzy,507,yes
+Maharashtra,2019-20,Osmanabad,Dharashiv,crosswalk,525,yes
+Maharashtra,2019-20,Raigarh,Raigad,fuzzy,520,yes
+Tamil Nadu,2019-20,Nilgiris,The Nilgiris,fuzzy,611,yes
+Tamil Nadu,2019-20,Tirupur,Tiruppur,fuzzy,633,yes
+Tamil Nadu,2019-20,Tiruvanamalai,Tiruvannamalai,fuzzy,606,yes
+Tamil Nadu,2019-20,Toothukudi,Thoothukkudi,fuzzy,627,yes
+Uttar Pradesh,2019-20,Allahabad,Prayagraj,crosswalk,175,yes
+Uttar Pradesh,2019-20,Bagpat,Baghpat,fuzzy,139,yes
+Uttar Pradesh,2019-20,Barabanki,Bara Banki,fuzzy,176,yes
+Uttar Pradesh,2019-20,Bulandshahar,Bulandshahr,fuzzy,142,yes
+Uttar Pradesh,2019-20,C S M Nagar,Amethi,crosswalk,000,no
+Uttar Pradesh,2019-20,Faizabad,Ayodhya,crosswalk,177,yes
+Uttar Pradesh,2019-20,Jyotiba Phule Nagar,Amroha,crosswalk,137,yes
+Uttar Pradesh,2019-20,Kashi Ram Nagar,Kasganj,crosswalk,202,yes
+Uttar Pradesh,2019-20,Lakhimpur Kheri,Kheri,crosswalk,153,yes
+Uttar Pradesh,2019-20,Maharajganj,Mahrajganj,fuzzy,187,yes
+Uttar Pradesh,2019-20,Maunathbhanjan,Mau,crosswalk,192,yes
+Uttar Pradesh,2019-20,Sant Ravidas Nagar,Bhadohi,crosswalk,198,yes
+Uttar Pradesh,2019-20,Siddharth Nagar,Siddharthnagar,fuzzy,184,yes
+Uttar Pradesh,2019-20,Unnav,Unnao,fuzzy,156,yes
+Karnataka,2020-21,Bagalkot,Bagalkote,fuzzy,556,yes
+Karnataka,2020-21,Chamarajanagar,Chamarajanagara,fuzzy,578,yes
+Karnataka,2020-21,Chikballapur,Chikkaballapura,fuzzy,582,yes
+Karnataka,2020-21,Dakshin Kannad,Dakshina Kannada,fuzzy,575,yes
+Karnataka,2020-21,Uttar Kannad,Uttara Kannada,fuzzy,563,yes
+Maharashtra,2020-21,Aurangabad,Chhatrapati Sambhajinagar,crosswalk,515,yes
+Maharashtra,2020-21,Osmanabad,Dharashiv,crosswalk,525,yes
+Tamil Nadu,2020-21,Kanchipuram,Kancheepuram,fuzzy,604,yes
+Tamil Nadu,2020-21,Tuticorin,Thoothukkudi,crosswalk,627,yes
+Tamil Nadu,2020-21,Villupuram,Viluppuram,fuzzy,607,yes
+Uttar Pradesh,2020-21,Barabanki,Bara Banki,fuzzy,176,yes
+Uttar Pradesh,2020-21,Bulandshahar,Bulandshahr,fuzzy,142,yes
+Uttar Pradesh,2020-21,Kushi Nagar,Kushinagar,fuzzy,189,yes
+Uttar Pradesh,2020-21,Maharajganj,Mahrajganj,fuzzy,187,yes
+Uttar Pradesh,2020-21,Shravasti,Shrawasti,fuzzy,181,yes
+Uttar Pradesh,2020-21,Siddharth Nagar,Siddharthnagar,fuzzy,184,yes
+Maharashtra,2021-22,Aurangabad,Chhatrapati Sambhajinagar,crosswalk,515,yes
+Maharashtra,2021-22,Osmanabad,Dharashiv,crosswalk,525,yes
+Tamil Nadu,2021-22,Kanyakumari,Kanniyakumari,fuzzy,629,yes
+Tamil Nadu,2021-22,Pudukottai,Pudukkottai,fuzzy,621,yes
+Tamil Nadu,2021-22,Thirupattur,Tirupathur,fuzzy,000,no
+Tamil Nadu,2021-22,Thoothukudi,Thoothukkudi,fuzzy,627,yes
+Tamil Nadu,2021-22,Tiruchirapalli,Tiruchirappalli,fuzzy,614,yes
+Tamil Nadu,2021-22,Tirupur,Tiruppur,fuzzy,633,yes
+Tamil Nadu,2021-22,Tiruvallur,Thiruvallur,fuzzy,602,yes
+Tamil Nadu,2021-22,Tiruvarur,Thiruvarur,fuzzy,619,yes
+Tamil Nadu,2021-22,Villupuram,Viluppuram,fuzzy,607,yes
+Uttar Pradesh,2021-22,Barabanki,Bara Banki,fuzzy,176,yes
+Uttar Pradesh,2021-22,Kushi Nagar,Kushinagar,fuzzy,189,yes
+Uttar Pradesh,2021-22,Maharajganj,Mahrajganj,fuzzy,187,yes
+Uttar Pradesh,2021-22,Sant Kabeer Nagar,Sant Kabir Nagar,fuzzy,186,yes
+Uttar Pradesh,2021-22,Shravasti,Shrawasti,fuzzy,181,yes
+Uttar Pradesh,2021-22,Siddharth Nagar,Siddharthnagar,fuzzy,184,yes
