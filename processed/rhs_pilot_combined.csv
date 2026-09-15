@@ -1,0 +1,630 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Karnataka,Bagalkote,233,55,8,5,1,2019-20
+Karnataka,Bangalore Rural,199,50,2,4,0,2019-20
+Karnataka,Bangalore Urban,279,203,11,5,7,2019-20
+Karnataka,Belgaum,620,153,16,9,0,2019-20
+Karnataka,Bellary,293,74,11,6,1,2019-20
+Karnataka,Bidar,275,58,8,4,0,2019-20
+Karnataka,Bijapur,310,67,9,4,1,2019-20
+Karnataka,Chamrajnagar,254,62,3,3,0,2019-20
+Karnataka,Chikkaballapur,203,61,2,5,1,2019-20
+Karnataka,Chikmagalur,368,91,5,6,1,2019-20
+Karnataka,Chitradurga,343,86,11,5,1,2019-20
+Karnataka,Dakshina Kannada,430,80,5,4,2,2019-20
+Karnataka,Davanagere,324,108,6,5,2,2019-20
+Karnataka,Dharwad,185,53,0,3,1,2019-20
+Karnataka,Gadag,191,42,2,4,1,2019-20
+Karnataka,Gulbarga,337,102,16,6,0,2019-20
+Karnataka,Hassan,486,138,15,7,0,2019-20
+Karnataka,Haveri,311,72,5,6,1,2019-20
+Karnataka,Kodagu,196,30,7,2,0,2019-20
+Karnataka,Kolar,266,68,2,5,1,2019-20
+Karnataka,Koppal,176,48,9,3,0,2019-20
+Karnataka,Mandya,410,117,9,6,0,2019-20
+Karnataka,Mysore,510,147,10,6,1,2019-20
+Karnataka,Raichur,213,57,6,4,0,2019-20
+Karnataka,Ramanagar,249,65,4,3,1,2019-20
+Karnataka,Shimoga,356,106,7,7,0,2019-20
+Karnataka,Tumkur,569,150,4,9,1,2019-20
+Karnataka,Udupi,336,62,6,2,1,2019-20
+Karnataka,Uttara Kannada,344,85,3,10,0,2019-20
+Karnataka,Yadgir,169,44,6,2,1,2019-20
+Maharashtra,Ahmadnagar,558,106,23,3,1,2019-20
+Maharashtra,Akola,178,45,5,1,1,2019-20
+Maharashtra,Amravati,334,74,10,4,3,2019-20
+Maharashtra,Aurangabad,279,82,11,3,1,2019-20
+Maharashtra,Bhandara,193,35,7,2,1,2019-20
+Maharashtra,Bid,297,55,10,3,2,2019-20
+Maharashtra,Brihan Mumbai,0,298,22,0,5,2019-20
+Maharashtra,Buldana,280,58,12,2,2,2019-20
+Maharashtra,Chandrapur,339,67,10,3,0,2019-20
+Maharashtra,Dhule,232,49,5,2,0,2019-20
+Maharashtra,Gadchiroli,376,48,9,3,2,2019-20
+Maharashtra,Gondiya,258,41,10,1,0,2019-20
+Maharashtra,Hingoli,132,27,3,2,2,2019-20
+Maharashtra,Jalgaon,442,95,19,3,0,2019-20
+Maharashtra,Jalna,218,43,8,1,2,2019-20
+Maharashtra,Kolhapur,413,91,18,4,0,2019-20
+Maharashtra,Latur,252,57,10,2,1,2019-20
+Maharashtra,Nagpur,316,95,12,2,1,2019-20
+Maharashtra,Nanded,379,80,13,4,2,2019-20
+Maharashtra,Nandurbar,292,61,12,2,1,2019-20
+Maharashtra,Nashik,587,156,27,6,4,2019-20
+Maharashtra,Osmanabad,211,44,6,3,2,2019-20
+Maharashtra,Palghar,311,70,14,3,0,2019-20
+Maharashtra,Parbhani,214,38,6,2,2,2019-20
+Maharashtra,Pune,542,193,28,11,2,2019-20
+Maharashtra,Raigarh,288,59,8,5,1,2019-20
+Maharashtra,Ratnagiri,378,68,8,3,1,2019-20
+Maharashtra,Sangli,320,71,15,2,0,2019-20
+Maharashtra,Satara,401,76,15,2,1,2019-20
+Maharashtra,Sindhudurg,248,38,7,3,1,2019-20
+Maharashtra,Solapur,427,95,16,3,0,2019-20
+Maharashtra,Thane,176,133,11,5,6,2019-20
+Maharashtra,Wardha,181,32,7,2,1,2019-20
+Maharashtra,Washim,153,26,7,0,1,2019-20
+Maharashtra,Yavatmal,444,69,14,3,0,2019-20
+Rajasthan,Ajmer,371,90,22,3,1,2019-20
+Rajasthan,Alwar,684,133,37,0,1,2019-20
+Rajasthan,Banswara,453,59,22,0,1,2019-20
+Rajasthan,Baran,265,53,14,0,1,2019-20
+Rajasthan,Barmer,721,104,24,1,1,2019-20
+Rajasthan,Bharatpur,395,75,17,0,1,2019-20
+Rajasthan,Bhilwara,534,86,25,0,1,2019-20
+Rajasthan,Bikaner,419,72,17,0,0,2019-20
+Rajasthan,Bundi,207,33,13,0,1,2019-20
+Rajasthan,Chittorgarh,383,54,23,1,1,2019-20
+Rajasthan,Churu,436,102,16,2,1,2019-20
+Rajasthan,Dausa,315,47,16,0,1,2019-20
+Rajasthan,Dholpur,230,36,7,1,1,2019-20
+Rajasthan,Dungarpur,349,59,15,1,1,2019-20
+Rajasthan,Ganganagar,415,62,18,0,1,2019-20
+Rajasthan,Hanumangarh,361,59,16,0,1,2019-20
+Rajasthan,Jaipur,617,207,34,1,0,2019-20
+Rajasthan,Jaisalmer,157,31,8,0,1,2019-20
+Rajasthan,Jalore,407,72,11,0,1,2019-20
+Rajasthan,Jhalawar,323,48,14,0,0,2019-20
+Rajasthan,Jhunjhunu,592,116,26,0,1,2019-20
+Rajasthan,Jodhpur,653,111,27,0,0,2019-20
+Rajasthan,Karauli,278,40,11,1,1,2019-20
+Rajasthan,Kota,188,63,13,0,0,2019-20
+Rajasthan,Nagaur,798,131,32,3,1,2019-20
+Rajasthan,Pali,476,89,23,1,1,2019-20
+Rajasthan,Pratapgarh,203,32,8,0,1,2019-20
+Rajasthan,Rajsamand,259,47,12,1,1,2019-20
+Rajasthan,Sawai Madhopur,266,39,14,1,1,2019-20
+Rajasthan,Sikar,638,113,30,2,1,2019-20
+Rajasthan,Sirohi,223,34,9,0,1,2019-20
+Rajasthan,Tonk,290,65,11,0,1,2019-20
+Rajasthan,Udaipur,624,115,29,1,0,2019-20
+Tamil Nadu,Ariyalur,117,32,6,3,1,2019-20
+Tamil Nadu,Chennai,0,144,15,3,1,2019-20
+Tamil Nadu,Coimbatore,328,77,12,12,1,2019-20
+Tamil Nadu,Cuddalore,319,58,13,9,1,2019-20
+Tamil Nadu,Dharmapuri,218,43,8,3,1,2019-20
+Tamil Nadu,Dindigul,311,59,14,12,1,2019-20
+Tamil Nadu,Erode,311,62,14,7,1,2019-20
+Tamil Nadu,Kancheepuram,364,64,13,9,1,2019-20
+Tamil Nadu,Kanniyakumari,267,38,9,8,1,2019-20
+Tamil Nadu,Karur,168,29,8,6,1,2019-20
+Tamil Nadu,Krishnagiri,239,51,10,6,1,2019-20
+Tamil Nadu,Madurai,314,75,13,6,1,2019-20
+Tamil Nadu,Nagapattinam,258,47,11,11,1,2019-20
+Tamil Nadu,Namakkal,240,48,15,8,1,2019-20
+Tamil Nadu,Nilgiris,194,33,4,3,1,2019-20
+Tamil Nadu,Perambalur,90,25,4,12,1,2019-20
+Tamil Nadu,Pudukkottai,242,62,13,9,1,2019-20
+Tamil Nadu,Ramanathapuram,244,48,11,11,1,2019-20
+Tamil Nadu,Salem,398,87,20,16,1,2019-20
+Tamil Nadu,Sivaganga,275,40,12,13,1,2019-20
+Tamil Nadu,Thanjavur,309,63,14,5,1,2019-20
+Tamil Nadu,Theni,162,33,8,5,1,2019-20
+Tamil Nadu,Thiruvallur,303,54,14,8,1,2019-20
+Tamil Nadu,Thiruvarur,195,40,10,9,1,2019-20
+Tamil Nadu,Tiruchirappalli,307,70,14,16,1,2019-20
+Tamil Nadu,Tirunelveli,379,85,19,9,1,2019-20
+Tamil Nadu,Tirupur,242,54,13,10,1,2019-20
+Tamil Nadu,Tiruvanamalai,410,81,18,9,1,2019-20
+Tamil Nadu,Toothukudi,253,48,12,7,1,2019-20
+Tamil Nadu,Vellore,454,99,20,12,1,2019-20
+Tamil Nadu,Viluppuram,557,88,22,11,1,2019-20
+Tamil Nadu,Virudhunagar,245,47,11,10,1,2019-20
+Uttar Pradesh,Agra,395,75,16,0,2,2019-20
+Uttar Pradesh,Aligarh,333,53,13,0,4,2019-20
+Uttar Pradesh,Allahabad,562,84,19,0,6,2019-20
+Uttar Pradesh,Ambedkar Nagar,272,28,10,0,1,2019-20
+Uttar Pradesh,Auraiya,165,26,7,0,2,2019-20
+Uttar Pradesh,Azamgarh,493,77,19,0,4,2019-20
+Uttar Pradesh,Bagpat,200,24,7,0,1,2019-20
+Uttar Pradesh,Bahraich,320,56,14,0,2,2019-20
+Uttar Pradesh,Ballia,367,81,9,0,2,2019-20
+Uttar Pradesh,Balrampur,215,27,9,0,3,2019-20
+Uttar Pradesh,Banda,277,52,4,0,2,2019-20
+Uttar Pradesh,Barabanki,350,56,19,0,3,2019-20
+Uttar Pradesh,Bareilly,411,81,6,0,2,2019-20
+Uttar Pradesh,Basti,273,39,14,0,3,2019-20
+Uttar Pradesh,Bijnor,343,64,7,0,2,2019-20
+Uttar Pradesh,Budaun,291,56,9,0,2,2019-20
+Uttar Pradesh,Bulandshahar,344,71,10,0,4,2019-20
+Uttar Pradesh,C S M Nagar,213,31,13,0,1,2019-20
+Uttar Pradesh,Chandauli,248,30,4,0,4,2019-20
+Uttar Pradesh,Chitrakoot,134,28,6,0,1,2019-20
+Uttar Pradesh,Deoria,320,77,16,0,2,2019-20
+Uttar Pradesh,Etah,191,34,4,0,2,2019-20
+Uttar Pradesh,Etawah,169,34,8,0,3,2019-20
+Uttar Pradesh,Faizabad,255,40,5,0,4,2019-20
+Uttar Pradesh,Farrukhabad,192,31,8,0,3,2019-20
+Uttar Pradesh,Fatehpur,321,47,11,0,2,2019-20
+Uttar Pradesh,Firozabad,220,19,3,0,3,2019-20
+Uttar Pradesh,Gautam Buddha Nagar,128,37,5,0,2,2019-20
+Uttar Pradesh,Ghaziabad,146,66,4,0,3,2019-20
+Uttar Pradesh,Ghazipur,418,12,6,0,2,2019-20
+Uttar Pradesh,Gonda,322,52,16,0,2,2019-20
+Uttar Pradesh,Gorakhpur,529,91,9,0,2,2019-20
+Uttar Pradesh,Hamirpur,214,40,4,0,2,2019-20
+Uttar Pradesh,Hapur,176,26,4,0,0,2019-20
+Uttar Pradesh,Hardoi,433,62,8,0,2,2019-20
+Uttar Pradesh,Hathras,194,27,7,0,2,2019-20
+Uttar Pradesh,Jalaun,286,41,7,0,2,2019-20
+Uttar Pradesh,Jaunpur,507,83,22,0,2,2019-20
+Uttar Pradesh,Jhansi,338,49,8,0,2,2019-20
+Uttar Pradesh,Jyotiba Phule Nagar,175,32,8,0,2,2019-20
+Uttar Pradesh,Kannauj,191,34,11,0,2,2019-20
+Uttar Pradesh,Kanpur Dehat,240,31,8,0,2,2019-20
+Uttar Pradesh,Kanpur Nagar,390,90,10,0,5,2019-20
+Uttar Pradesh,Kashi Ram Nagar,170,31,7,0,1,2019-20
+Uttar Pradesh,Kaushambi,175,36,5,0,1,2019-20
+Uttar Pradesh,Kushinagar,368,57,16,0,1,2019-20
+Uttar Pradesh,Lakhimpur Kheri,386,60,14,0,2,2019-20
+Uttar Pradesh,Lalitpur,197,27,4,0,2,2019-20
+Uttar Pradesh,Lucknow,306,80,17,0,9,2019-20
+Uttar Pradesh,Maharajganj,291,40,12,0,1,2019-20
+Uttar Pradesh,Mahoba,150,17,4,0,2,2019-20
+Uttar Pradesh,Mainpuri,206,46,10,0,2,2019-20
+Uttar Pradesh,Mathura,205,37,7,0,3,2019-20
+Uttar Pradesh,Maunathbhanjan,225,43,6,0,2,2019-20
+Uttar Pradesh,Meerut,280,57,12,0,2,2019-20
+Uttar Pradesh,Mirzapur,263,38,16,0,2,2019-20
+Uttar Pradesh,Moradabad,267,60,7,0,2,2019-20
+Uttar Pradesh,Muzaffarnagar,286,49,4,0,2,2019-20
+Uttar Pradesh,Pilibhit,199,28,6,0,2,2019-20
+Uttar Pradesh,Pratapgarh,355,60,19,0,2,2019-20
+Uttar Pradesh,Rae Bareli,352,51,17,0,2,2019-20
+Uttar Pradesh,Rampur,211,35,5,0,2,2019-20
+Uttar Pradesh,Saharanpur,364,62,14,0,2,2019-20
+Uttar Pradesh,Sambhal,214,31,9,0,1,2019-20
+Uttar Pradesh,Sant Kabir Nagar,185,23,4,0,1,2019-20
+Uttar Pradesh,Sant Ravidas Nagar,161,17,6,0,2,2019-20
+Uttar Pradesh,Shahjahanpur,298,46,17,0,2,2019-20
+Uttar Pradesh,Shamli,135,26,7,0,0,2019-20
+Uttar Pradesh,Shrawasti,125,12,6,0,1,2019-20
+Uttar Pradesh,Siddharth Nagar,278,65,8,0,1,2019-20
+Uttar Pradesh,Sitapur,471,67,18,0,2,2019-20
+Uttar Pradesh,Sonbhadra,173,31,7,0,2,2019-20
+Uttar Pradesh,Sultanpur,244,42,13,0,2,2019-20
+Uttar Pradesh,Unnav,357,54,7,0,2,2019-20
+Uttar Pradesh,Varanasi,320,51,12,0,4,2019-20
+Karnataka,Bagalkot,233,55,8,5,0,2020-21
+Karnataka,Ballari,350,92,13,7,1,2020-21
+Karnataka,Belagavi,621,153,16,9,1,2020-21
+Karnataka,Bengaluru Rural,199,50,2,4,0,2020-21
+Karnataka,Bengaluru Urban,279,203,11,4,0,2020-21
+Karnataka,Bidar,275,58,8,4,1,2020-21
+Karnataka,Chamarajanagar,255,62,3,3,0,2020-21
+Karnataka,Chikballapur,203,61,2,5,1,2020-21
+Karnataka,Chikkamagaluru,367,91,5,6,1,2020-21
+Karnataka,Chitradurga,343,86,11,5,1,2020-21
+Karnataka,Dakshin Kannad,430,77,8,4,2,2020-21
+Karnataka,Davangere,268,90,4,4,0,2020-21
+Karnataka,Dharwad,185,53,0,3,0,2020-21
+Karnataka,Gadag,190,42,2,4,2,2020-21
+Karnataka,Hassan,486,138,15,7,0,2020-21
+Karnataka,Haveri,310,72,5,6,1,2020-21
+Karnataka,Kalaburagi,335,102,16,6,0,2020-21
+Karnataka,Kodagu,196,30,7,2,1,2020-21
+Karnataka,Kolar,266,68,2,5,0,2020-21
+Karnataka,Koppal,176,48,9,3,1,2020-21
+Karnataka,Mandya,410,116,10,6,0,2020-21
+Karnataka,Mysuru,510,147,10,6,3,2020-21
+Karnataka,Raichur,213,57,6,4,1,2020-21
+Karnataka,Ramanagara,252,65,4,3,0,2020-21
+Karnataka,Shivamogga,357,108,7,7,1,2020-21
+Karnataka,Tumakuru,572,150,4,10,1,2020-21
+Karnataka,Udupi,336,62,6,2,1,2020-21
+Karnataka,Uttar Kannad,344,85,3,10,1,2020-21
+Karnataka,Vijayapura,311,66,9,4,0,2020-21
+Karnataka,Yadgir,169,44,6,2,1,2020-21
+Maharashtra,Ahmednagar,565,106,23,2,1,2020-21
+Maharashtra,Akola,179,42,5,1,0,2020-21
+Maharashtra,Amravati,339,75,10,4,1,2020-21
+Maharashtra,Aurangabad,279,73,10,3,1,2020-21
+Maharashtra,Beed,297,57,10,3,1,2020-21
+Maharashtra,Bhandara,193,34,7,2,1,2020-21
+Maharashtra,Buldhana,280,58,12,1,2,2020-21
+Maharashtra,Chandrapur,339,67,10,3,0,2020-21
+Maharashtra,Dhule,232,47,5,2,1,2020-21
+Maharashtra,Gadchiroli,376,48,9,3,1,2020-21
+Maharashtra,Gondia,258,41,10,1,0,2020-21
+Maharashtra,Hingoli,132,27,3,2,1,2020-21
+Maharashtra,Jalgaon,443,95,17,3,0,2020-21
+Maharashtra,Jalna,218,44,9,1,1,2020-21
+Maharashtra,Kolhapur,413,92,18,4,0,2020-21
+Maharashtra,Latur,252,56,10,1,0,2020-21
+Maharashtra,Mumbai,0,37,0,0,0,2020-21
+Maharashtra,Mumbai Suburban,0,97,0,0,0,2020-21
+Maharashtra,Nagpur,316,84,10,2,0,2020-21
+Maharashtra,Nanded,379,76,13,4,1,2020-21
+Maharashtra,Nandurbar,293,61,12,2,0,2020-21
+Maharashtra,Nashik,592,153,24,6,1,2020-21
+Maharashtra,Osmanabad,211,46,6,4,1,2020-21
+Maharashtra,Palghar,314,69,13,3,0,2020-21
+Maharashtra,Parbhani,215,38,6,2,1,2020-21
+Maharashtra,Pune,545,192,40,5,1,2020-21
+Maharashtra,Raigad,288,60,8,6,1,2020-21
+Maharashtra,Ratnagiri,378,70,8,3,1,2020-21
+Maharashtra,Sangli,320,70,15,2,0,2020-21
+Maharashtra,Satara,401,76,15,2,1,2020-21
+Maharashtra,Sindhudurg,248,38,7,3,1,2020-21
+Maharashtra,Solapur,427,95,16,3,0,2020-21
+Maharashtra,Thane,176,138,13,3,1,2020-21
+Maharashtra,Wardha,181,32,8,2,1,2020-21
+Maharashtra,Washim,150,27,6,1,1,2020-21
+Maharashtra,Yavatmal,444,69,14,3,0,2020-21
+Rajasthan,Ajmer,370,84,25,2,2,2020-21
+Rajasthan,Alwar,699,130,40,1,1,2020-21
+Rajasthan,Banswara,455,58,22,0,1,2020-21
+Rajasthan,Baran,263,52,14,0,1,2020-21
+Rajasthan,Barmer,729,105,26,1,1,2020-21
+Rajasthan,Bharatpur,396,73,22,1,1,2020-21
+Rajasthan,Bhilwara,524,82,27,1,0,2020-21
+Rajasthan,Bikaner,421,70,18,0,0,2020-21
+Rajasthan,Bundi,206,32,14,0,1,2020-21
+Rajasthan,Chittorgarh,383,52,24,1,1,2020-21
+Rajasthan,Churu,436,99,16,2,1,2020-21
+Rajasthan,Dausa,313,48,17,0,1,2020-21
+Rajasthan,Dholpur,233,34,7,1,1,2020-21
+Rajasthan,Dungarpur,347,60,16,1,1,2020-21
+Rajasthan,Ganganagar,419,64,18,0,1,2020-21
+Rajasthan,Hanumangarh,360,60,16,0,1,2020-21
+Rajasthan,Jaipur,621,181,37,1,1,2020-21
+Rajasthan,Jaisalmer,156,25,10,0,1,2020-21
+Rajasthan,Jalore,409,69,12,0,1,2020-21
+Rajasthan,Jhalawar,323,44,14,1,0,2020-21
+Rajasthan,Jhunjhunu,598,115,27,1,1,2020-21
+Rajasthan,Jodhpur,651,105,27,1,0,2020-21
+Rajasthan,Karauli,281,39,14,1,1,2020-21
+Rajasthan,Kota,188,62,13,0,0,2020-21
+Rajasthan,Nagaur,803,132,35,3,1,2020-21
+Rajasthan,Pali,475,87,25,1,1,2020-21
+Rajasthan,Pratapgarh,204,32,8,0,1,2020-21
+Rajasthan,Rajsamand,262,46,14,1,1,2020-21
+Rajasthan,Sawai Madhopur,269,42,14,1,1,2020-21
+Rajasthan,Sikar,647,113,32,2,1,2020-21
+Rajasthan,Sirohi,223,30,10,0,1,2020-21
+Rajasthan,Tonk,294,61,12,0,1,2020-21
+Rajasthan,Udaipur,623,108,31,1,0,2020-21
+Tamil Nadu,Ariyalur,117,33,6,3,0,2020-21
+Tamil Nadu,Chengalpattu,221,41,8,7,0,2020-21
+Tamil Nadu,Chennai,0,144,15,4,0,2020-21
+Tamil Nadu,Coimbatore,328,77,12,12,1,2020-21
+Tamil Nadu,Cuddalore,319,58,13,9,1,2020-21
+Tamil Nadu,Dharmapuri,218,43,8,3,1,2020-21
+Tamil Nadu,Dindigul,311,59,14,12,0,2020-21
+Tamil Nadu,Erode,311,62,14,7,1,2020-21
+Tamil Nadu,Kallakurichi,212,36,9,4,0,2020-21
+Tamil Nadu,Kanchipuram,143,23,5,3,1,2020-21
+Tamil Nadu,Kanniyakumari,267,38,9,8,1,2020-21
+Tamil Nadu,Karur,168,29,8,6,1,2020-21
+Tamil Nadu,Krishnagiri,239,51,10,6,0,2020-21
+Tamil Nadu,Madurai,314,75,13,7,1,2020-21
+Tamil Nadu,Mayiladuthurai,147,26,5,6,0,2020-21
+Tamil Nadu,Nagapattinam,111,21,6,5,0,2020-21
+Tamil Nadu,Namakkal,240,48,15,8,0,2020-21
+Tamil Nadu,Perambalur,90,25,4,3,1,2020-21
+Tamil Nadu,Pudukkottai,242,63,13,12,1,2020-21
+Tamil Nadu,Ramanathapuram,244,48,11,9,0,2020-21
+Tamil Nadu,Ranipet,163,29,7,4,1,2020-21
+Tamil Nadu,Salem,398,87,20,11,1,2020-21
+Tamil Nadu,Sivaganga,275,40,12,16,1,2020-21
+Tamil Nadu,Tenkasi,177,42,10,8,1,2020-21
+Tamil Nadu,Thanjavur,309,63,14,13,1,2020-21
+Tamil Nadu,The Nilgiris,194,33,4,5,0,2020-21
+Tamil Nadu,Theni,162,33,8,5,1,2020-21
+Tamil Nadu,Thiruvallur,303,54,14,11,0,2020-21
+Tamil Nadu,Thiruvarur,195,40,10,7,1,2020-21
+Tamil Nadu,Tiruchirappalli,307,70,14,9,1,2020-21
+Tamil Nadu,Tirunelveli,202,43,9,8,0,2020-21
+Tamil Nadu,Tirupathur,134,31,6,4,0,2020-21
+Tamil Nadu,Tiruppur,242,54,13,9,0,2020-21
+Tamil Nadu,Tiruvannamalai,410,81,18,9,1,2020-21
+Tamil Nadu,Tuticorin,253,48,12,8,1,2020-21
+Tamil Nadu,Vellore,157,39,7,4,0,2020-21
+Tamil Nadu,Villupuram,345,52,13,7,0,2020-21
+Tamil Nadu,Virudhunagar,245,47,11,10,0,2020-21
+Uttar Pradesh,Agra,395,73,18,0,2,2020-21
+Uttar Pradesh,Aligarh,333,53,13,0,4,2020-21
+Uttar Pradesh,Ambedkar Nagar,272,28,10,0,1,2020-21
+Uttar Pradesh,Amethi,213,30,13,0,0,2020-21
+Uttar Pradesh,Amroha,175,32,8,0,2,2020-21
+Uttar Pradesh,Auraiya,165,26,7,0,2,2020-21
+Uttar Pradesh,Ayodhya,255,34,12,0,4,2020-21
+Uttar Pradesh,Azamgarh,493,75,19,0,4,2020-21
+Uttar Pradesh,Baghpat,200,24,7,0,1,2020-21
+Uttar Pradesh,Bahraich,320,56,14,0,2,2020-21
+Uttar Pradesh,Ballia,367,81,9,0,2,2020-21
+Uttar Pradesh,Balrampur,215,26,9,0,3,2020-21
+Uttar Pradesh,Banda,277,52,4,0,2,2020-21
+Uttar Pradesh,Barabanki,350,57,19,0,3,2020-21
+Uttar Pradesh,Bareilly,411,71,16,0,2,2020-21
+Uttar Pradesh,Basti,273,41,14,0,3,2020-21
+Uttar Pradesh,Bhadohi,161,17,6,0,2,2020-21
+Uttar Pradesh,Bijnor,343,62,11,0,2,2020-21
+Uttar Pradesh,Budaun,291,55,10,0,2,2020-21
+Uttar Pradesh,Bulandshahar,344,71,10,0,4,2020-21
+Uttar Pradesh,Chandauli,248,30,4,0,4,2020-21
+Uttar Pradesh,Chitrakoot,134,28,6,0,1,2020-21
+Uttar Pradesh,Deoria,320,76,16,0,2,2020-21
+Uttar Pradesh,Etah,191,34,4,0,2,2020-21
+Uttar Pradesh,Etawah,169,34,8,0,3,2020-21
+Uttar Pradesh,Farrukhabad,192,31,8,0,3,2020-21
+Uttar Pradesh,Fatehpur,321,47,11,0,2,2020-21
+Uttar Pradesh,Firozabad,220,71,5,0,3,2020-21
+Uttar Pradesh,Gautam Buddha Nagar,128,37,5,0,2,2020-21
+Uttar Pradesh,Ghaziabad,146,66,4,0,3,2020-21
+Uttar Pradesh,Ghazipur,418,60,17,0,2,2020-21
+Uttar Pradesh,Gonda,322,52,16,0,2,2020-21
+Uttar Pradesh,Gorakhpur,529,85,15,0,2,2020-21
+Uttar Pradesh,Hamirpur,214,41,4,0,2,2020-21
+Uttar Pradesh,Hapur,176,26,6,0,1,2020-21
+Uttar Pradesh,Hardoi,433,50,19,0,2,2020-21
+Uttar Pradesh,Hathras,194,27,7,0,2,2020-21
+Uttar Pradesh,Jalaun,286,41,7,0,2,2020-21
+Uttar Pradesh,Jaunpur,507,83,22,0,2,2020-21
+Uttar Pradesh,Jhansi,338,45,12,0,2,2020-21
+Uttar Pradesh,Kannauj,191,35,11,0,2,2020-21
+Uttar Pradesh,Kanpur Dehat,240,30,8,0,2,2020-21
+Uttar Pradesh,Kanpur Nagar,390,92,10,0,5,2020-21
+Uttar Pradesh,Kasganj,170,31,7,0,1,2020-21
+Uttar Pradesh,Kaushambi,175,34,5,0,1,2020-21
+Uttar Pradesh,Kheri,386,59,15,0,2,2020-21
+Uttar Pradesh,Kushi Nagar,368,55,16,0,1,2020-21
+Uttar Pradesh,Lalitpur,197,27,4,0,2,2020-21
+Uttar Pradesh,Lucknow,306,78,19,0,9,2020-21
+Uttar Pradesh,Maharajganj,291,40,12,0,1,2020-21
+Uttar Pradesh,Mahoba,150,16,5,0,2,2020-21
+Uttar Pradesh,Mainpuri,206,46,10,0,2,2020-21
+Uttar Pradesh,Mathura,205,34,12,0,3,2020-21
+Uttar Pradesh,Mau,225,43,6,0,2,2020-21
+Uttar Pradesh,Meerut,280,57,12,0,2,2020-21
+Uttar Pradesh,Mirzapur,263,39,16,0,2,2020-21
+Uttar Pradesh,Moradabad,267,56,7,0,2,2020-21
+Uttar Pradesh,Muzaffarnagar,286,47,7,0,2,2020-21
+Uttar Pradesh,Pilibhit,199,31,6,0,2,2020-21
+Uttar Pradesh,Pratapgarh,355,60,21,0,2,2020-21
+Uttar Pradesh,Prayagraj,562,86,20,0,5,2020-21
+Uttar Pradesh,Rae Bareli,352,51,19,0,2,2020-21
+Uttar Pradesh,Rampur,211,35,5,0,2,2020-21
+Uttar Pradesh,Saharanpur,364,62,21,0,2,2020-21
+Uttar Pradesh,Sambhal,214,31,10,0,1,2020-21
+Uttar Pradesh,Sant Kabir Nagar,185,23,4,0,1,2020-21
+Uttar Pradesh,Shahjahanpur,298,47,17,0,2,2020-21
+Uttar Pradesh,Shamli,135,26,7,0,1,2020-21
+Uttar Pradesh,Shravasti,125,12,6,0,1,2020-21
+Uttar Pradesh,Siddharth Nagar,278,64,8,0,1,2020-21
+Uttar Pradesh,Sitapur,471,66,19,0,2,2020-21
+Uttar Pradesh,Sonbhadra,173,31,7,0,2,2020-21
+Uttar Pradesh,Sultanpur,244,45,14,0,2,2020-21
+Uttar Pradesh,Unnao,357,48,13,0,2,2020-21
+Uttar Pradesh,Varanasi,320,51,12,0,4,2020-21
+Karnataka,Bagalkote,233,55,8,5,1,2021-22
+Karnataka,Ballari,348,92,13,7,1,2021-22
+Karnataka,Belagavi,619,146,16,9,0,2021-22
+Karnataka,Bengaluru Rural,199,50,2,4,0,2021-22
+Karnataka,Bengaluru Urban,279,203,11,4,0,2021-22
+Karnataka,Bidar,275,58,8,4,0,2021-22
+Karnataka,Chamarajanagara,254,62,3,2,0,2021-22
+Karnataka,Chikkaballapura,200,61,2,5,1,2021-22
+Karnataka,Chikkamagaluru,365,91,5,6,1,2021-22
+Karnataka,Chitradurga,328,86,11,5,1,2021-22
+Karnataka,Dakshina Kannada,430,76,8,4,1,2021-22
+Karnataka,Davangere,227,89,4,4,1,2021-22
+Karnataka,Dharwad,185,53,0,3,1,2021-22
+Karnataka,Gadag,188,42,2,4,0,2021-22
+Karnataka,Hassan,468,138,15,7,0,2021-22
+Karnataka,Haveri,310,72,5,6,1,2021-22
+Karnataka,Kalaburagi,323,102,16,6,0,2021-22
+Karnataka,Kodagu,196,30,7,2,0,2021-22
+Karnataka,Kolar,240,68,2,5,1,2021-22
+Karnataka,Koppal,173,48,9,3,0,2021-22
+Karnataka,Mandya,410,116,10,6,0,2021-22
+Karnataka,Mysuru,510,147,10,6,1,2021-22
+Karnataka,Raichur,213,57,6,4,0,2021-22
+Karnataka,Ramanagara,241,65,4,3,1,2021-22
+Karnataka,Shivamogga,344,107,7,6,0,2021-22
+Karnataka,Tumakuru,572,150,4,9,1,2021-22
+Karnataka,Udupi,318,62,6,2,1,2021-22
+Karnataka,Uttara Kannada,344,85,3,10,0,2021-22
+Karnataka,Vijayapura,311,66,9,4,1,2021-22
+Karnataka,Yadgir,169,44,6,2,1,2021-22
+Maharashtra,Ahmednagar,565,107,23,2,1,2021-22
+Maharashtra,Akola,178,42,5,1,0,2021-22
+Maharashtra,Amravati,334,75,9,5,1,2021-22
+Maharashtra,Aurangabad,279,74,10,3,1,2021-22
+Maharashtra,Beed,297,57,10,3,1,2021-22
+Maharashtra,Bhandara,193,34,7,2,1,2021-22
+Maharashtra,Buldhana,280,58,12,1,1,2021-22
+Maharashtra,Chandrapur,339,67,10,3,0,2021-22
+Maharashtra,Dhule,232,47,5,2,1,2021-22
+Maharashtra,Gadchiroli,376,48,9,3,1,2021-22
+Maharashtra,Gondia,258,41,10,1,0,2021-22
+Maharashtra,Hingoli,132,27,3,2,1,2021-22
+Maharashtra,Jalgaon,442,95,17,3,0,2021-22
+Maharashtra,Jalna,218,44,9,1,1,2021-22
+Maharashtra,Kolhapur,413,92,18,4,0,2021-22
+Maharashtra,Latur,252,60,10,1,0,2021-22
+Maharashtra,Mumbai,0,38,0,0,0,2021-22
+Maharashtra,Mumbai Suburban,0,100,0,0,0,2021-22
+Maharashtra,Nagpur,316,105,10,2,0,2021-22
+Maharashtra,Nanded,379,79,13,4,1,2021-22
+Maharashtra,Nandurbar,293,63,12,2,1,2021-22
+Maharashtra,Nashik,589,155,24,6,1,2021-22
+Maharashtra,Osmanabad,215,46,6,4,1,2021-22
+Maharashtra,Palghar,306,69,10,3,0,2021-22
+Maharashtra,Parbhani,214,38,6,2,1,2021-22
+Maharashtra,Pune,546,192,41,5,1,2021-22
+Maharashtra,Raigad,280,60,8,6,1,2021-22
+Maharashtra,Ratnagiri,378,70,8,3,1,2021-22
+Maharashtra,Sangli,328,75,14,2,0,2021-22
+Maharashtra,Satara,402,76,15,2,1,2021-22
+Maharashtra,Sindhudurg,248,38,7,3,1,2021-22
+Maharashtra,Solapur,430,96,16,3,0,2021-22
+Maharashtra,Thane,180,143,12,3,1,2021-22
+Maharashtra,Wardha,181,32,9,2,1,2021-22
+Maharashtra,Washim,150,27,6,1,1,2021-22
+Maharashtra,Yavatmal,450,69,14,3,0,2021-22
+Rajasthan,Ajmer,369,84,25,2,2,2021-22
+Rajasthan,Alwar,697,129,42,0,1,2021-22
+Rajasthan,Banswara,455,58,22,0,1,2021-22
+Rajasthan,Baran,268,52,14,0,1,2021-22
+Rajasthan,Barmer,729,106,26,1,1,2021-22
+Rajasthan,Bharatpur,396,74,26,0,0,2021-22
+Rajasthan,Bhilwara,523,84,27,0,0,2021-22
+Rajasthan,Bikaner,420,71,18,0,0,2021-22
+Rajasthan,Bundi,205,33,14,0,1,2021-22
+Rajasthan,Chittorgarh,383,51,25,1,1,2021-22
+Rajasthan,Churu,442,99,18,2,1,2021-22
+Rajasthan,Dausa,320,48,17,0,1,2021-22
+Rajasthan,Dholpur,234,34,8,1,1,2021-22
+Rajasthan,Dungarpur,346,60,16,1,1,2021-22
+Rajasthan,Ganganagar,419,63,18,0,1,2021-22
+Rajasthan,Hanumangarh,360,60,17,0,1,2021-22
+Rajasthan,Jaipur,628,182,41,0,1,2021-22
+Rajasthan,Jaisalmer,155,25,11,0,1,2021-22
+Rajasthan,Jalore,408,71,12,0,1,2021-22
+Rajasthan,Jhalawar,323,45,14,0,0,2021-22
+Rajasthan,Jhunjhunu,599,115,28,1,1,2021-22
+Rajasthan,Jodhpur,649,109,27,0,2,2021-22
+Rajasthan,Karauli,281,36,17,1,1,2021-22
+Rajasthan,Kota,190,61,16,0,0,2021-22
+Rajasthan,Nagaur,798,136,34,5,1,2021-22
+Rajasthan,Pali,475,86,26,1,1,2021-22
+Rajasthan,Pratapgarh,204,34,8,0,1,2021-22
+Rajasthan,Rajsamand,262,44,16,1,1,2021-22
+Rajasthan,Sawai Madhopur,269,41,15,1,1,2021-22
+Rajasthan,Sikar,644,115,32,3,2,2021-22
+Rajasthan,Sirohi,223,30,10,0,1,2021-22
+Rajasthan,Tonk,294,63,12,0,1,2021-22
+Rajasthan,Udaipur,621,110,33,1,0,2021-22
+Tamil Nadu,Ariyalur,117,33,6,3,0,2021-22
+Tamil Nadu,Chengalpattu,221,41,8,7,0,2021-22
+Tamil Nadu,Chennai,0,144,15,5,0,2021-22
+Tamil Nadu,Coimbatore,328,77,12,12,1,2021-22
+Tamil Nadu,Cuddalore,319,58,13,9,1,2021-22
+Tamil Nadu,Dharmapuri,218,43,8,3,1,2021-22
+Tamil Nadu,Dindigul,311,59,14,12,0,2021-22
+Tamil Nadu,Erode,311,62,14,7,1,2021-22
+Tamil Nadu,Kallakurichi,212,36,9,4,0,2021-22
+Tamil Nadu,Kancheepuram,143,23,5,3,1,2021-22
+Tamil Nadu,Kanyakumari,267,38,9,8,1,2021-22
+Tamil Nadu,Karur,168,29,8,6,1,2021-22
+Tamil Nadu,Krishnagiri,239,51,10,6,0,2021-22
+Tamil Nadu,Madurai,314,75,13,6,1,2021-22
+Tamil Nadu,Mayiladuthurai,147,26,5,5,0,2021-22
+Tamil Nadu,Nagapattinam,111,21,6,6,0,2021-22
+Tamil Nadu,Namakkal,240,48,15,8,0,2021-22
+Tamil Nadu,Perambalur,90,25,4,3,1,2021-22
+Tamil Nadu,Pudukottai,242,63,13,12,1,2021-22
+Tamil Nadu,Ramanathapuram,244,48,11,9,0,2021-22
+Tamil Nadu,Ranipet,154,30,6,4,1,2021-22
+Tamil Nadu,Salem,398,87,20,11,1,2021-22
+Tamil Nadu,Sivaganga,275,40,12,16,1,2021-22
+Tamil Nadu,Tenkasi,177,42,10,8,1,2021-22
+Tamil Nadu,Thanjavur,309,63,14,13,1,2021-22
+Tamil Nadu,The Nilgiris,194,33,4,5,0,2021-22
+Tamil Nadu,Theni,162,33,8,5,1,2021-22
+Tamil Nadu,Thirupattur,122,30,7,4,0,2021-22
+Tamil Nadu,Thoothukudi,253,48,12,8,1,2021-22
+Tamil Nadu,Tiruchirapalli,307,70,14,9,1,2021-22
+Tamil Nadu,Tirunelveli,202,43,9,8,0,2021-22
+Tamil Nadu,Tirupur,242,54,13,9,0,2021-22
+Tamil Nadu,Tiruvallur,303,54,14,11,0,2021-22
+Tamil Nadu,Tiruvannamalai,410,81,18,9,1,2021-22
+Tamil Nadu,Tiruvarur,195,40,10,7,1,2021-22
+Tamil Nadu,Vellore,178,39,7,4,0,2021-22
+Tamil Nadu,Villupuram,345,52,13,7,0,2021-22
+Tamil Nadu,Virudhunagar,245,47,11,10,0,2021-22
+Uttar Pradesh,Agra,395,73,18,0,2,2021-22
+Uttar Pradesh,Aligarh,333,53,13,0,4,2021-22
+Uttar Pradesh,Ambedkar Nagar,272,28,10,0,1,2021-22
+Uttar Pradesh,Amethi,213,33,13,0,0,2021-22
+Uttar Pradesh,Amroha,175,32,8,0,2,2021-22
+Uttar Pradesh,Auraiya,165,25,8,0,2,2021-22
+Uttar Pradesh,Ayodhya,249,34,12,0,4,2021-22
+Uttar Pradesh,Azamgarh,492,75,19,0,4,2021-22
+Uttar Pradesh,Baghpat,206,25,7,0,1,2021-22
+Uttar Pradesh,Bahraich,319,56,14,0,2,2021-22
+Uttar Pradesh,Ballia,367,77,14,0,2,2021-22
+Uttar Pradesh,Balrampur,215,26,9,0,3,2021-22
+Uttar Pradesh,Banda,277,53,4,0,2,2021-22
+Uttar Pradesh,Barabanki,352,57,19,0,3,2021-22
+Uttar Pradesh,Bareilly,410,71,16,0,2,2021-22
+Uttar Pradesh,Basti,273,41,14,0,3,2021-22
+Uttar Pradesh,Bhadohi,161,17,6,0,2,2021-22
+Uttar Pradesh,Bijnor,343,62,11,0,2,2021-22
+Uttar Pradesh,Budaun,291,51,14,0,2,2021-22
+Uttar Pradesh,Bulandshahr,346,68,13,0,4,2021-22
+Uttar Pradesh,Chandauli,248,30,4,0,4,2021-22
+Uttar Pradesh,Chitrakoot,134,28,6,0,1,2021-22
+Uttar Pradesh,Deoria,320,77,16,0,2,2021-22
+Uttar Pradesh,Etah,191,34,4,0,2,2021-22
+Uttar Pradesh,Etawah,167,34,8,0,3,2021-22
+Uttar Pradesh,Farrukhabad,214,31,8,0,3,2021-22
+Uttar Pradesh,Fatehpur,321,47,11,0,2,2021-22
+Uttar Pradesh,Firozabad,217,71,5,0,3,2021-22
+Uttar Pradesh,Gautam Buddha Nagar,128,37,5,0,2,2021-22
+Uttar Pradesh,Ghaziabad,146,66,4,0,3,2021-22
+Uttar Pradesh,Ghazipur,399,60,17,0,2,2021-22
+Uttar Pradesh,Gonda,322,52,16,0,2,2021-22
+Uttar Pradesh,Gorakhpur,532,85,15,0,2,2021-22
+Uttar Pradesh,Hamirpur,214,41,4,0,2,2021-22
+Uttar Pradesh,Hapur,181,26,6,0,1,2021-22
+Uttar Pradesh,Hardoi,433,50,20,0,2,2021-22
+Uttar Pradesh,Hathras,194,27,7,0,2,2021-22
+Uttar Pradesh,Jalaun,287,41,7,0,2,2021-22
+Uttar Pradesh,Jaunpur,507,83,22,0,2,2021-22
+Uttar Pradesh,Jhansi,338,45,12,0,2,2021-22
+Uttar Pradesh,Kannauj,189,35,11,0,2,2021-22
+Uttar Pradesh,Kanpur Dehat,240,30,8,0,2,2021-22
+Uttar Pradesh,Kanpur Nagar,391,92,10,0,5,2021-22
+Uttar Pradesh,Kasganj,170,31,7,0,1,2021-22
+Uttar Pradesh,Kaushambi,156,34,5,0,1,2021-22
+Uttar Pradesh,Kheri,386,62,15,0,2,2021-22
+Uttar Pradesh,Kushi Nagar,367,55,16,0,1,2021-22
+Uttar Pradesh,Lalitpur,197,26,5,0,2,2021-22
+Uttar Pradesh,Lucknow,303,79,19,0,9,2021-22
+Uttar Pradesh,Maharajganj,291,40,12,0,1,2021-22
+Uttar Pradesh,Mahoba,150,16,5,0,2,2021-22
+Uttar Pradesh,Mainpuri,206,46,10,0,2,2021-22
+Uttar Pradesh,Mathura,206,34,12,0,3,2021-22
+Uttar Pradesh,Mau,225,43,6,0,2,2021-22
+Uttar Pradesh,Meerut,279,57,12,0,2,2021-22
+Uttar Pradesh,Mirzapur,263,39,16,0,2,2021-22
+Uttar Pradesh,Moradabad,259,56,7,0,2,2021-22
+Uttar Pradesh,Muzaffarnagar,286,47,7,0,2,2021-22
+Uttar Pradesh,Pilibhit,199,28,9,0,2,2021-22
+Uttar Pradesh,Pratapgarh,355,60,21,0,2,2021-22
+Uttar Pradesh,Prayagraj,581,86,20,0,5,2021-22
+Uttar Pradesh,Rae Bareli,352,53,19,0,2,2021-22
+Uttar Pradesh,Rampur,211,35,5,0,2,2021-22
+Uttar Pradesh,Saharanpur,363,62,21,0,2,2021-22
+Uttar Pradesh,Sambhal,216,31,10,0,1,2021-22
+Uttar Pradesh,Sant Kabeer Nagar,183,23,4,0,1,2021-22
+Uttar Pradesh,Shahjahanpur,298,47,17,0,2,2021-22
+Uttar Pradesh,Shamli,135,26,7,0,1,2021-22
+Uttar Pradesh,Shravasti,125,12,6,0,1,2021-22
+Uttar Pradesh,Siddharth Nagar,278,64,8,0,1,2021-22
+Uttar Pradesh,Sitapur,474,67,21,0,2,2021-22
+Uttar Pradesh,Sonbhadra,173,31,7,0,2,2021-22
+Uttar Pradesh,Sultanpur,246,45,14,0,2,2021-22
+Uttar Pradesh,Unnao,361,48,17,0,2,2021-22
+Uttar Pradesh,Varanasi,320,51,13,0,5,2021-22
