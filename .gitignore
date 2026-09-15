@@ -1,0 +1,18 @@
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# Large raw files (keep raw/ tracked via README pointers instead if too big for git)
+*.pdf
+*.xlsx
+
+# Jupyter
+*.pyo
