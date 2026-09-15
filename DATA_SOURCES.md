@@ -135,6 +135,22 @@ Before scaling beyond the 5 pilot states, the LGD and Census files
   against LGD, since old names aren't predictable in advance. One known
   major rename added as a head start: Madhya Pradesh's Hoshangabad →
   Narmadapuram (2021). Expect more to surface as extraction continues.
+- **Census 2011 population is now 15 years stale.** No official
+  government district-level population projection exists for all of
+  India — the Registrar General only projects at the state level (2020
+  report, covering 2011-2036). UNFPA has published district-level
+  projections, but only for a handful of states (Bihar, Madhya Pradesh,
+  Odisha, Rajasthan for 2021/2026; an older 2006-2016 report also covered
+  Maharashtra, UP, Chhattisgarh, Jharkhand) — never nationwide, and never
+  Karnataka or Tamil Nadu. One genuinely national alternative exists:
+  "Population Estimates for Districts and Parliamentary Constituencies in
+  India, 2020" (Harvard Dataverse), built from WorldPop satellite-based
+  gridded population summed over 2020 district boundaries, covering all
+  736 districts. **Not yet adopted** — it's a modelled estimate rather
+  than a measured census figure, and switching the population source
+  would affect the D-HAI formula currently being built, so this is
+  flagged for a team decision rather than changed unilaterally. Current
+  default remains Census 2011, consistent with the proposal.
 
 ## 7. Reusable Pipeline
 
