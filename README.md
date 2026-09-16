@@ -30,6 +30,16 @@ LGD/Census files (ahead of scaling) found:
   (WorldPop-based 2020 district estimates) was found but not adopted —
   flagged for team discussion since it would affect the D-HAI formula.
 
+**Since then (solo prep while team works on D-HAI/EDA):**
+- Resolved the NHP question — dropped from scope (state-level only, no
+  usable district-wise tables).
+- Checked RHS Section VI (bed counts) — also state-level only; no
+  additional district-level RHS tables exist beyond Section II.
+- Extended the pipeline to Kerala, West Bengal, Gujarat (2021-22): 70/70
+  rows matched to LGD, 84.3% population coverage, one new crosswalk entry
+  (Dohad→Dahod). Confirms the pipeline generalizes beyond the original 5
+  states.
+
 **Open decisions for the team:**
 1. How to handle the ~16% of districts with no 2011 population match at
    full scale (exclude them, or find an alternate source).
