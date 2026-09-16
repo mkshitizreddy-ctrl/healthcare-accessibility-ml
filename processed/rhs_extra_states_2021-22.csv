@@ -1,0 +1,71 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Kerala,Alappuzha,366,65,16,6,4,2021-22
+Kerala,Ernakulam,410,90,24,11,4,2021-22
+Kerala,Idukki,309,41,13,4,2,2021-22
+Kerala,Kannur,414,86,12,9,3,2021-22
+Kerala,Kasaragod,247,43,6,5,2,2021-22
+Kerala,Kollam,421,62,16,9,2,2021-22
+Kerala,Kottayam,333,59,20,3,5,2021-22
+Kerala,Kozhikode,401,76,16,7,3,2021-22
+Kerala,Malappuram,588,98,21,7,5,2021-22
+Kerala,Palakkad,504,81,19,6,3,2021-22
+Kerala,Pathanamthitta,261,45,12,4,3,2021-22
+Kerala,Thiruvananthapuram,487,88,22,8,7,2021-22
+Kerala,Thrissur,471,86,24,6,3,2021-22
+Kerala,Wayanad,200,24,9,2,2,2021-22
+West Bengal,North 24 Parganas,742,149,22,10,2,2021-22
+West Bengal,South 24 Parganas,1068,79,30,7,1,2021-22
+West Bengal,Alipurduar,236,14,7,1,1,2021-22
+West Bengal,Bankura,564,73,22,1,1,2021-22
+West Bengal,Birbhum,484,62,19,1,1,2021-22
+West Bengal,Coochbehar,406,38,12,4,0,2021-22
+West Bengal,Darjeeling,181,28,9,1,2,2021-22
+West Bengal,Uttar Dinajpur,344,24,9,2,0,2021-22
+West Bengal,Dakshin Dinajpur,248,22,8,1,1,2021-22
+West Bengal,Hooghly,660,89,18,4,1,2021-22
+West Bengal,Howrah,448,74,15,7,1,2021-22
+West Bengal,Jalpaiguri,301,27,7,1,1,2021-22
+West Bengal,Jhargram,219,26,8,0,1,2021-22
+West Bengal,Kalimpong,49,6,3,0,1,2021-22
+West Bengal,Kolkata,0,144,0,0,0,2021-22
+West Bengal,Malda,511,40,16,1,0,2021-22
+West Bengal,Purba Medinipur,706,59,24,4,2,2021-22
+West Bengal,Paschim Medinipur,639,67,21,2,0,2021-22
+West Bengal,Murshidabad,832,83,27,4,0,2021-22
+West Bengal,Nadia,469,64,17,5,1,2021-22
+West Bengal,Paschim Bardhhaman,173,64,9,1,1,2021-22
+West Bengal,Purba Bardhhaman,592,83,25,2,0,2021-22
+West Bengal,Purulia,485,56,20,1,0,2021-22
+Gujarat,Ahmadabad,211,122,17,3,0,2021-22
+Gujarat,Amreli,248,44,12,3,0,2021-22
+Gujarat,Anand,277,61,14,0,2,2021-22
+Gujarat,Arvalli,219,38,10,1,0,2021-22
+Gujarat,Banas Kantha,759,125,26,4,1,2021-22
+Gujarat,Bharuch,241,46,9,1,0,2021-22
+Gujarat,Bhavnagar,299,65,13,2,0,2021-22
+Gujarat,Botad,95,19,5,0,1,2021-22
+Gujarat,Chhotaudepur,310,51,12,0,1,2021-22
+Gujarat,Dang,68,10,3,0,1,2021-22
+Gujarat,Devbhumi Dwarka,169,25,4,1,1,2021-22
+Gujarat,Dohad,637,99,20,2,0,2021-22
+Gujarat,Gandhinagar,156,36,9,1,0,2021-22
+Gujarat,Gir Somnath,174,33,7,1,1,2021-22
+Gujarat,Jamnagar,210,45,9,0,1,2021-22
+Gujarat,Junagadh,237,46,9,1,0,2021-22
+Gujarat,Kachchh,442,77,16,3,0,2021-22
+Gujarat,Kheda,316,58,14,2,1,2021-22
+Gujarat,Mahesana,295,63,13,3,1,2021-22
+Gujarat,Mahisagar,225,36,8,1,1,2021-22
+Gujarat,Morbi,198,35,5,2,1,2021-22
+Gujarat,Narmada,174,28,3,2,1,2021-22
+Gujarat,Navsari,296,50,11,3,1,2021-22
+Gujarat,Panch Mahals,300,54,12,1,1,2021-22
+Gujarat,Patan,326,55,14,2,0,2021-22
+Gujarat,Porbandar,84,17,4,5,1,2021-22
+Gujarat,Rajkot,347,82,12,0,1,2021-22
+Gujarat,Sabar Kantha,281,49,12,2,0,2021-22
+Gujarat,Surat,343,105,20,2,0,2021-22
+Gujarat,Surendranagar,349,56,12,2,1,2021-22
+Gujarat,Tapi,241,39,6,2,1,2021-22
+Gujarat,Vadodara,242,77,10,0,0,2021-22
+Gujarat,Valsad,363,58,10,2,0,2021-22

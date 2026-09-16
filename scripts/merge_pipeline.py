@@ -37,6 +37,7 @@ RENAME_CROSSWALK = {
     ("Uttar Pradesh", "maunathbhanjan"): "Mau",
     ("Uttar Pradesh", "sant ravidas nagar"): "Bhadohi",
     ("Tamil Nadu", "tuticorin"): "Thoothukkudi",
+    ("Gujarat", "dohad"): "Dahod",
     # Known major renames not yet hit by our pilot states, added as a head start:
     ("Madhya Pradesh", "hoshangabad"): "Narmadapuram",
 }

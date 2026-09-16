@@ -160,3 +160,16 @@ logic, and outputs both the merged file and a `.review.csv` listing every
 non-exact match for manual review before trusting it. Verified to reproduce
 the pilot's exact 629-row result before being adopted.
 
+## 8. National Health Profile (NHP) — Resolved: Not Adopted
+
+NHP was flagged in the feasibility note as "use if compatible." Checked
+directly: NHP is structured as 6 chapters (Demographic, Socio-Economic,
+Health Status, Health Finance, Human Resources, Health Infrastructure),
+and every indicator is reported **state-wise/UT-wise/national**, not
+district-wise. The only district-level mentions found across several NHP
+editions are incidental counts (e.g. "X habitations in Y districts
+affected by fluoride contamination") — not structured tables usable as
+model features. **Decision: dropped from scope.** RHS + Census + LGD
+already provide the genuine district-level signal; NHP would not add any.
+
+
