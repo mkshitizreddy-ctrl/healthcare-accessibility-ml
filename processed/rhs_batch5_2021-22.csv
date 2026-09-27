@@ -1,0 +1,67 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Nagaland,Mon,57,14,3,0,1,2021-22
+Nagaland,Dimapur,54,12,2,0,1,2021-22
+Nagaland,Kiphire,25,4,1,0,1,2021-22
+Nagaland,Kohima,42,16,3,0,1,2021-22
+Nagaland,Longleng,10,3,0,0,1,2021-22
+Nagaland,Mokokchung,55,17,3,0,1,2021-22
+Nagaland,Noklak,19,3,0,0,1,2021-22
+Nagaland,Peren,18,7,2,0,1,2021-22
+Nagaland,Phek,49,22,4,0,1,2021-22
+Nagaland,Tuensang,36,11,1,0,1,2021-22
+Nagaland,Wokha,40,14,2,0,1,2021-22
+Nagaland,Zunheboto,47,13,2,0,1,2021-22
+Manipur,Bishnupur,33,7,2,0,1,2021-22
+Manipur,Chandel,15,2,1,0,1,2021-22
+Manipur,Churachandpur,50,7,0,0,1,2021-22
+Manipur,Imphal East,44,14,1,0,0,2021-22
+Manipur,Imphal West,54,12,2,0,0,2021-22
+Manipur,Jiribam,6,1,1,0,0,2021-22
+Manipur,Kakching,13,6,2,0,0,2021-22
+Manipur,Kamjong,21,2,1,0,0,2021-22
+Manipur,Kangpokpi,35,6,1,0,0,2021-22
+Manipur,Noney,15,3,1,0,0,2021-22
+Manipur,Pherzawl,19,4,1,0,0,2021-22
+Manipur,Senapati,32,8,1,0,1,2021-22
+Manipur,Tamenglong,15,3,0,0,1,2021-22
+Manipur,Tengnoupal,9,4,0,1,0,2021-22
+Manipur,Thoubal,37,10,3,0,1,2021-22
+Manipur,Ukhrul,18,6,0,0,1,2021-22
+Mizoram,Aizawl,67,12,3,1,2,2021-22
+Mizoram,Champhai,34,6,0,0,1,2021-22
+Mizoram,Hnahthial,14,5,0,0,1,2021-22
+Mizoram,Khawzawl,18,4,1,0,1,2021-22
+Mizoram,Kolasib,28,5,1,0,1,2021-22
+Mizoram,Lawngtlai,38,5,1,0,1,2021-22
+Mizoram,Lunglei,56,7,0,1,1,2021-22
+Mizoram,Mamit,39,8,1,0,1,2021-22
+Mizoram,Saiha,25,4,0,0,1,2021-22
+Mizoram,Saitual,25,5,1,0,1,2021-22
+Mizoram,Serchhip,29,5,1,0,1,2021-22
+Arunachal Pradesh,Anjaw,8,6,4,0,1,2021-22
+Arunachal Pradesh,Changlang,25,7,5,0,1,2021-22
+Arunachal Pradesh,Dibang Valley,5,1,0,0,1,2021-22
+Arunachal Pradesh,East Kameng,17,8,1,0,1,2021-22
+Arunachal Pradesh,East Siang,16,9,2,0,1,2021-22
+Arunachal Pradesh,Kamle,20,4,2,0,0,2021-22
+Arunachal Pradesh,Kra Daadi,8,6,0,0,1,2021-22
+Arunachal Pradesh,Kurung Kumey,13,4,2,0,1,2021-22
+Arunachal Pradesh,Leparada,10,2,0,0,0,2021-22
+Arunachal Pradesh,Lohit,13,4,2,0,1,2021-22
+Arunachal Pradesh,Longding,8,2,3,0,0,2021-22
+Arunachal Pradesh,Lower Dibang Valley,13,4,4,0,1,2021-22
+Arunachal Pradesh,Lower Siang,4,5,1,0,1,2021-22
+Arunachal Pradesh,Lower Subansiri,23,5,2,0,1,2021-22
+Arunachal Pradesh,Namsai,15,4,2,0,1,2021-22
+Arunachal Pradesh,Pakke Kessang,10,3,2,0,0,2021-22
+Arunachal Pradesh,Papum Pare,37,17,4,0,0,2021-22
+Arunachal Pradesh,Shi Yomi,0,2,1,0,0,2021-22
+Arunachal Pradesh,Siang,27,7,2,0,1,2021-22
+Arunachal Pradesh,Tawang,12,6,2,0,1,2021-22
+Arunachal Pradesh,Tirap,10,7,1,0,1,2021-22
+Arunachal Pradesh,Upper Siang,13,2,4,0,1,2021-22
+Arunachal Pradesh,Upper Subansiri,23,5,4,0,1,2021-22
+Arunachal Pradesh,West Kameng,22,5,5,0,1,2021-22
+Arunachal Pradesh,West Siang,15,6,2,0,1,2021-22
+Goa,North Goa,114,13,4,0,1,2021-22
+Goa,South Goa,105,15,2,2,1,2021-22

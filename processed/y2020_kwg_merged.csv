@@ -1,0 +1,71 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Kerala,Alappuzha,366,65,16,6,4,2020-21,Alappuzha,598,exact,2127789
+Kerala,Ernakulam,410,90,23,11,4,2020-21,Ernakulam,595,exact,3282388
+Kerala,Idukki,309,41,13,4,2,2020-21,Idukki,596,exact,1108974
+Kerala,Kannur,415,86,12,9,3,2020-21,Kannur,589,exact,2523003
+Kerala,Kasaragod,247,43,6,5,2,2020-21,Kasaragod,588,exact,1307375
+Kerala,Kollam,421,62,16,9,2,2020-21,Kollam,600,exact,2635375
+Kerala,Kottayam,333,59,20,3,5,2020-21,Kottayam,597,exact,1974551
+Kerala,Kozhikode,413,75,16,7,3,2020-21,Kozhikode,591,exact,3086293
+Kerala,Malappuram,578,97,21,7,4,2020-21,Malappuram,592,exact,4112920
+Kerala,Palakkad,502,81,19,6,3,2020-21,Palakkad,593,exact,2809934
+Kerala,Pathanamthitta,261,45,12,4,3,2020-21,Pathanamthitta,599,exact,1197412
+Kerala,Thiruvananthapuram,487,71,22,8,7,2020-21,Thiruvananthapuram,601,exact,3301427
+Kerala,Thrissur,471,86,24,6,3,2020-21,Thrissur,594,exact,3121200
+Kerala,Wayanad,201,23,9,2,2,2020-21,Wayanad,590,exact,817420
+West Bengal,24 Paraganas North,742,149,22,10,2,2020-21,North 24 Parganas,337,crosswalk,10009781
+West Bengal,24 Paraganas South,1068,80,30,7,1,2020-21,South 24 Parganas,343,crosswalk,8161961
+West Bengal,Alipurduar,236,14,7,1,1,2020-21,Alipurduar,000,exact,
+West Bengal,Bankura,564,73,22,1,1,2020-21,Bankura,339,exact,3596674
+West Bengal,Birbhum,484,62,19,1,1,2020-21,Birbhum,334,exact,3502404
+West Bengal,Coochbehar,406,38,12,4,0,2020-21,Cooch Behar,329,fuzzy,2819086
+West Bengal,Darjeeling,181,28,9,1,2,2020-21,Darjeeling,327,exact,1846823
+West Bengal,Dinajpur Dakshin,248,22,8,1,1,2020-21,Dakshin Dinajpur,331,crosswalk,1676276
+West Bengal,Dinajpur Uttar,344,24,9,2,0,2020-21,Uttar Dinajpur,330,crosswalk,3007134
+West Bengal,Hooghly,660,89,18,4,1,2020-21,Hooghly,338,exact,5519145
+West Bengal,Howrah,448,74,15,7,1,2020-21,Howrah,341,exact,4850029
+West Bengal,Jalpaiguri,301,27,7,1,1,2020-21,Jalpaiguri,328,exact,3872846
+West Bengal,Jhargram,219,26,8,0,1,2020-21,Jhargram,000,exact,
+West Bengal,Kalimpong,49,6,3,0,1,2020-21,Kalimpong,000,exact,
+West Bengal,Kolkata,0,144,0,0,0,2020-21,Kolkata,342,exact,4496694
+West Bengal,Maldah,511,40,16,1,0,2020-21,Malda,332,fuzzy,3988845
+West Bengal,Medinipur East,706,59,24,4,2,2020-21,Purba Medinipur,345,crosswalk,5095875
+West Bengal,Medinipur West,639,68,21,2,0,2020-21,Paschim Medinipur,344,crosswalk,5913457
+West Bengal,Murshidabad,832,83,27,4,0,2020-21,Murshidabad,333,exact,7103807
+West Bengal,Nadia,469,64,17,5,1,2020-21,Nadia,336,exact,5167600
+West Bengal,Paschim Bardhaman,173,61,9,1,1,2020-21,Paschim Bardhaman,000,exact,
+West Bengal,Purba Bardhaman,592,83,25,2,0,2020-21,Purba Bardhaman,335,exact,7717563
+West Bengal,Purulia,485,55,20,1,0,2020-21,Purulia,340,exact,2930115
+Gujarat,Ahmadabad,211,120,16,3,0,2020-21,Ahmedabad,474,fuzzy,7214225
+Gujarat,Amreli,248,44,12,3,0,2020-21,Amreli,480,exact,1514190
+Gujarat,Anand,277,61,14,0,2,2020-21,Anand,482,exact,2092745
+Gujarat,Arvalli,219,38,10,1,0,2020-21,Arvalli,000,exact,
+Gujarat,Banas Kantha,759,125,26,4,0,2020-21,Banas Kantha,469,exact,3120506
+Gujarat,Bharuch,241,46,9,1,1,2020-21,Bharuch,488,exact,1551019
+Gujarat,Bhavnagar,299,65,13,2,0,2020-21,Bhavnagar,481,exact,2880365
+Gujarat,Botad,95,19,5,0,1,2020-21,Botad,000,exact,
+Gujarat,Chhotaudepur,310,51,12,0,1,2020-21,Chhotaudepur,000,exact,
+Gujarat,Dang,68,10,3,0,1,2020-21,Dangs,489,fuzzy,228291
+Gujarat,Devbhumi Dwarka,169,25,4,1,1,2020-21,Devbhumi Dwarka,000,exact,
+Gujarat,Dohad,637,99,20,2,0,2020-21,Dahod,485,crosswalk,2127086
+Gujarat,Gandhinagar,172,36,9,1,0,2020-21,Gandhinagar,473,exact,1391753
+Gujarat,Gir Somnath,174,33,7,1,1,2020-21,Gir Somnath,000,exact,
+Gujarat,Jamnagar,210,45,9,0,0,2020-21,Jamnagar,477,exact,2160119
+Gujarat,Junagadh,237,46,9,1,0,2020-21,Junagadh,479,exact,2743082
+Gujarat,Kachchh,442,77,16,3,0,2020-21,Kachchh,468,exact,2092371
+Gujarat,Kheda,316,58,14,2,1,2020-21,Kheda,483,exact,2299885
+Gujarat,Mahesana,295,63,13,3,1,2020-21,Mahesana,471,exact,2035064
+Gujarat,Mahisagar,225,36,8,1,1,2020-21,Mahisagar,000,exact,
+Gujarat,Morbi,198,35,5,2,1,2020-21,Morbi,000,exact,
+Gujarat,Narmada,174,28,3,2,1,2020-21,Narmada,487,exact,590297
+Gujarat,Navsari,296,50,11,3,1,2020-21,Navsari,490,exact,1329672
+Gujarat,Panch Mahals,300,54,12,1,1,2020-21,Panch Mahals,484,exact,2390776
+Gujarat,Patan,326,55,14,2,0,2020-21,Patan,470,exact,1343734
+Gujarat,Porbandar,84,17,4,0,1,2020-21,Porbandar,478,exact,585449
+Gujarat,Rajkot,347,82,12,5,1,2020-21,Rajkot,476,exact,3804558
+Gujarat,Sabar Kantha,281,49,12,2,0,2020-21,Sabar Kantha,472,exact,2428589
+Gujarat,Surat,358,102,20,2,0,2020-21,Surat,492,exact,6081322
+Gujarat,Surendranagar,348,56,12,2,1,2020-21,Surendranagar,475,exact,1756268
+Gujarat,Tapi,241,39,6,2,1,2020-21,Tapi,493,exact,807022
+Gujarat,Vadodara,242,77,10,0,1,2020-21,Vadodara,486,exact,4165626
+Gujarat,Valsad,363,58,10,2,0,2020-21,Valsad,491,exact,1705678

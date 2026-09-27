@@ -1,0 +1,111 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Assam,Baksa,157,35,8,0,1,2019-20
+Assam,Barpeta,264,48,11,1,1,2019-20
+Assam,Bongaigaon,108,29,4,0,1,2019-20
+Assam,Cachar,270,31,7,0,1,2019-20
+Assam,Chirang,87,24,4,0,1,2019-20
+Assam,Darrang,159,33,7,0,1,2019-20
+Assam,Dhemaji,98,24,4,0,1,2019-20
+Assam,Dhubri,231,43,8,2,1,2019-20
+Assam,Dibrugarh,234,31,10,0,0,2019-20
+Assam,Dima Hasao,76,12,3,0,1,2019-20
+Assam,Goalpara,155,37,6,0,1,2019-20
+Assam,Golaghat,143,40,5,1,1,2019-20
+Assam,Hailakandi,107,13,1,0,1,2019-20
+Assam,Jorhat,145,42,8,2,0,2019-20
+Assam,Kamrup M,51,45,5,0,1,2019-20
+Assam,Kamrup R,279,65,13,1,1,2019-20
+Assam,Karbi Anglong,154,42,8,1,0,2019-20
+Assam,Karimganj,230,30,7,0,1,2019-20
+Assam,Kokrajhar,162,46,2,1,1,2019-20
+Assam,Lakhimpur,157,29,8,1,1,2019-20
+Assam,Marigaon,122,34,6,0,1,2019-20
+Assam,Nagaon,352,78,18,0,1,2019-20
+Assam,Nalbari,122,44,11,0,1,2019-20
+Assam,Sibsagar,220,46,4,2,1,2019-20
+Assam,Sonitpur,281,55,9,2,1,2019-20
+Assam,Tinsukia,166,22,8,0,1,2019-20
+Assam,Udalguri,150,24,7,0,1,2019-20
+Chhattisgarh,Balod,196,30,6,0,1,2019-20
+Chhattisgarh,Baloda Bazar,223,32,6,1,1,2019-20
+Chhattisgarh,Balrampur,194,28,6,1,1,2019-20
+Chhattisgarh,Bastar,253,41,8,1,1,2019-20
+Chhattisgarh,Bemetra,128,20,4,1,1,2019-20
+Chhattisgarh,Bijapur,123,11,5,0,1,2019-20
+Chhattisgarh,Bilaspur,274,59,8,1,1,2019-20
+Chhattisgarh,Dantewada,76,13,4,0,1,2019-20
+Chhattisgarh,Dhamtari,194,27,4,1,1,2019-20
+Chhattisgarh,Durg,221,32,8,1,1,2019-20
+Chhattisgarh,Gariyaband,199,18,6,1,1,2019-20
+Chhattisgarh,Janjgir Champa,276,47,11,1,1,2019-20
+Chhattisgarh,Jashpur,258,35,8,2,1,2019-20
+Chhattisgarh,Kanker,253,35,8,1,1,2019-20
+Chhattisgarh,Kawardha,152,25,6,0,1,2019-20
+Chhattisgarh,Kondagaon,173,21,6,0,1,2019-20
+Chhattisgarh,Korba,289,40,7,0,1,2019-20
+Chhattisgarh,Koriya,197,29,6,0,1,2019-20
+Chhattisgarh,Mahasamund,227,31,5,0,1,2019-20
+Chhattisgarh,Mungeli,126,29,3,0,1,2019-20
+Chhattisgarh,Narayanpur,58,8,1,0,1,2019-20
+Chhattisgarh,Raigarh,350,53,9,3,1,2019-20
+Chhattisgarh,Raipur,280,49,11,3,1,2019-20
+Chhattisgarh,Rajnandgaon,336,50,10,1,1,2019-20
+Chhattisgarh,Sukma,86,12,3,0,1,2019-20
+Chhattisgarh,Surajpur,219,35,8,0,1,2019-20
+Chhattisgarh,Surguja,208,27,7,1,0,2019-20
+Himachal Pradesh,Bilaspur,120,38,6,4,1,2019-20
+Himachal Pradesh,Chamba,177,45,4,7,0,2019-20
+Himachal Pradesh,Hamirpur,150,32,2,5,0,2019-20
+Himachal Pradesh,Kangra,441,87,19,18,1,2019-20
+Himachal Pradesh,Kinnaur,34,24,4,1,1,2019-20
+Himachal Pradesh,Kullu,103,27,4,5,1,2019-20
+Himachal Pradesh,Lahul Spiti,36,17,3,0,1,2019-20
+Himachal Pradesh,Mandi,331,87,12,15,1,2019-20
+Himachal Pradesh,Shimla,252,122,17,12,1,2019-20
+Himachal Pradesh,Sirmaur,149,44,6,5,0,2019-20
+Himachal Pradesh,Solan,175,41,6,6,1,2019-20
+Himachal Pradesh,Una,136,24,9,5,1,2019-20
+Jammu And Kashmir,Anantnag,139,63,5,0,1,2019-20
+Jammu And Kashmir,Bandipora,70,27,3,0,1,2019-20
+Jammu And Kashmir,Baramulla,188,87,6,0,1,2019-20
+Jammu And Kashmir,Budgam,136,70,9,0,1,2019-20
+Jammu And Kashmir,Doda,165,42,3,0,1,2019-20
+Jammu And Kashmir,Ganderbal,60,30,1,0,1,2019-20
+Jammu And Kashmir,Jammu,161,102,8,0,2,2019-20
+Jammu And Kashmir,Kathua,185,53,5,0,1,2019-20
+Jammu And Kashmir,Kishtwar,87,25,1,0,1,2019-20
+Jammu And Kashmir,Kulgam,118,45,3,0,1,2019-20
+Jammu And Kashmir,Kupwara,233,63,7,0,1,2019-20
+Jammu And Kashmir,Poonch,137,44,3,0,1,2019-20
+Jammu And Kashmir,Pulwama,96,47,3,0,1,2019-20
+Jammu And Kashmir,Rajouri,197,55,7,0,1,2019-20
+Jammu And Kashmir,Rambam,85,31,3,0,1,2019-20
+Jammu And Kashmir,Reasi,103,33,2,0,1,2019-20
+Jammu And Kashmir,Samba,82,21,3,0,1,2019-20
+Jammu And Kashmir,Shopian,57,16,2,0,1,2019-20
+Jammu And Kashmir,Srinagar,47,69,1,0,1,2019-20
+Jammu And Kashmir,Udhampur,146,49,2,0,1,2019-20
+Jharkhand,Bokaro,115,20,8,3,1,2019-20
+Jharkhand,Chatra,93,9,5,0,1,2019-20
+Jharkhand,Deoghar,180,8,7,1,1,2019-20
+Jharkhand,Dhanbad,140,33,9,0,0,2019-20
+Jharkhand,Dumka,248,35,10,0,1,2019-20
+Jharkhand,Garhwa,117,11,6,1,1,2019-20
+Jharkhand,Giridih,179,17,11,0,1,2019-20
+Jharkhand,Godda,181,10,7,0,1,2019-20
+Jharkhand,Gumla,243,2,10,0,1,2019-20
+Jharkhand,Hazaribagh,140,16,8,1,1,2019-20
+Jharkhand,Jamtara,129,13,4,0,1,2019-20
+Jharkhand,Khunti,108,5,5,0,1,2019-20
+Jharkhand,Kodarma,65,8,4,0,1,2019-20
+Jharkhand,Latehar,97,7,6,0,1,2019-20
+Jharkhand,Lohardaga,74,7,4,0,1,2019-20
+Jharkhand,Pakur,121,10,5,0,1,2019-20
+Jharkhand,Palamu,171,24,7,2,1,2019-20
+Jharkhand,Pashchimi Singhbhum,343,16,13,1,1,2019-20
+Jharkhand,Purbi Singhbhum,243,25,9,1,1,2019-20
+Jharkhand,Ramgarh,54,8,6,0,1,2019-20
+Jharkhand,Ranchi,324,34,13,1,1,2019-20
+Jharkhand,Sahibganj,136,12,8,1,1,2019-20
+Jharkhand,Saraikela,192,13,6,1,1,2019-20
+Jharkhand,Simdega,155,8,6,0,1,2019-20

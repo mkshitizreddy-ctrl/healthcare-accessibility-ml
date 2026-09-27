@@ -1,0 +1,52 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Nagaland,Mon,50,15,2,0,1,2019-20
+Nagaland,Dimapur,52,12,2,0,1,2019-20
+Nagaland,Kiphire,22,4,1,0,1,2019-20
+Nagaland,Kohima,41,15,3,0,1,2019-20
+Nagaland,Longleng,10,3,0,0,1,2019-20
+Nagaland,Mokokchung,51,17,3,0,1,2019-20
+Nagaland,Peren,16,8,1,0,1,2019-20
+Nagaland,Phek,46,23,3,0,1,2019-20
+Nagaland,Tuensang,38,14,2,0,1,2019-20
+Nagaland,Wokha,42,13,2,0,1,2019-20
+Nagaland,Zunheboto,47,13,2,0,1,2019-20
+Manipur,Bishnupur,33,7,2,0,1,2019-20
+Manipur,Chandel,25,5,1,1,1,2019-20
+Manipur,Churachandpur,71,11,1,0,1,2019-20
+Manipur,Imphal East,50,14,2,0,0,2019-20
+Manipur,Imphal West,53,12,2,0,0,2019-20
+Manipur,Senapati,67,14,2,0,1,2019-20
+Manipur,Tamenglong,30,6,1,0,1,2019-20
+Manipur,Thoubal,50,16,5,0,1,2019-20
+Manipur,Ukhrul,39,8,1,0,1,2019-20
+Mizoram,Aizawl East,55,9,2,0,0,2019-20
+Mizoram,Aizawl West,41,9,0,1,2,2019-20
+Mizoram,Champhai,59,11,2,0,1,2019-20
+Mizoram,Kolasib,26,5,1,0,1,2019-20
+Mizoram,Lawngtlai,37,5,1,0,1,2019-20
+Mizoram,Lunglei,68,11,1,1,1,2019-20
+Mizoram,Mamit,33,6,1,0,1,2019-20
+Mizoram,Saiha,24,4,0,0,1,2019-20
+Mizoram,Serchhip,27,5,1,0,1,2019-20
+Arunachal Pradesh,Anjaw,8,6,4,0,1,2019-20
+Arunachal Pradesh,Changlang,18,5,5,0,1,2019-20
+Arunachal Pradesh,Dibang Valley,5,1,0,0,1,2019-20
+Arunachal Pradesh,East Kameng,25,11,3,0,1,2019-20
+Arunachal Pradesh,East Siang,21,11,3,0,1,2019-20
+Arunachal Pradesh,Kra Daadi,8,4,1,0,0,2019-20
+Arunachal Pradesh,Kurung Kumey,20,4,2,0,1,2019-20
+Arunachal Pradesh,Lohit,20,4,2,0,1,2019-20
+Arunachal Pradesh,Longding,6,1,3,0,0,2019-20
+Arunachal Pradesh,Lower Dibang Valley,14,3,4,0,1,2019-20
+Arunachal Pradesh,Lower Subansiri,35,7,3,0,1,2019-20
+Arunachal Pradesh,Namsai,17,4,2,0,1,2019-20
+Arunachal Pradesh,Papum Pare,34,16,4,0,0,2019-20
+Arunachal Pradesh,Siang,27,7,3,0,0,2019-20
+Arunachal Pradesh,Tawang,10,6,2,0,1,2019-20
+Arunachal Pradesh,Tirap,9,7,1,0,1,2019-20
+Arunachal Pradesh,Upper Siang,13,2,4,0,1,2019-20
+Arunachal Pradesh,Upper Subansiri,31,8,5,0,1,2019-20
+Arunachal Pradesh,West Kameng,23,5,5,0,1,2019-20
+Arunachal Pradesh,West Siang,19,12,4,0,2,2019-20
+Goa,North Goa,113,30,4,0,1,2019-20
+Goa,South Goa,105,29,2,2,1,2019-20

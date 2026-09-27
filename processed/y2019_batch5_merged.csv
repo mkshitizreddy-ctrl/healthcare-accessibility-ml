@@ -1,0 +1,52 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Nagaland,Mon,50,15,2,0,1,2019-20,Mon,261,exact,250260
+Nagaland,Dimapur,52,12,2,0,1,2019-20,Dimapur,265,exact,378811
+Nagaland,Kiphire,22,4,1,0,1,2019-20,Kiphire,269,exact,74004
+Nagaland,Kohima,41,15,3,0,1,2019-20,Kohima,270,exact,267988
+Nagaland,Longleng,10,3,0,0,1,2019-20,Longleng,268,exact,50484
+Nagaland,Mokokchung,51,17,3,0,1,2019-20,Mokokchung,262,exact,194622
+Nagaland,Peren,16,8,1,0,1,2019-20,Peren,271,exact,95219
+Nagaland,Phek,46,23,3,0,1,2019-20,Phek,266,exact,163418
+Nagaland,Tuensang,38,14,2,0,1,2019-20,Tuensang,267,exact,196596
+Nagaland,Wokha,42,13,2,0,1,2019-20,Wokha,264,exact,166343
+Nagaland,Zunheboto,47,13,2,0,1,2019-20,Zunheboto,263,exact,140757
+Manipur,Bishnupur,33,7,2,0,1,2019-20,Bishnupur,275,exact,237399
+Manipur,Chandel,25,5,1,1,1,2019-20,Chandel,280,exact,144182
+Manipur,Churachandpur,71,11,1,0,1,2019-20,Churachandpur,274,exact,274143
+Manipur,Imphal East,50,14,2,0,0,2019-20,Imphal East,278,exact,456113
+Manipur,Imphal West,53,12,2,0,0,2019-20,Imphal West,277,exact,517992
+Manipur,Senapati,67,14,2,0,1,2019-20,Senapati,272,exact,479148
+Manipur,Tamenglong,30,6,1,0,1,2019-20,Tamenglong,273,exact,140651
+Manipur,Thoubal,50,16,5,0,1,2019-20,Thoubal,276,exact,422168
+Manipur,Ukhrul,39,8,1,0,1,2019-20,Ukhrul,279,exact,183998
+Mizoram,Aizawl East,55,9,2,0,0,2019-20,,,none,
+Mizoram,Aizawl West,41,9,0,1,2,2019-20,,,none,
+Mizoram,Champhai,59,11,2,0,1,2019-20,Champhai,284,exact,125745
+Mizoram,Kolasib,26,5,1,0,1,2019-20,Kolasib,282,exact,83955
+Mizoram,Lawngtlai,37,5,1,0,1,2019-20,Lawngtlai,287,exact,117894
+Mizoram,Lunglei,68,11,1,1,1,2019-20,Lunglei,286,exact,161428
+Mizoram,Mamit,33,6,1,0,1,2019-20,Mamit,281,exact,86364
+Mizoram,Saiha,24,4,0,0,1,2019-20,Siaha,288,fuzzy,56574
+Mizoram,Serchhip,27,5,1,0,1,2019-20,Serchhip,285,exact,64937
+Arunachal Pradesh,Anjaw,8,6,4,0,1,2019-20,Anjaw,260,exact,21167
+Arunachal Pradesh,Changlang,18,5,5,0,1,2019-20,Changlang,253,exact,148226
+Arunachal Pradesh,Dibang Valley,5,1,0,0,1,2019-20,Dibang Valley,257,exact,8004
+Arunachal Pradesh,East Kameng,25,11,3,0,1,2019-20,East Kameng,247,exact,78690
+Arunachal Pradesh,East Siang,21,11,3,0,1,2019-20,East Siang,251,exact,99214
+Arunachal Pradesh,Kra Daadi,8,4,1,0,0,2019-20,Kra Daadi,000,exact,
+Arunachal Pradesh,Kurung Kumey,20,4,2,0,1,2019-20,Kurung Kumey,256,exact,92076
+Arunachal Pradesh,Lohit,20,4,2,0,1,2019-20,Lohit,259,exact,145726
+Arunachal Pradesh,Longding,6,1,3,0,0,2019-20,Longding,000,exact,
+Arunachal Pradesh,Lower Dibang Valley,14,3,4,0,1,2019-20,Lower Dibang Valley,258,exact,54080
+Arunachal Pradesh,Lower Subansiri,35,7,3,0,1,2019-20,Lower Subansiri,255,exact,83030
+Arunachal Pradesh,Namsai,17,4,2,0,1,2019-20,Namsai,000,exact,
+Arunachal Pradesh,Papum Pare,34,16,4,0,0,2019-20,Papum Pare,248,exact,176573
+Arunachal Pradesh,Siang,27,7,3,0,0,2019-20,Siang,000,exact,
+Arunachal Pradesh,Tawang,10,6,2,0,1,2019-20,Tawang,245,exact,49977
+Arunachal Pradesh,Tirap,9,7,1,0,1,2019-20,Tirap,254,exact,111975
+Arunachal Pradesh,Upper Siang,13,2,4,0,1,2019-20,Upper Siang,252,exact,35320
+Arunachal Pradesh,Upper Subansiri,31,8,5,0,1,2019-20,Upper Subansiri,249,exact,83448
+Arunachal Pradesh,West Kameng,23,5,5,0,1,2019-20,West Kameng,246,exact,83947
+Arunachal Pradesh,West Siang,19,12,4,0,2,2019-20,West Siang,250,exact,112274
+Goa,North Goa,113,30,4,0,1,2019-20,North Goa,585,exact,818008
+Goa,South Goa,105,29,2,2,1,2019-20,South Goa,586,exact,640537

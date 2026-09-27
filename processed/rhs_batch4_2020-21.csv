@@ -1,0 +1,79 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Telangana,Adilabad,126,27,2,0,0,2020-21
+Telangana,Bhadradri Kothagudem,267,33,4,3,0,2020-21
+Telangana,Hyderabad,152,85,9,3,1,2020-21
+Telangana,Jagitial,151,23,2,1,0,2020-21
+Telangana,Jangoan,112,17,0,1,0,2020-21
+Telangana,Jayashankar Bhupalapally,90,16,2,0,0,2020-21
+Telangana,Jogulamba Gadwal,91,13,1,1,0,2020-21
+Telangana,Kamareddy,170,22,6,2,0,2020-21
+Telangana,Karimnagar,139,27,2,1,1,2020-21
+Telangana,Khammam,226,30,3,0,1,2020-21
+Telangana,Kumuram Bheem Asifabad,108,22,2,0,0,2020-21
+Telangana,Mahabubabad,173,21,2,1,0,2020-21
+Telangana,Mahabubnagar,129,20,2,0,0,2020-21
+Telangana,Mancherial,121,21,3,1,0,2020-21
+Telangana,Medak,156,19,3,2,0,2020-21
+Telangana,Medchal Malkajgiri,167,27,2,0,0,2020-21
+Telangana,Mulugu,89,12,3,1,0,2020-21
+Telangana,Nagarkurnool,178,27,4,1,0,2020-21
+Telangana,Nalgonda,257,39,2,3,0,2020-21
+Telangana,Narayanpet,88,13,2,1,0,2020-21
+Telangana,Nirmal,102,20,2,2,0,2020-21
+Telangana,Nizamabad,225,37,9,1,0,2020-21
+Telangana,Peddapalli,104,24,2,1,0,2020-21
+Telangana,Rajanna Sircilla,89,17,0,1,0,2020-21
+Telangana,Ranga Reddy,269,48,7,2,0,2020-21
+Telangana,Sangareddy,248,36,2,4,1,2020-21
+Telangana,Siddipet,193,34,3,1,0,2020-21
+Telangana,Suryapet,171,27,2,1,0,2020-21
+Telangana,Vikarabad,154,25,4,0,1,2020-21
+Telangana,Wanaparthy,102,15,2,1,0,2020-21
+Telangana,Warangal Rural,143,17,2,0,0,2020-21
+Telangana,Warangal Urban,81,28,1,0,0,2020-21
+Telangana,Yadadri Bhuvanagiri,129,21,3,1,0,2020-21
+Andhra Pradesh,Anantapur,586,108,15,2,1,2020-21
+Andhra Pradesh,Chittoor,644,120,15,4,2,2020-21
+Andhra Pradesh,East Godavari,840,144,26,3,1,2020-21
+Andhra Pradesh,Guntur,680,119,18,2,1,2020-21
+Andhra Pradesh,Krishna,593,125,12,2,1,2020-21
+Andhra Pradesh,Kurnool,542,113,19,1,1,2020-21
+Andhra Pradesh,Prakasam,534,100,15,2,1,2020-21
+Andhra Pradesh,Spsr Nellore,477,89,14,2,1,2020-21
+Andhra Pradesh,Srikakulam,465,89,15,2,1,2020-21
+Andhra Pradesh,Visakhapatanam,583,114,12,3,1,2020-21
+Andhra Pradesh,Vizianagaram,431,76,11,1,1,2020-21
+Andhra Pradesh,West Godavari,635,113,14,3,1,2020-21
+Andhra Pradesh,Y.S.R.,448,91,12,1,1,2020-21
+Uttarakhand,Almora,203,26,9,2,1,2020-21
+Uttarakhand,Bageshwar,87,13,3,0,1,2020-21
+Uttarakhand,Chamoli,111,12,5,1,1,2020-21
+Uttarakhand,Champawat,66,10,2,1,1,2020-21
+Uttarakhand,Dehradun,181,31,5,4,1,2020-21
+Uttarakhand,Haridwar,160,41,8,2,1,2020-21
+Uttarakhand,Nainital,136,20,8,4,1,2020-21
+Uttarakhand,Pauri Garhwal,222,31,5,2,1,2020-21
+Uttarakhand,Pithoragarh,161,18,4,0,1,2020-21
+Uttarakhand,Rudra Prayag,73,15,2,0,1,2020-21
+Uttarakhand,Tehri Garhwal,208,28,11,1,1,2020-21
+Uttarakhand,Udam Singh Nagar,153,32,6,2,1,2020-21
+Uttarakhand,Uttar Kashi,82,10,4,0,1,2020-21
+Tripura,Dhalai,121,16,2,3,1,2020-21
+Tripura,Gomati,145,11,3,2,1,2020-21
+Tripura,Khowai,104,10,1,1,1,2020-21
+Tripura,North Tripura,99,15,3,1,1,2020-21
+Tripura,Sepahijala,142,15,4,2,0,2020-21
+Tripura,South Tripura,147,18,5,2,1,2020-21
+Tripura,Unakoti,70,11,1,1,1,2020-21
+Tripura,West Tripura,171,20,3,0,1,2020-21
+Meghalaya,East Garo Hills,31,8,1,0,1,2020-21
+Meghalaya,East Jaintia Hills,36,6,2,0,0,2020-21
+Meghalaya,East Khasi Hills,72,44,7,0,2,2020-21
+Meghalaya,North Garo Hills,50,11,1,0,0,2020-21
+Meghalaya,Ri Bhoi,34,10,3,0,1,2020-21
+Meghalaya,South Garo Hills,21,7,1,0,1,2020-21
+Meghalaya,South West Garo Hills,27,9,1,0,1,2020-21
+Meghalaya,South West Khasi Hills,20,4,2,0,0,2020-21
+Meghalaya,West Garo Hills,67,15,5,0,2,2020-21
+Meghalaya,West Jaintia Hills,46,15,3,0,1,2020-21
+Meghalaya,West Khasi Hills,47,16,2,0,2,2020-21

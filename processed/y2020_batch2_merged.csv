@@ -1,0 +1,165 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Madhya Pradesh,Agar Malwa,77,6,1,2,1,2020-21,Agar-Malwa,000,fuzzy,
+Madhya Pradesh,Alirajpur,185,15,7,0,1,2020-21,Alirajpur,465,exact,728999
+Madhya Pradesh,Anuppur,164,22,8,0,1,2020-21,Anuppur,461,exact,749237
+Madhya Pradesh,Ashoknagar,133,11,2,2,1,2020-21,Ashoknagar,459,exact,845071
+Madhya Pradesh,Balaghat,295,40,7,3,1,2020-21,Balaghat,457,exact,1701698
+Madhya Pradesh,Barwani,330,30,8,2,1,2020-21,Barwani,441,exact,1385881
+Madhya Pradesh,Betul,323,38,9,1,1,2020-21,Betul,447,exact,1575362
+Madhya Pradesh,Bhind,207,28,6,2,1,2020-21,Bhind,420,exact,1703005
+Madhya Pradesh,Bhopal,65,53,2,3,1,2020-21,Bhopal,444,exact,2371061
+Madhya Pradesh,Burhanpur,98,16,4,0,1,2020-21,Burhanpur,467,exact,757847
+Madhya Pradesh,Chhatarpur,235,41,10,0,1,2020-21,Chhatarpur,425,exact,1762375
+Madhya Pradesh,Chhindwara,334,69,11,4,1,2020-21,Chhindwara,455,exact,2090922
+Madhya Pradesh,Damoh,175,19,6,1,1,2020-21,Damoh,428,exact,1264219
+Madhya Pradesh,Datia,110,12,4,1,1,2020-21,Datia,422,exact,786754
+Madhya Pradesh,Dewas,205,28,6,3,1,2020-21,Dewas,437,exact,1563715
+Madhya Pradesh,Dhar,473,52,11,4,1,2020-21,Dhar,438,exact,2185793
+Madhya Pradesh,Dindori,190,24,7,0,1,2020-21,Dindori,453,exact,704524
+Madhya Pradesh,East Nimar,180,32,7,1,1,2020-21,Khandwa (East Nimar),466,crosswalk,1310061
+Madhya Pradesh,Guna,161,19,5,1,1,2020-21,Guna,458,exact,1241519
+Madhya Pradesh,Gwalior,119,50,3,3,1,2020-21,Gwalior,421,exact,2032036
+Madhya Pradesh,Harda,80,7,4,0,1,2020-21,Harda,448,exact,570465
+Madhya Pradesh,Hoshangabad,153,19,6,2,1,2020-21,Narmadapuram,449,crosswalk,1241350
+Madhya Pradesh,Indore,113,58,6,4,1,2020-21,Indore,439,exact,3276697
+Madhya Pradesh,Jabalpur,178,54,7,1,1,2020-21,Jabalpur,451,exact,2463289
+Madhya Pradesh,Jhabua,291,21,5,2,1,2020-21,Jhabua,464,exact,1025048
+Madhya Pradesh,Katni,162,24,6,1,1,2020-21,Katni,450,exact,1292042
+Madhya Pradesh,Khargone,317,61,10,2,1,2020-21,Khargone (West Nimar),440,crosswalk,1873046
+Madhya Pradesh,Mandla,272,34,8,1,1,2020-21,Mandla,454,exact,1054905
+Madhya Pradesh,Mandsaur,177,40,7,2,1,2020-21,Mandsaur,433,exact,1340411
+Madhya Pradesh,Morena,236,25,6,4,1,2020-21,Morena,419,exact,1965970
+Madhya Pradesh,Narsinghpur,136,23,7,1,1,2020-21,Narsimhapur,452,fuzzy,1091854
+Madhya Pradesh,Neemuch,104,18,3,2,1,2020-21,Neemuch,432,exact,826067
+Madhya Pradesh,Niwari,62,8,2,0,0,2020-21,Niwari,000,exact,
+Madhya Pradesh,Panna,156,17,6,0,1,2020-21,Panna,426,exact,1016520
+Madhya Pradesh,Raisen,185,24,6,5,1,2020-21,Raisen,446,exact,1331597
+Madhya Pradesh,Rajgarh,213,28,5,4,1,2020-21,Rajgarh,442,exact,1545814
+Madhya Pradesh,Ratlam,195,34,6,2,1,2020-21,Ratlam,434,exact,1455069
+Madhya Pradesh,Rewa,315,43,9,3,1,2020-21,Rewa,430,exact,2365106
+Madhya Pradesh,Sagar,263,41,10,3,1,2020-21,Sagar,427,exact,2378458
+Madhya Pradesh,Satna,310,54,9,2,1,2020-21,Satna,429,exact,2228935
+Madhya Pradesh,Sehore,162,25,7,3,1,2020-21,Sehore,445,exact,1311332
+Madhya Pradesh,Seoni,280,37,5,3,1,2020-21,Seoni,456,exact,1379131
+Madhya Pradesh,Shahdol,229,32,7,1,1,2020-21,Shahdol,460,exact,1066063
+Madhya Pradesh,Shajapur,115,18,4,3,1,2020-21,Shajapur,436,exact,1512681
+Madhya Pradesh,Sheopur,106,13,3,0,1,2020-21,Sheopur,418,exact,687861
+Madhya Pradesh,Shivpuri,254,18,9,0,1,2020-21,Shivpuri,423,exact,1726050
+Madhya Pradesh,Sidhi,194,28,6,0,1,2020-21,Sidhi,462,exact,1127033
+Madhya Pradesh,Singrauli,206,16,7,0,1,2020-21,Singrauli,463,exact,1178273
+Madhya Pradesh,Tikamgarh,146,15,5,0,1,2020-21,Tikamgarh,424,exact,1445166
+Madhya Pradesh,Ujjain,208,37,5,6,1,2020-21,Ujjain,435,exact,1986864
+Madhya Pradesh,Umaria,113,14,3,0,1,2020-21,Umaria,431,exact,644758
+Madhya Pradesh,Vidisha,199,27,7,2,1,2020-21,Vidisha,443,exact,1458875
+Bihar,Araria,242,46,7,1,1,2020-21,Araria,209,exact,2811569
+Bihar,Arwal,65,33,2,0,1,2020-21,Arwal,240,exact,700843
+Bihar,Aurangabad,254,72,8,1,1,2020-21,Aurangabad,235,exact,2540073
+Bihar,Banka,251,40,7,0,1,2020-21,Banka,225,exact,2034763
+Bihar,Begusarai,292,44,7,1,1,2020-21,Begusarai,222,exact,2970541
+Bihar,Bhagalpur,362,77,10,2,1,2020-21,Bhagalpur,224,exact,3037766
+Bihar,Bhojpur,303,45,10,1,1,2020-21,Bhojpur,231,exact,2728407
+Bihar,Buxar,160,40,4,1,1,2020-21,Buxar,232,exact,1706352
+Bihar,Darbhanga,261,74,10,2,0,2020-21,Darbhanga,215,exact,3937385
+Bihar,Gaya,473,86,18,2,1,2020-21,Gaya,236,exact,4391418
+Bihar,Gopalganj,185,36,10,1,1,2020-21,Gopalganj,217,exact,2562012
+Bihar,Jamui,279,34,7,0,1,2020-21,Jamui,238,exact,1760405
+Bihar,Jehanabad,107,40,6,0,1,2020-21,Jehanabad,239,exact,1125313
+Bihar,Kaimur (Bhabua),175,31,5,1,1,2020-21,Kaimur (Bhabua),233,exact,1626384
+Bihar,Katihar,327,65,8,2,1,2020-21,Katihar,212,exact,3071029
+Bihar,Khagaria,193,32,3,0,1,2020-21,Khagaria,223,exact,1666886
+Bihar,Kishanganj,156,19,4,0,1,2020-21,Kishanganj,210,exact,1690400
+Bihar,Lakhisarai,102,18,3,0,1,2020-21,Lakhisarai,227,exact,1000912
+Bihar,Madhepura,272,42,8,1,1,2020-21,Madhepura,213,exact,2001762
+Bihar,Madhubani,429,97,15,3,1,2020-21,Madhubani,207,exact,4487379
+Bihar,Munger,167,36,3,1,1,2020-21,Munger,226,exact,1367765
+Bihar,Muzaffarpur,520,104,14,0,1,2020-21,Muzaffarpur,216,exact,4801062
+Bihar,Nalanda,370,69,9,2,1,2020-21,Nalanda,229,exact,2877653
+Bihar,Nawada,174,52,10,1,1,2020-21,Nawada,237,exact,2219146
+Bihar,Pashchim Champaran,554,56,11,2,0,2020-21,Pashchim Champaran,203,exact,3935042
+Bihar,Patna,409,113,8,3,1,2020-21,Patna,230,exact,5838465
+Bihar,Purbi Champaran,407,102,15,3,1,2020-21,Purbi Champaran,204,exact,5099371
+Bihar,Purnia,312,64,5,2,1,2020-21,Purnia,211,exact,3264619
+Bihar,Rohtas,251,54,6,2,1,2020-21,Rohtas,234,exact,2959918
+Bihar,Saharsa,171,40,5,1,1,2020-21,Saharsa,214,exact,1900661
+Bihar,Samastipur,362,74,12,4,1,2020-21,Samastipur,221,exact,4261566
+Bihar,Saran,391,57,14,1,1,2020-21,Saran,219,exact,3951862
+Bihar,Sheikhpura,85,23,2,0,1,2020-21,Sheikhpura,228,exact,636342
+Bihar,Sheohar,91,17,1,0,1,2020-21,Sheohar,205,exact,656246
+Bihar,Sitamarhi,208,55,12,1,1,2020-21,Sitamarhi,206,exact,3423574
+Bihar,Siwan,380,68,14,1,1,2020-21,Siwan,218,exact,3330464
+Bihar,Supaul,181,27,6,1,1,2020-21,Supaul,208,exact,2229076
+Bihar,Vaishali,337,52,7,1,1,2020-21,Vaishali,220,exact,3495021
+Punjab,Amritsar,179,44,8,2,1,2020-21,Amritsar,049,exact,2490656
+Punjab,Barnala,71,12,4,1,1,2020-21,Barnala,054,exact,595527
+Punjab,Bathinda,136,24,9,3,1,2020-21,Bathinda,046,exact,1388525
+Punjab,Faridkot,62,11,3,1,1,2020-21,Faridkot,045,exact,617508
+Punjab,Fatehgarh Sahib,73,15,5,1,1,2020-21,Fatehgarh Sahib,040,exact,600163
+Punjab,Fazilka,109,22,6,1,1,2020-21,Fazilka,000,exact,
+Punjab,Firozepur,122,19,4,1,1,2020-21,Ferozepur,043,fuzzy,2029074
+Punjab,Gurdaspur,222,33,13,1,1,2020-21,Gurdaspur,035,exact,2298323
+Punjab,Hoshiarpur,244,33,12,3,1,2020-21,Hoshiarpur,038,exact,1586625
+Punjab,Jalandhar,198,37,14,2,1,2020-21,Jalandhar,037,exact,2193590
+Punjab,Kapurthala,88,14,5,3,1,2020-21,Kapurthala,036,exact,815168
+Punjab,Ludhiana,265,47,16,4,1,2020-21,Ludhiana,041,exact,3498739
+Punjab,Mansa,103,15,4,2,1,2020-21,Mansa,047,exact,769751
+Punjab,Moga,122,23,6,0,1,2020-21,Moga,042,exact,995746
+Punjab,Pathankot,69,11,4,0,1,2020-21,Pathankot,000,exact,
+Punjab,Patiala,185,40,10,3,1,2020-21,Patiala,048,exact,1895686
+Punjab,Rupnagar,85,14,4,2,1,2020-21,Rupnagar,051,exact,684627
+Punjab,S.A.S Nagar,76,19,5,2,1,2020-21,S.A.S Nagar,052,exact,994628
+Punjab,Sangrur,192,33,8,4,1,2020-21,Sangrur,053,exact,1655169
+Punjab,Shahid Bhagat Singh Nagar,95,18,4,1,1,2020-21,Shahid Bhagat Singh Nagar,039,exact,612310
+Punjab,Sri Muktsar Sahib,102,20,5,3,1,2020-21,Sri Muktsar Sahib,044,exact,901896
+Punjab,Tarn Taran,153,18,11,2,1,2020-21,Tarn Taran,050,exact,1119627
+Haryana,Ambala,106,22,4,2,1,2020-21,Ambala,070,exact,1128350
+Haryana,Bhiwani,139,26,6,3,1,2020-21,Bhiwani,081,exact,1634445
+Haryana,Charki Dadri,76,12,3,0,1,2020-21,Charki Dadri,000,exact,
+Haryana,Faridabad,61,25,8,1,1,2020-21,Faridabad,088,exact,1809733
+Haryana,Fatehabad,131,21,5,1,1,2020-21,Fatehabad,078,exact,942011
+Haryana,Gurugram,80,29,3,2,1,2020-21,Gurugram,086,exact,1514432
+Haryana,Hisar,198,31,10,2,1,2020-21,Hisar,080,exact,1743931
+Haryana,Jhajjar,134,29,6,2,1,2020-21,Jhajjar,083,exact,958405
+Haryana,Jind,170,27,7,3,1,2020-21,Jind,077,exact,1334152
+Haryana,Kaithal,144,24,6,0,1,2020-21,Kaithal,073,exact,1074304
+Haryana,Karnal,146,25,6,1,1,2020-21,Karnal,074,exact,1505324
+Haryana,Kurukshetra,117,18,6,0,1,2020-21,Kurukshetra,072,exact,964655
+Haryana,Mahendragarh,137,18,7,1,1,2020-21,Mahendragarh,084,exact,922088
+Haryana,Nuh,94,16,4,0,1,2020-21,Nuh,087,exact,1089263
+Haryana,Palwal,95,18,7,0,1,2020-21,Palwal,089,exact,1042708
+Haryana,Panchkula,46,9,3,0,1,2020-21,Panchkula,069,exact,561293
+Haryana,Panipat,89,18,9,1,1,2020-21,Panipat,075,exact,1205437
+Haryana,Rewari,114,16,5,1,1,2020-21,Rewari,085,exact,900332
+Haryana,Rohtak,116,20,8,0,1,2020-21,Rohtak,082,exact,1061204
+Haryana,Sirsa,156,28,8,1,1,2020-21,Sirsa,079,exact,1295189
+Haryana,Sonipat,164,33,9,1,1,2020-21,Sonipat,076,exact,1450001
+Haryana,Yamunanagar,113,19,7,1,1,2020-21,Yamunanagar,071,exact,1214205
+Odisha,Anugul,166,31,9,3,1,2020-21,Anugul,384,exact,1273821
+Odisha,Balangir,226,48,15,2,1,2020-21,Balangir,393,exact,1648997
+Odisha,Baleshwar,275,73,17,1,1,2020-21,Baleshwar,377,exact,2320529
+Odisha,Bargarh,204,49,15,1,1,2020-21,Bargarh,370,exact,1481255
+Odisha,Bhadrak,178,54,7,0,1,2020-21,Bhadrak,378,exact,1506337
+Odisha,Boudh,67,12,5,0,1,2020-21,Boudh,391,exact,441162
+Odisha,Cuttack,332,73,22,2,0,2020-21,Cuttack,381,exact,2624470
+Odisha,Deogarh,42,8,4,0,1,2020-21,Deogarh,373,exact,312520
+Odisha,Dhenkanal,167,38,10,2,1,2020-21,Dhenkanal,383,exact,1192811
+Odisha,Gajapati,136,22,8,0,1,2020-21,Gajapati,389,exact,577817
+Odisha,Ganjam,460,101,28,4,0,2020-21,Ganjam,388,exact,3529031
+Odisha,Jagatsinghapur,189,35,11,0,1,2020-21,Jagatsinghapur,380,exact,1136971
+Odisha,Jajapur,260,62,12,0,1,2020-21,Jajapur,382,exact,1827192
+Odisha,Jharsuguda,66,20,6,0,1,2020-21,Jharsuguda,371,exact,579505
+Odisha,Kalahandi,242,46,18,1,1,2020-21,Kalahandi,395,exact,1576869
+Odisha,Kandhamal,172,40,14,1,1,2020-21,Kandhamal,390,exact,733110
+Odisha,Kendrapara,227,46,8,1,1,2020-21,Kendrapara,379,exact,1440361
+Odisha,Kendujhar,351,67,17,2,1,2020-21,Kendujhar,375,exact,1801733
+Odisha,Khordha,202,75,16,0,1,2020-21,Khordha,386,exact,2251673
+Odisha,Koraput,307,51,16,0,0,2020-21,Koraput,398,exact,1379647
+Odisha,Malkangiri,158,27,6,2,1,2020-21,Malkangiri,399,exact,613192
+Odisha,Mayurbhanj,589,88,28,3,1,2020-21,Mayurbhanj,376,exact,2519738
+Odisha,Nabarangpur,289,41,10,1,1,2020-21,Nabarangpur,397,exact,1220946
+Odisha,Nayagarh,166,38,12,1,1,2020-21,Nayagarh,385,exact,962789
+Odisha,Nuapada,95,17,5,1,1,2020-21,Nuapada,394,exact,610382
+Odisha,Puri,241,52,17,0,1,2020-21,Puri,387,exact,1698730
+Odisha,Rayagada,235,39,11,1,1,2020-21,Rayagada,396,exact,967911
+Odisha,Sambalpur,167,36,11,2,0,2020-21,Sambalpur,372,exact,1041099
+Odisha,Sonepur,89,20,5,1,1,2020-21,Sonepur,392,exact,610183
+Odisha,Sundargarh,390,69,21,1,2,2020-21,Sundargarh,374,exact,2093437

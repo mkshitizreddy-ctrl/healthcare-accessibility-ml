@@ -1,0 +1,118 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Assam,Baksa,157,35,8,0,1,2020-21
+Assam,Barpeta,264,48,11,1,1,2020-21
+Assam,Biswanath,135,26,3,2,0,2020-21
+Assam,Bongaigaon,108,29,4,0,1,2020-21
+Assam,Cachar,269,32,7,0,1,2020-21
+Assam,Charaideo,70,19,2,1,0,2020-21
+Assam,Chirang,87,24,4,0,1,2020-21
+Assam,Darrang,159,33,7,0,1,2020-21
+Assam,Dhemaji,98,24,5,0,1,2020-21
+Assam,Dhubri,187,34,7,1,1,2020-21
+Assam,Dibrugarh,234,31,10,0,0,2020-21
+Assam,Dima Hasao,76,12,3,0,1,2020-21
+Assam,Goalpara,155,37,7,0,1,2020-21
+Assam,Golaghat,143,39,9,1,1,2020-21
+Assam,Hailakandi,107,13,4,0,1,2020-21
+Assam,Hojai,94,7,5,0,0,2020-21
+Assam,Jorhat,110,35,6,1,0,2020-21
+Assam,Kamrup,280,65,13,1,1,2020-21
+Assam,Kamrup Metro,50,45,3,0,1,2020-21
+Assam,Karbi Anglong,104,24,6,0,0,2020-21
+Assam,Karimganj,232,29,7,0,1,2020-21
+Assam,Kokrajhar,161,46,2,1,1,2020-21
+Assam,Lakhimpur,149,29,8,1,1,2020-21
+Assam,Majuli,34,8,2,1,0,2020-21
+Assam,Marigaon,122,34,6,0,1,2020-21
+Assam,Nagaon,258,72,13,0,1,2020-21
+Assam,Nalbari,124,44,11,0,1,2020-21
+Assam,Sivasagar,150,27,2,1,1,2020-21
+Assam,Sonitpur,144,29,6,0,1,2020-21
+Assam,South Salmara Mancachar,51,7,2,1,0,2020-21
+Assam,Tinsukia,166,22,7,0,1,2020-21
+Assam,Udalguri,150,24,7,0,1,2020-21
+Assam,West Karbi Anglong,50,18,2,1,0,2020-21
+Chhattisgarh,Balod,196,30,6,0,1,2020-21
+Chhattisgarh,Baloda Bazar,219,31,6,1,1,2020-21
+Chhattisgarh,Balrampur,192,28,5,0,1,2020-21
+Chhattisgarh,Bastar,243,39,7,1,1,2020-21
+Chhattisgarh,Bemetara,127,20,4,1,1,2020-21
+Chhattisgarh,Bijapur,77,10,5,0,1,2020-21
+Chhattisgarh,Bilaspur,230,44,5,0,1,2020-21
+Chhattisgarh,Dantewada,76,13,4,0,1,2020-21
+Chhattisgarh,Dhamtari,182,26,4,1,1,2020-21
+Chhattisgarh,Durg,221,30,8,1,1,2020-21
+Chhattisgarh,Gariyaband,198,16,5,1,1,2020-21
+Chhattisgarh,Gaurella Pendra Marwahi,76,15,3,0,1,2020-21
+Chhattisgarh,Janjgir-Champa,273,47,11,1,1,2020-21
+Chhattisgarh,Jashpur,259,34,8,0,1,2020-21
+Chhattisgarh,Kabirdham,145,25,6,0,1,2020-21
+Chhattisgarh,Kanker,248,34,8,1,1,2020-21
+Chhattisgarh,Kondagaon,173,22,6,0,1,2020-21
+Chhattisgarh,Korba,285,39,6,0,1,2020-21
+Chhattisgarh,Korea,196,31,5,0,1,2020-21
+Chhattisgarh,Mahasamund,227,31,5,0,1,2020-21
+Chhattisgarh,Mungeli,124,29,3,0,1,2020-21
+Chhattisgarh,Narayanpur,63,8,1,0,1,2020-21
+Chhattisgarh,Raigarh,350,55,10,2,1,2020-21
+Chhattisgarh,Raipur,275,36,10,1,1,2020-21
+Chhattisgarh,Rajnandgaon,332,51,10,1,0,2020-21
+Chhattisgarh,Sukma,85,13,3,0,1,2020-21
+Chhattisgarh,Surajpur,209,36,9,0,1,2020-21
+Chhattisgarh,Surguja,204,28,6,0,0,2020-21
+Himachal Pradesh,Bilaspur,123,38,8,3,1,2020-21
+Himachal Pradesh,Chamba,177,44,5,6,0,2020-21
+Himachal Pradesh,Hamirpur,152,32,2,5,0,2020-21
+Himachal Pradesh,Kangra,449,85,19,22,1,2020-21
+Himachal Pradesh,Kinnaur,35,23,4,1,1,2020-21
+Himachal Pradesh,Kullu,99,23,5,4,1,2020-21
+Himachal Pradesh,Lahul And Spiti,36,16,3,0,1,2020-21
+Himachal Pradesh,Mandi,334,85,13,13,1,2020-21
+Himachal Pradesh,Shimla,245,115,17,12,1,2020-21
+Himachal Pradesh,Sirmaur,147,46,6,5,0,2020-21
+Himachal Pradesh,Solan,182,42,7,7,1,2020-21
+Himachal Pradesh,Una,136,23,9,5,1,2020-21
+Jharkhand,Bokaro,115,20,8,3,1,2020-21
+Jharkhand,Chatra,93,9,5,0,1,2020-21
+Jharkhand,Deoghar,180,8,7,1,1,2020-21
+Jharkhand,Dhanbad,140,33,9,0,0,2020-21
+Jharkhand,Dumka,248,35,10,0,0,2020-21
+Jharkhand,East Singhbum,117,11,6,1,1,2020-21
+Jharkhand,Garhwa,179,17,11,1,1,2020-21
+Jharkhand,Giridih,181,10,7,0,1,2020-21
+Jharkhand,Godda,243,2,10,0,1,2020-21
+Jharkhand,Gumla,140,16,8,0,1,2020-21
+Jharkhand,Hazaribagh,129,13,4,0,1,2020-21
+Jharkhand,Jamtara,108,5,5,0,1,2020-21
+Jharkhand,Khunti,65,8,4,0,1,2020-21
+Jharkhand,Koderma,97,7,6,0,1,2020-21
+Jharkhand,Latehar,74,7,4,0,1,2020-21
+Jharkhand,Lohardaga,121,10,5,0,1,2020-21
+Jharkhand,Pakur,171,24,7,2,1,2020-21
+Jharkhand,Palamu,343,16,13,1,1,2020-21
+Jharkhand,Ramgarh,243,25,11,1,1,2020-21
+Jharkhand,Ranchi,54,8,4,1,1,2020-21
+Jharkhand,Sahebganj,324,34,14,1,1,2020-21
+Jharkhand,Saraikela Kharsawan,136,12,6,0,1,2020-21
+Jharkhand,Simdega,192,13,6,0,1,2020-21
+Jharkhand,West Singhbhum,155,7,6,1,1,2020-21
+Jammu And Kashmir,Anantnag,139,65,5,0,0,2020-21
+Jammu And Kashmir,Bandipora,71,27,3,0,1,2020-21
+Jammu And Kashmir,Baramulla,188,86,7,0,0,2020-21
+Jammu And Kashmir,Budgam,136,70,9,0,1,2020-21
+Jammu And Kashmir,Doda,163,42,3,0,0,2020-21
+Jammu And Kashmir,Ganderbal,60,30,1,0,1,2020-21
+Jammu And Kashmir,Jammu,162,101,9,0,2,2020-21
+Jammu And Kashmir,Kathua,185,53,5,0,0,2020-21
+Jammu And Kashmir,Kishtwar,87,26,1,0,1,2020-21
+Jammu And Kashmir,Kulgam,118,45,3,0,1,2020-21
+Jammu And Kashmir,Kupwara,233,63,7,0,1,2020-21
+Jammu And Kashmir,Poonch,137,44,3,0,1,2020-21
+Jammu And Kashmir,Pulwama,97,47,3,0,1,2020-21
+Jammu And Kashmir,Rajouri,197,55,7,0,0,2020-21
+Jammu And Kashmir,Ramban,85,31,3,0,1,2020-21
+Jammu And Kashmir,Reasi,103,33,2,0,1,2020-21
+Jammu And Kashmir,Samba,82,21,3,0,1,2020-21
+Jammu And Kashmir,Shopian,57,16,2,0,1,2020-21
+Jammu And Kashmir,Srinagar,25,69,1,0,1,2020-21
+Jammu And Kashmir,Udhampur,146,49,2,0,1,2020-21

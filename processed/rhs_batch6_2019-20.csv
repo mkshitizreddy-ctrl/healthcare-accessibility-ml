@@ -1,0 +1,26 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Delhi,Central,14,72,2,4,6,2019-20
+Delhi,East,15,34,3,0,2,2019-20
+Delhi,New Delhi,13,74,2,3,5,2019-20
+Delhi,North,8,39,1,0,3,2019-20
+Delhi,North East,12,29,3,0,1,2019-20
+Delhi,North West,27,64,2,1,4,2019-20
+Delhi,Shahdara,39,33,2,0,6,2019-20
+Delhi,South,13,36,0,0,1,2019-20
+Delhi,South East,43,46,5,0,1,2019-20
+Delhi,South West,40,46,0,0,4,2019-20
+Delhi,West,34,73,3,1,5,2019-20
+Puducherry,Karaikal,17,11,1,1,1,2019-20
+Puducherry,Mahe,4,1,1,0,1,2019-20
+Puducherry,Puducherry,56,27,2,2,2,2019-20
+Puducherry,Yanam,4,0,0,0,1,2019-20
+Andaman And Nicobar Islands,Nicobar,40,4,1,0,1,2019-20
+Andaman And Nicobar Islands,North & Middle Andman,45,8,2,0,1,2019-20
+Andaman And Nicobar Islands,South Andman,39,15,1,0,1,2019-20
+Chandigarh,Chandigarh,0,48,2,1,2,2019-20
+Lakshadweep,Lakshadweep,11,4,3,2,1,2019-20
+The Dadra And Nagar Haveli And Daman And Diu,Dadra and Nagar Haveli,71,9,2,1,1,2019-20
+The Dadra And Nagar Haveli And Daman And Diu,Daman,20,3,1,0,1,2019-20
+The Dadra And Nagar Haveli And Daman And Diu,Diu,6,1,1,0,1,2019-20
+Ladakh,Kargil,117,16,4,0,1,2019-20
+Ladakh,Leh Ladakh,121,16,3,0,1,2019-20

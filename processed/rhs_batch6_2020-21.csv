@@ -1,0 +1,26 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Delhi,Central,1,76,0,4,6,2020-21
+Delhi,East,0,33,0,0,2,2020-21
+Delhi,New Delhi,1,77,0,3,4,2020-21
+Delhi,North,0,38,0,0,3,2020-21
+Delhi,North East,0,29,0,0,1,2020-21
+Delhi,North West,1,64,0,1,5,2020-21
+Delhi,Shahdara,0,34,0,0,5,2020-21
+Delhi,South,0,36,0,0,1,2020-21
+Delhi,South East,0,46,0,0,1,2020-21
+Delhi,South West,12,43,0,0,4,2020-21
+Delhi,West,0,73,0,1,5,2020-21
+Puducherry,Karaikal,17,11,1,1,1,2020-21
+Puducherry,Mahe,4,1,1,0,1,2020-21
+Puducherry,Pondicherry,56,27,2,2,2,2020-21
+Puducherry,Yanam,4,0,0,0,1,2020-21
+Chandigarh,Chandigarh,0,43,2,1,1,2020-21
+Andaman And Nicobar Islands,Nicobars,41,4,1,0,1,2020-21
+Andaman And Nicobar Islands,North And Middle Andaman,44,8,2,0,1,2020-21
+Andaman And Nicobar Islands,South Andamans,39,15,1,0,1,2020-21
+Lakshadweep,Lakshadweep District,7,4,3,2,1,2020-21
+The Dadra And Nagar Haveli And Daman And Diu,Dadra and Nagar Haveli,71,10,2,1,0,2020-21
+The Dadra And Nagar Haveli And Daman And Diu,Daman,20,3,1,0,1,2020-21
+The Dadra And Nagar Haveli And Daman And Diu,Diu,6,1,1,0,1,2020-21
+Ladakh,Kargil,150,16,4,0,1,2020-21
+Ladakh,Leh Ladakh,139,16,3,0,1,2020-21

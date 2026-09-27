@@ -1,0 +1,23 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Haryana,Ambala,106,22,4,2,1,2019-20,Ambala,070,exact,1128350
+Haryana,Bhiwani,139,26,6,3,1,2019-20,Bhiwani,081,exact,1634445
+Haryana,Charkhi Dadri,75,12,3,0,1,2019-20,Charki Dadri,000,fuzzy,
+Haryana,Faridabad,61,25,8,2,1,2019-20,Faridabad,088,exact,1809733
+Haryana,Fatehabad,131,22,5,1,1,2019-20,Fatehabad,078,exact,942011
+Haryana,Gurugram,80,29,3,2,1,2019-20,Gurugram,086,exact,1514432
+Haryana,Hisar,198,31,10,2,1,2019-20,Hisar,080,exact,1743931
+Haryana,Jhajjar,134,29,6,2,1,2019-20,Jhajjar,083,exact,958405
+Haryana,Jind,164,23,8,1,1,2019-20,Jind,077,exact,1334152
+Haryana,Kaithal,144,21,6,0,1,2019-20,Kaithal,073,exact,1074304
+Haryana,Karnal,147,25,6,1,1,2019-20,Karnal,074,exact,1505324
+Haryana,Kurukshetra,117,18,6,0,1,2019-20,Kurukshetra,072,exact,964655
+Haryana,Mahendragarh,135,18,7,1,1,2019-20,Mahendragarh,084,exact,922088
+Haryana,Mewat,94,17,3,0,1,2019-20,Nuh,087,crosswalk,1089263
+Haryana,Palwal,95,18,7,0,1,2019-20,Palwal,089,exact,1042708
+Haryana,Panchkula,46,9,3,0,1,2019-20,Panchkula,069,exact,561293
+Haryana,Panipat,89,22,6,0,1,2019-20,Panipat,075,exact,1205437
+Haryana,Rewari,113,16,5,1,1,2019-20,Rewari,085,exact,900332
+Haryana,Rohtak,116,21,7,0,1,2019-20,Rohtak,082,exact,1061204
+Haryana,Sirsa,156,28,8,1,1,2019-20,Sirsa,079,exact,1295189
+Haryana,Sonipat,164,34,8,1,1,2019-20,Sonipat,076,exact,1450001
+Haryana,Yamunanagar,113,19,6,1,1,2019-20,Yamunanagar,071,exact,1214205

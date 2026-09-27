@@ -1,0 +1,118 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Assam,Baksa,157,35,8,0,1,2020-21,Baksa,324,exact,950075
+Assam,Barpeta,264,48,11,1,1,2020-21,Barpeta,303,exact,1693622
+Assam,Biswanath,135,26,3,2,0,2020-21,Biswanath,000,exact,
+Assam,Bongaigaon,108,29,4,0,1,2020-21,Bongaigaon,319,exact,738804
+Assam,Cachar,269,32,7,0,1,2020-21,Cachar,316,exact,1736617
+Assam,Charaideo,70,19,2,1,0,2020-21,Charaideo,000,exact,
+Assam,Chirang,87,24,4,0,1,2020-21,Chirang,320,exact,482162
+Assam,Darrang,159,33,7,0,1,2020-21,Darrang,325,exact,928500
+Assam,Dhemaji,98,24,5,0,1,2020-21,Dhemaji,308,exact,686133
+Assam,Dhubri,187,34,7,1,1,2020-21,Dhubri,301,exact,1949258
+Assam,Dibrugarh,234,31,10,0,0,2020-21,Dibrugarh,310,exact,1326335
+Assam,Dima Hasao,76,12,3,0,1,2020-21,Dima Hasao,315,exact,214102
+Assam,Goalpara,155,37,7,0,1,2020-21,Goalpara,302,exact,1008183
+Assam,Golaghat,143,39,9,1,1,2020-21,Golaghat,313,exact,1066888
+Assam,Hailakandi,107,13,4,0,1,2020-21,Hailakandi,318,exact,659296
+Assam,Hojai,94,7,5,0,0,2020-21,Hojai,000,exact,
+Assam,Jorhat,110,35,6,1,0,2020-21,Jorhat,312,exact,1092256
+Assam,Kamrup,280,65,13,1,1,2020-21,Kamrup,321,exact,1517542
+Assam,Kamrup Metro,50,45,3,0,1,2020-21,Kamrup Metro,322,exact,1253938
+Assam,Karbi Anglong,104,24,6,0,0,2020-21,Karbi Anglong,314,exact,956313
+Assam,Karimganj,232,29,7,0,1,2020-21,Karimganj,317,exact,1228686
+Assam,Kokrajhar,161,46,2,1,1,2020-21,Kokrajhar,300,exact,887142
+Assam,Lakhimpur,149,29,8,1,1,2020-21,Lakhimpur,307,exact,1042137
+Assam,Majuli,34,8,2,1,0,2020-21,Majuli,000,exact,
+Assam,Marigaon,122,34,6,0,1,2020-21,Marigaon,304,exact,957423
+Assam,Nagaon,258,72,13,0,1,2020-21,Nagaon,305,exact,2823768
+Assam,Nalbari,124,44,11,0,1,2020-21,Nalbari,323,exact,771639
+Assam,Sivasagar,150,27,2,1,1,2020-21,Sivasagar,311,exact,1151050
+Assam,Sonitpur,144,29,6,0,1,2020-21,Sonitpur,306,exact,1924110
+Assam,South Salmara Mancachar,51,7,2,1,0,2020-21,South Salmara Mancachar,000,exact,
+Assam,Tinsukia,166,22,7,0,1,2020-21,Tinsukia,309,exact,1327929
+Assam,Udalguri,150,24,7,0,1,2020-21,Udalguri,326,exact,831668
+Assam,West Karbi Anglong,50,18,2,1,0,2020-21,West Karbi Anglong,000,exact,
+Chhattisgarh,Balod,196,30,6,0,1,2020-21,Balod,000,exact,
+Chhattisgarh,Baloda Bazar,219,31,6,1,1,2020-21,Balodabazar-Bhatapara,000,crosswalk,
+Chhattisgarh,Balrampur,192,28,5,0,1,2020-21,Balrampur-Ramanujganj,000,crosswalk,
+Chhattisgarh,Bastar,243,39,7,1,1,2020-21,Bastar,414,exact,1413199
+Chhattisgarh,Bemetara,127,20,4,1,1,2020-21,Bemetara,000,exact,
+Chhattisgarh,Bijapur,77,10,5,0,1,2020-21,Bijapur,417,exact,255230
+Chhattisgarh,Bilaspur,230,44,5,0,1,2020-21,Bilaspur,406,exact,2663629
+Chhattisgarh,Dantewada,76,13,4,0,1,2020-21,Dakshin Bastar Dantewada,416,crosswalk,533638
+Chhattisgarh,Dhamtari,182,26,4,1,1,2020-21,Dhamtari,412,exact,799781
+Chhattisgarh,Durg,221,30,8,1,1,2020-21,Durg,409,exact,3343872
+Chhattisgarh,Gariyaband,198,16,5,1,1,2020-21,Gariyaband,000,exact,
+Chhattisgarh,Gaurella Pendra Marwahi,76,15,3,0,1,2020-21,Gaurela-Pendra-Marwahi,000,fuzzy,
+Chhattisgarh,Janjgir-Champa,273,47,11,1,1,2020-21,Janjgir-Champa,405,exact,1619707
+Chhattisgarh,Jashpur,259,34,8,0,1,2020-21,Jashpur,402,exact,851669
+Chhattisgarh,Kabirdham,145,25,6,0,1,2020-21,Kabeerdham,407,fuzzy,822526
+Chhattisgarh,Kanker,248,34,8,1,1,2020-21,Uttar Bastar Kanker,413,crosswalk,748941
+Chhattisgarh,Kondagaon,173,22,6,0,1,2020-21,Kondagaon,000,exact,
+Chhattisgarh,Korba,285,39,6,0,1,2020-21,Korba,404,exact,1206640
+Chhattisgarh,Korea,196,31,5,0,1,2020-21,Korea,400,exact,658917
+Chhattisgarh,Mahasamund,227,31,5,0,1,2020-21,Mahasamund,411,exact,1032754
+Chhattisgarh,Mungeli,124,29,3,0,1,2020-21,Mungeli,000,exact,
+Chhattisgarh,Narayanpur,63,8,1,0,1,2020-21,Narayanpur,415,exact,139820
+Chhattisgarh,Raigarh,350,55,10,2,1,2020-21,Raigarh,403,exact,1493984
+Chhattisgarh,Raipur,275,36,10,1,1,2020-21,Raipur,410,exact,4063872
+Chhattisgarh,Rajnandgaon,332,51,10,1,0,2020-21,Rajnandgaon,408,exact,1537133
+Chhattisgarh,Sukma,85,13,3,0,1,2020-21,Sukma,000,exact,
+Chhattisgarh,Surajpur,209,36,9,0,1,2020-21,Surajpur,000,exact,
+Chhattisgarh,Surguja,204,28,6,0,0,2020-21,Surguja,401,exact,2359886
+Himachal Pradesh,Bilaspur,123,38,8,3,1,2020-21,Bilaspur,030,exact,381956
+Himachal Pradesh,Chamba,177,44,5,6,0,2020-21,Chamba,023,exact,519080
+Himachal Pradesh,Hamirpur,152,32,2,5,0,2020-21,Hamirpur,028,exact,454768
+Himachal Pradesh,Kangra,449,85,19,22,1,2020-21,Kangra,024,exact,1510075
+Himachal Pradesh,Kinnaur,35,23,4,1,1,2020-21,Kinnaur,034,exact,84121
+Himachal Pradesh,Kullu,99,23,5,4,1,2020-21,Kullu,026,exact,437903
+Himachal Pradesh,Lahul And Spiti,36,16,3,0,1,2020-21,Lahaul And Spiti,025,fuzzy,31564
+Himachal Pradesh,Mandi,334,85,13,13,1,2020-21,Mandi,027,exact,999777
+Himachal Pradesh,Shimla,245,115,17,12,1,2020-21,Shimla,033,exact,814010
+Himachal Pradesh,Sirmaur,147,46,6,5,0,2020-21,Sirmaur,032,exact,529855
+Himachal Pradesh,Solan,182,42,7,7,1,2020-21,Solan,031,exact,580320
+Himachal Pradesh,Una,136,23,9,5,1,2020-21,Una,029,exact,521173
+Jharkhand,Bokaro,115,20,8,3,1,2020-21,Bokaro,355,exact,2062330
+Jharkhand,Chatra,93,9,5,0,1,2020-21,Chatra,347,exact,1042886
+Jharkhand,Deoghar,180,8,7,1,1,2020-21,Deoghar,350,exact,1492073
+Jharkhand,Dhanbad,140,33,9,0,0,2020-21,Dhanbad,354,exact,2684487
+Jharkhand,Dumka,248,35,10,0,0,2020-21,Dumka,362,exact,1321442
+Jharkhand,East Singhbum,117,11,6,1,1,2020-21,East Singhbum,357,exact,2293919
+Jharkhand,Garhwa,179,17,11,1,1,2020-21,Garhwa,346,exact,1322784
+Jharkhand,Giridih,181,10,7,0,1,2020-21,Giridih,349,exact,2445474
+Jharkhand,Godda,243,2,10,0,1,2020-21,Godda,351,exact,1313551
+Jharkhand,Gumla,140,16,8,0,1,2020-21,Gumla,366,exact,1025213
+Jharkhand,Hazaribagh,129,13,4,0,1,2020-21,Hazaribagh,360,exact,1734495
+Jharkhand,Jamtara,108,5,5,0,1,2020-21,Jamtara,363,exact,791042
+Jharkhand,Khunti,65,8,4,0,1,2020-21,Khunti,365,exact,531885
+Jharkhand,Koderma,97,7,6,0,1,2020-21,Koderma,348,exact,716259
+Jharkhand,Latehar,74,7,4,0,1,2020-21,Latehar,359,exact,726978
+Jharkhand,Lohardaga,121,10,5,0,1,2020-21,Lohardaga,356,exact,461790
+Jharkhand,Pakur,171,24,7,2,1,2020-21,Pakur,353,exact,900422
+Jharkhand,Palamu,343,16,13,1,1,2020-21,Palamu,358,exact,1939869
+Jharkhand,Ramgarh,243,25,11,1,1,2020-21,Ramgarh,361,exact,949443
+Jharkhand,Ranchi,54,8,4,1,1,2020-21,Ranchi,364,exact,2914253
+Jharkhand,Sahebganj,324,34,14,1,1,2020-21,Sahebganj,352,exact,1150567
+Jharkhand,Saraikela Kharsawan,136,12,6,0,1,2020-21,Saraikela Kharsawan,369,exact,1065056
+Jharkhand,Simdega,192,13,6,0,1,2020-21,Simdega,367,exact,599578
+Jharkhand,West Singhbhum,155,7,6,1,1,2020-21,West Singhbhum,368,exact,1502338
+Jammu And Kashmir,Anantnag,139,65,5,0,0,2020-21,Anantnag,014,exact,1078692
+Jammu And Kashmir,Bandipora,71,27,3,0,1,2020-21,Bandipora,009,exact,392232
+Jammu And Kashmir,Baramulla,188,86,7,0,0,2020-21,Baramulla,008,exact,1008039
+Jammu And Kashmir,Budgam,136,70,9,0,1,2020-21,Budgam,002,exact,753745
+Jammu And Kashmir,Doda,163,42,3,0,0,2020-21,Doda,016,exact,409936
+Jammu And Kashmir,Ganderbal,60,30,1,0,1,2020-21,Ganderbal,011,exact,297446
+Jammu And Kashmir,Jammu,162,101,9,0,2,2020-21,Jammu,021,exact,1529958
+Jammu And Kashmir,Kathua,185,53,5,0,0,2020-21,Kathua,007,exact,616435
+Jammu And Kashmir,Kishtwar,87,26,1,0,1,2020-21,Kishtwar,018,exact,230696
+Jammu And Kashmir,Kulgam,118,45,3,0,1,2020-21,Kulgam,015,exact,424483
+Jammu And Kashmir,Kupwara,233,63,7,0,1,2020-21,Kupwara,001,exact,870354
+Jammu And Kashmir,Poonch,137,44,3,0,1,2020-21,Poonch,005,exact,476835
+Jammu And Kashmir,Pulwama,97,47,3,0,1,2020-21,Pulwama,012,exact,560440
+Jammu And Kashmir,Rajouri,197,55,7,0,0,2020-21,Rajouri,006,exact,642415
+Jammu And Kashmir,Ramban,85,31,3,0,1,2020-21,Ramban,017,exact,283713
+Jammu And Kashmir,Reasi,103,33,2,0,1,2020-21,Reasi,020,exact,314667
+Jammu And Kashmir,Samba,82,21,3,0,1,2020-21,Samba,022,exact,318898
+Jammu And Kashmir,Shopian,57,16,2,0,1,2020-21,Shopian,013,exact,266215
+Jammu And Kashmir,Srinagar,25,69,1,0,1,2020-21,Srinagar,010,exact,1236829
+Jammu And Kashmir,Udhampur,146,49,2,0,1,2020-21,Udhampur,019,exact,554985

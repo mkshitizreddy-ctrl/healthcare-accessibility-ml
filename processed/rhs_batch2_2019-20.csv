@@ -1,0 +1,142 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Madhya Pradesh,Agar Malwa,77,6,3,0,1,2019-20
+Madhya Pradesh,Alirajpur,185,16,6,0,1,2019-20
+Madhya Pradesh,Anuppur,169,18,8,0,1,2019-20
+Madhya Pradesh,Ashok Nagar,132,11,2,2,1,2019-20
+Madhya Pradesh,Balaghat,292,38,7,3,1,2019-20
+Madhya Pradesh,Barwani,330,30,8,2,1,2019-20
+Madhya Pradesh,Betul,323,36,9,1,1,2019-20
+Madhya Pradesh,Bhind,210,28,7,1,1,2019-20
+Madhya Pradesh,Bhopal,66,52,2,3,1,2019-20
+Madhya Pradesh,Burhanpur,98,15,4,0,1,2019-20
+Madhya Pradesh,Chhatarpur,235,40,10,0,1,2019-20
+Madhya Pradesh,Chhindwada,305,69,11,4,1,2019-20
+Madhya Pradesh,Damoh,176,18,6,1,1,2019-20
+Madhya Pradesh,Datia,110,13,4,2,1,2019-20
+Madhya Pradesh,Dewas,209,25,7,2,1,2019-20
+Madhya Pradesh,Dhar,475,52,15,1,1,2019-20
+Madhya Pradesh,Dindori,191,22,7,0,1,2019-20
+Madhya Pradesh,Guna,160,19,5,1,1,2019-20
+Madhya Pradesh,Gwalior,119,55,3,4,1,2019-20
+Madhya Pradesh,Harda,79,7,4,0,1,2019-20
+Madhya Pradesh,Hoshangabad,157,17,6,2,1,2019-20
+Madhya Pradesh,Indore,115,58,6,3,1,2019-20
+Madhya Pradesh,Jabalpur,178,51,6,3,1,2019-20
+Madhya Pradesh,Jhabua,292,21,5,2,1,2019-20
+Madhya Pradesh,Katni,163,20,6,1,1,2019-20
+Madhya Pradesh,Khandwa,181,31,7,1,1,2019-20
+Madhya Pradesh,Khargone,317,63,10,2,1,2019-20
+Madhya Pradesh,Mandla,274,34,8,1,1,2019-20
+Madhya Pradesh,Mandsaur,180,40,7,2,1,2019-20
+Madhya Pradesh,Morena,237,27,7,3,1,2019-20
+Madhya Pradesh,Narsinghpur,136,23,7,1,1,2019-20
+Madhya Pradesh,Neemuch,103,18,3,2,1,2019-20
+Madhya Pradesh,Panna,155,17,6,0,1,2019-20
+Madhya Pradesh,Raisen,187,21,7,3,1,2019-20
+Madhya Pradesh,Rajgarh,215,30,5,4,1,2019-20
+Madhya Pradesh,Ratlam,197,30,6,2,1,2019-20
+Madhya Pradesh,Rewa,316,40,9,3,1,2019-20
+Madhya Pradesh,Sagar,266,41,11,3,1,2019-20
+Madhya Pradesh,Satna,309,50,9,2,1,2019-20
+Madhya Pradesh,Sehore,163,24,8,2,1,2019-20
+Madhya Pradesh,Seoni,283,32,5,3,1,2019-20
+Madhya Pradesh,Shahdol,233,30,7,1,1,2019-20
+Madhya Pradesh,Shajapur,117,17,4,3,1,2019-20
+Madhya Pradesh,Sheopur,107,12,3,0,1,2019-20
+Madhya Pradesh,Shivpuri,263,15,9,0,1,2019-20
+Madhya Pradesh,Sidhi,196,28,6,0,1,2019-20
+Madhya Pradesh,Singroli,206,15,7,0,1,2019-20
+Madhya Pradesh,Tikamgarh,207,24,7,0,1,2019-20
+Madhya Pradesh,Ujjain,208,37,5,6,1,2019-20
+Madhya Pradesh,Umaria,124,13,3,0,1,2019-20
+Madhya Pradesh,Vidisha,200,27,7,2,1,2019-20
+Bihar,Araria,221,44,2,1,1,2019-20
+Bihar,Arwal,63,33,0,0,1,2019-20
+Bihar,Aurangabad,248,72,3,1,1,2019-20
+Bihar,Banka,251,42,3,0,1,2019-20
+Bihar,Begusarai,292,44,2,1,1,2019-20
+Bihar,Bhagalpur,330,74,3,2,1,2019-20
+Bihar,Bhojpur,300,45,3,1,1,2019-20
+Bihar,Buxar,149,39,0,1,1,2019-20
+Bihar,Champaran East,414,104,3,0,1,2019-20
+Bihar,Champaran West,554,55,0,1,1,2019-20
+Bihar,Darbhanga,259,71,2,2,0,2019-20
+Bihar,Gaya,474,91,1,2,1,2019-20
+Bihar,Gopalganj,189,37,3,1,1,2019-20
+Bihar,Jamui,234,39,3,0,1,2019-20
+Bihar,Jehanabad,110,38,1,0,1,2019-20
+Bihar,Kaimur,178,30,2,1,1,2019-20
+Bihar,Katihar,341,63,1,2,1,2019-20
+Bihar,Khagaria,187,32,1,0,1,2019-20
+Bihar,Kishanganj,155,19,1,0,1,2019-20
+Bihar,Lakhisarai,102,21,1,0,1,2019-20
+Bihar,Madhepura,272,37,0,1,1,2019-20
+Bihar,Madhubani,439,96,1,1,1,2019-20
+Bihar,Munger,154,34,0,1,1,2019-20
+Bihar,Muzaffarpur,500,103,1,0,1,2019-20
+Bihar,Nalanda,367,70,4,2,1,2019-20
+Bihar,Nawada,173,52,1,1,1,2019-20
+Bihar,Patna,382,106,4,4,0,2019-20
+Bihar,Purnia,473,56,2,1,1,2019-20
+Bihar,Rohtas,249,56,2,2,1,2019-20
+Bihar,Saharsa,168,44,0,0,1,2019-20
+Bihar,Samastipur,358,70,1,3,1,2019-20
+Bihar,Saran,396,63,3,1,1,2019-20
+Bihar,Sheikhpura,104,23,1,0,1,2019-20
+Bihar,Sheohar,96,14,0,0,1,2019-20
+Bihar,Sitamarhi,208,57,1,0,1,2019-20
+Bihar,Siwan,379,68,3,1,1,2019-20
+Bihar,Supaul,174,33,2,0,1,2019-20
+Bihar,Vaishali,337,52,3,1,1,2019-20
+Punjab,Amritsar,194,49,7,2,1,2019-20
+Punjab,Barnala,76,12,4,1,1,2019-20
+Punjab,Bathinda,143,24,9,3,1,2019-20
+Punjab,Faridkot,62,11,3,1,1,2019-20
+Punjab,Fatehgarh Sahib,74,15,5,1,1,2019-20
+Punjab,Ferozepur,122,19,4,1,1,2019-20
+Punjab,Fazilka,111,22,5,1,1,2019-20
+Punjab,Gurdaspur,227,33,13,1,1,2019-20
+Punjab,Pathankot,68,11,4,0,1,2019-20
+Punjab,Hoshiarpur,250,33,12,3,1,2019-20
+Punjab,Jalandhar,211,38,14,2,1,2019-20
+Punjab,Kapurthala,89,14,5,3,1,2019-20
+Punjab,Ludhiana,278,47,10,4,1,2019-20
+Punjab,Mansa,105,13,4,2,1,2019-20
+Punjab,Moga,123,23,6,0,1,2019-20
+Punjab,SAS Nagar,77,19,7,2,1,2019-20
+Punjab,Muktsar,104,21,5,3,1,2019-20
+Punjab,Nawanshehar,96,18,5,1,1,2019-20
+Punjab,Patiala,205,41,11,3,1,2019-20
+Punjab,Ropar,85,13,3,1,1,2019-20
+Punjab,Sangrur,194,33,8,4,1,2019-20
+Punjab,Tarn Taran,153,18,11,2,1,2019-20
+Odisha,Anugul,166,31,9,3,1,2019-20
+Odisha,Balangir,226,48,15,2,1,2019-20
+Odisha,Baleshwar,275,74,17,1,1,2019-20
+Odisha,Bargarh,204,49,15,1,1,2019-20
+Odisha,Baudh,67,12,5,0,1,2019-20
+Odisha,Bhadrak,178,54,7,0,1,2019-20
+Odisha,Cuttack,332,73,22,2,1,2019-20
+Odisha,Deogarh,42,8,4,0,1,2019-20
+Odisha,Dhenkanal,167,38,10,2,1,2019-20
+Odisha,Gajapati,136,22,8,0,1,2019-20
+Odisha,Ganjam,460,101,28,4,1,2019-20
+Odisha,Jagatsinghpur,189,35,11,0,1,2019-20
+Odisha,Jajapur,260,62,12,0,1,2019-20
+Odisha,Jharsuguda,66,20,6,0,1,2019-20
+Odisha,Kalahandi,242,46,18,1,1,2019-20
+Odisha,Kandhamal,172,40,14,1,1,2019-20
+Odisha,Kendrapara,227,46,8,1,1,2019-20
+Odisha,Keonjhar,351,67,17,2,1,2019-20
+Odisha,Khordha,202,74,16,0,2,2019-20
+Odisha,Koraput,307,51,16,0,1,2019-20
+Odisha,Malkangiri,158,27,6,2,1,2019-20
+Odisha,Mayurbhanj,589,88,28,3,1,2019-20
+Odisha,Nabarangapur,289,41,10,1,1,2019-20
+Odisha,Nayagarh,166,38,12,1,1,2019-20
+Odisha,Nuapada,95,17,5,1,1,2019-20
+Odisha,Puri,241,51,17,0,1,2019-20
+Odisha,Rayagada,235,39,11,1,1,2019-20
+Odisha,Sambalpur,167,36,11,2,1,2019-20
+Odisha,Sonapur,89,20,5,1,1,2019-20
+Odisha,Sundargarh,390,69,21,1,2,2019-20

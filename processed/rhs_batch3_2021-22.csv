@@ -1,0 +1,118 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Assam,Baksa,157,35,8,0,1,2021-22
+Assam,Barpeta,264,50,11,1,1,2021-22
+Assam,Biswanath,139,26,3,2,0,2021-22
+Assam,Bongaigaon,108,29,4,0,1,2021-22
+Assam,Cachar,270,35,7,0,1,2021-22
+Assam,Charaideo,70,19,2,1,0,2021-22
+Assam,Chirang,87,24,4,0,1,2021-22
+Assam,Darrang,159,34,7,0,1,2021-22
+Assam,Dhemaji,98,23,5,0,1,2021-22
+Assam,Dhubri,192,34,7,1,1,2021-22
+Assam,Dibrugarh,234,31,10,0,0,2021-22
+Assam,Dima Hasao,76,12,3,0,1,2021-22
+Assam,Goalpara,155,37,7,0,1,2021-22
+Assam,Golaghat,143,39,9,1,1,2021-22
+Assam,Hailakandi,107,13,4,0,1,2021-22
+Assam,Hojai,94,7,5,0,1,2021-22
+Assam,Jorhat,110,36,6,1,0,2021-22
+Assam,Kamrup,280,65,13,1,1,2021-22
+Assam,Kamrup Metro,50,48,3,0,1,2021-22
+Assam,Karbi Anglong,115,24,6,0,0,2021-22
+Assam,Karimganj,232,29,7,0,1,2021-22
+Assam,Kokrajhar,161,46,2,1,1,2021-22
+Assam,Lakhimpur,149,29,9,1,0,2021-22
+Assam,Majuli,34,8,2,0,1,2021-22
+Assam,Marigaon,122,34,6,0,1,2021-22
+Assam,Nagaon,258,72,13,0,1,2021-22
+Assam,Nalbari,124,44,11,0,1,2021-22
+Assam,Sivasagar,150,27,2,1,1,2021-22
+Assam,Sonitpur,146,29,6,0,1,2021-22
+Assam,South Salmara Mancachar,51,7,2,1,0,2021-22
+Assam,Tinsukia,166,22,8,1,1,2021-22
+Assam,Udalguri,150,24,7,0,1,2021-22
+Assam,West Karbi Anglong,50,18,2,1,0,2021-22
+Chhattisgarh,Balod,196,30,6,0,1,2021-22
+Chhattisgarh,Baloda Bazar,219,31,6,1,1,2021-22
+Chhattisgarh,Balrampur,192,28,6,0,1,2021-22
+Chhattisgarh,Bastar,243,40,7,1,1,2021-22
+Chhattisgarh,Bemetara,127,20,4,1,1,2021-22
+Chhattisgarh,Bijapur,77,10,5,0,1,2021-22
+Chhattisgarh,Bilaspur,228,44,5,0,1,2021-22
+Chhattisgarh,Dantewada,76,13,4,0,1,2021-22
+Chhattisgarh,Dhamtari,182,26,4,1,1,2021-22
+Chhattisgarh,Durg,221,30,8,1,1,2021-22
+Chhattisgarh,Garyaband,198,16,5,1,1,2021-22
+Chhattisgarh,Gaurella Pendra Marwahi,76,15,3,0,1,2021-22
+Chhattisgarh,Janjgir-Champa,273,47,11,1,1,2021-22
+Chhattisgarh,Jashpur,259,35,8,0,1,2021-22
+Chhattisgarh,Kanker,249,34,8,1,1,2021-22
+Chhattisgarh,Kawardha,145,25,6,0,1,2021-22
+Chhattisgarh,Kondagaon,173,22,6,0,1,2021-22
+Chhattisgarh,Korba,285,39,6,0,1,2021-22
+Chhattisgarh,Korya,196,31,5,0,1,2021-22
+Chhattisgarh,Mahasamund,227,31,5,0,1,2021-22
+Chhattisgarh,Mungali,124,29,3,0,1,2021-22
+Chhattisgarh,Narayanpur,63,8,1,0,1,2021-22
+Chhattisgarh,Raigarh,350,55,10,2,1,2021-22
+Chhattisgarh,Raipur,275,35,10,1,1,2021-22
+Chhattisgarh,Rajnandgaon,332,51,10,1,1,2021-22
+Chhattisgarh,Sukma,95,13,3,0,1,2021-22
+Chhattisgarh,Surajpur,209,36,9,0,1,2021-22
+Chhattisgarh,Surguja,204,28,6,0,0,2021-22
+Himachal Pradesh,Bilaspur,124,37,8,3,1,2021-22
+Himachal Pradesh,Chamba,178,46,5,7,0,2021-22
+Himachal Pradesh,Hamirpur,153,32,2,5,0,2021-22
+Himachal Pradesh,Kangra,439,81,20,21,1,2021-22
+Himachal Pradesh,Kinnaur,35,25,4,1,1,2021-22
+Himachal Pradesh,Kullu,99,23,5,4,1,2021-22
+Himachal Pradesh,Lahul And Spiti,35,17,3,0,1,2021-22
+Himachal Pradesh,Mandi,339,82,12,13,1,2021-22
+Himachal Pradesh,Shimla,245,114,17,13,1,2021-22
+Himachal Pradesh,Sirmaur,148,46,6,5,0,2021-22
+Himachal Pradesh,Solan,182,43,7,7,1,2021-22
+Himachal Pradesh,Una,138,24,8,5,1,2021-22
+Jharkhand,Bokaro,115,25,9,3,1,2021-22
+Jharkhand,Chatra,93,9,5,0,1,2021-22
+Jharkhand,Deoghar,180,10,7,1,1,2021-22
+Jharkhand,Dhanbad,140,35,9,0,1,2021-22
+Jharkhand,Dumka,248,35,10,0,0,2021-22
+Jharkhand,Garhwa,117,11,6,1,1,2021-22
+Jharkhand,Giridih,179,17,11,0,1,2021-22
+Jharkhand,Godda,181,10,7,0,1,2021-22
+Jharkhand,Gumla,243,2,10,0,1,2021-22
+Jharkhand,Hazaribagh,140,16,8,1,0,2021-22
+Jharkhand,Jamtara,129,13,4,0,1,2021-22
+Jharkhand,Khunti,108,5,5,0,1,2021-22
+Jharkhand,Koderma,65,8,4,0,1,2021-22
+Jharkhand,Latehar,97,7,6,0,1,2021-22
+Jharkhand,Lohardaga,74,7,4,0,1,2021-22
+Jharkhand,Pakur,121,10,5,0,1,2021-22
+Jharkhand,Palamu,171,24,7,2,0,2021-22
+Jharkhand,Pashchmi Singhbhum,343,16,13,1,1,2021-22
+Jharkhand,Purbi Singhbum,243,25,11,1,1,2021-22
+Jharkhand,Ramgarh,54,8,4,0,1,2021-22
+Jharkhand,Ranchi,324,35,15,1,1,2021-22
+Jharkhand,Sahebganj,136,12,6,1,1,2021-22
+Jharkhand,Saraikela Kharsawan,192,13,6,1,1,2021-22
+Jharkhand,Simdega,155,8,6,0,1,2021-22
+Jammu And Kashmir,Anantnag,139,65,5,0,0,2021-22
+Jammu And Kashmir,Bandipora,71,27,3,0,1,2021-22
+Jammu And Kashmir,Baramulla,188,86,7,0,0,2021-22
+Jammu And Kashmir,Budgam,136,70,9,0,1,2021-22
+Jammu And Kashmir,Doda,163,42,3,0,0,2021-22
+Jammu And Kashmir,Ganderbal,60,30,1,0,1,2021-22
+Jammu And Kashmir,Jammu,162,101,9,0,1,2021-22
+Jammu And Kashmir,Kathua,185,53,5,0,0,2021-22
+Jammu And Kashmir,Kishtwar,87,26,1,0,1,2021-22
+Jammu And Kashmir,Kulgam,118,45,3,0,1,2021-22
+Jammu And Kashmir,Kupwara,233,63,7,0,1,2021-22
+Jammu And Kashmir,Poonch,137,44,3,0,1,2021-22
+Jammu And Kashmir,Pulwama,97,47,3,0,1,2021-22
+Jammu And Kashmir,Rajouri,197,55,7,0,0,2021-22
+Jammu And Kashmir,Ramban,85,31,3,0,1,2021-22
+Jammu And Kashmir,Reasi,103,33,2,0,1,2021-22
+Jammu And Kashmir,Samba,82,21,3,0,1,2021-22
+Jammu And Kashmir,Shopian,57,16,2,0,1,2021-22
+Jammu And Kashmir,Srinagar,25,69,1,0,1,2021-22
+Jammu And Kashmir,Udhampur,146,49,2,0,1,2021-22

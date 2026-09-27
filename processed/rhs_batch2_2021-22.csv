@@ -1,0 +1,166 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year
+Madhya Pradesh,Agar Malwa,78,7,1,2,1,2021-22
+Madhya Pradesh,Alirajpur,194,15,8,0,1,2021-22
+Madhya Pradesh,Anuppur,162,22,9,0,1,2021-22
+Madhya Pradesh,Ashoknagar,133,11,3,2,1,2021-22
+Madhya Pradesh,Balaghat,294,42,7,3,1,2021-22
+Madhya Pradesh,Barwani,332,28,11,2,1,2021-22
+Madhya Pradesh,Betul,321,38,10,1,1,2021-22
+Madhya Pradesh,Bhind,209,32,8,2,1,2021-22
+Madhya Pradesh,Bhopal,66,59,3,4,1,2021-22
+Madhya Pradesh,Burhanpur,101,17,4,0,1,2021-22
+Madhya Pradesh,Chhatarpur,239,42,11,1,1,2021-22
+Madhya Pradesh,Chhindwara,313,71,9,6,1,2021-22
+Madhya Pradesh,Damoh,178,20,6,1,1,2021-22
+Madhya Pradesh,Datia,110,13,4,2,1,2021-22
+Madhya Pradesh,Dewas,211,31,5,4,1,2021-22
+Madhya Pradesh,Dhar,477,53,15,4,1,2021-22
+Madhya Pradesh,Dindori,189,25,7,0,1,2021-22
+Madhya Pradesh,East Nimar,185,31,9,1,1,2021-22
+Madhya Pradesh,Guna,162,22,6,1,1,2021-22
+Madhya Pradesh,Gwalior,121,50,6,4,1,2021-22
+Madhya Pradesh,Harda,81,8,4,0,1,2021-22
+Madhya Pradesh,Hoshangabad,161,21,5,3,1,2021-22
+Madhya Pradesh,Indore,118,62,7,7,1,2021-22
+Madhya Pradesh,Jabalpur,181,54,7,5,1,2021-22
+Madhya Pradesh,Jhabua,294,19,8,2,1,2021-22
+Madhya Pradesh,Katni,169,25,7,1,1,2021-22
+Madhya Pradesh,Khargone,317,60,11,3,1,2021-22
+Madhya Pradesh,Mandla,275,33,10,1,1,2021-22
+Madhya Pradesh,Mandsaur,179,41,7,3,1,2021-22
+Madhya Pradesh,Morena,239,26,5,5,1,2021-22
+Madhya Pradesh,Narsinghpur,139,24,6,3,1,2021-22
+Madhya Pradesh,Neemuch,105,19,2,3,1,2021-22
+Madhya Pradesh,Niwari,62,9,1,0,1,2021-22
+Madhya Pradesh,Panna,157,18,5,1,1,2021-22
+Madhya Pradesh,Raisen,188,27,6,6,1,2021-22
+Madhya Pradesh,Rajgarh,217,30,6,4,1,2021-22
+Madhya Pradesh,Ratlam,197,34,8,2,1,2021-22
+Madhya Pradesh,Rewa,322,44,10,3,1,2021-22
+Madhya Pradesh,Sagar,268,45,9,5,1,2021-22
+Madhya Pradesh,Satna,307,53,12,3,1,2021-22
+Madhya Pradesh,Sehore,162,25,8,3,1,2021-22
+Madhya Pradesh,Seoni,284,38,5,3,1,2021-22
+Madhya Pradesh,Shahdol,229,32,8,2,1,2021-22
+Madhya Pradesh,Shajapur,119,18,5,3,1,2021-22
+Madhya Pradesh,Sheopur,106,13,4,0,1,2021-22
+Madhya Pradesh,Shivpuri,251,20,9,0,1,2021-22
+Madhya Pradesh,Sidhi,194,29,7,0,1,2021-22
+Madhya Pradesh,Singrauli,205,19,7,0,1,2021-22
+Madhya Pradesh,Tikamgarh,148,14,7,0,1,2021-22
+Madhya Pradesh,Ujjain,211,39,6,6,1,2021-22
+Madhya Pradesh,Umaria,125,13,5,0,1,2021-22
+Madhya Pradesh,Vidisha,202,31,7,2,1,2021-22
+Bihar,Araria,221,39,6,1,1,2021-22
+Bihar,Arwal,62,30,3,0,1,2021-22
+Bihar,Aurangabad,248,68,8,1,1,2021-22
+Bihar,Banka,242,34,8,0,1,2021-22
+Bihar,Begusarai,290,40,7,1,1,2021-22
+Bihar,Bhagalpur,327,66,11,2,1,2021-22
+Bihar,Bhojpur,300,39,10,1,1,2021-22
+Bihar,Buxar,149,35,4,1,1,2021-22
+Bihar,Darbhanga,259,63,10,2,0,2021-22
+Bihar,Gaya,473,73,18,2,1,2021-22
+Bihar,Gopalganj,189,30,10,1,1,2021-22
+Bihar,Jamui,277,36,7,0,1,2021-22
+Bihar,Jehanabad,110,33,6,0,1,2021-22
+Bihar,Kaimur (Bhabua),181,27,5,1,1,2021-22
+Bihar,Katihar,340,57,7,2,1,2021-22
+Bihar,Khagaria,187,26,4,0,1,2021-22
+Bihar,Kishanganj,258,16,4,0,1,2021-22
+Bihar,Lakhisarai,102,19,3,0,1,2021-22
+Bihar,Madhepura,272,27,8,1,1,2021-22
+Bihar,Madhubani,436,85,13,3,1,2021-22
+Bihar,Munger,154,32,3,1,1,2021-22
+Bihar,Muzaffarpur,520,88,14,0,1,2021-22
+Bihar,Nalanda,367,65,8,2,1,2021-22
+Bihar,Nawada,173,45,8,1,1,2021-22
+Bihar,Pashchim Champaran,554,44,11,2,0,2021-22
+Bihar,Patna,383,99,8,3,1,2021-22
+Bihar,Purbi Champaran,413,90,14,3,1,2021-22
+Bihar,Purnia,472,51,5,2,1,2021-22
+Bihar,Rohtas,255,48,6,2,1,2021-22
+Bihar,Saharsa,166,40,4,1,1,2021-22
+Bihar,Samastipur,358,59,12,4,1,2021-22
+Bihar,Saran,394,52,14,1,1,2021-22
+Bihar,Sheikhpura,75,15,2,0,1,2021-22
+Bihar,Sheohar,96,13,2,0,1,2021-22
+Bihar,Sitamarhi,208,45,13,1,1,2021-22
+Bihar,Siwan,379,53,14,1,1,2021-22
+Bihar,Supaul,173,29,6,1,1,2021-22
+Bihar,Vaishali,336,49,5,1,1,2021-22
+Punjab,Amritsar,179,44,8,2,1,2021-22
+Punjab,Barnala,71,12,4,1,1,2021-22
+Punjab,Bathinda,136,24,9,3,1,2021-22
+Punjab,Faridkot,62,11,3,1,1,2021-22
+Punjab,Fatehgarh Sahib,73,15,5,1,1,2021-22
+Punjab,Fazilka,109,22,6,1,1,2021-22
+Punjab,Firozepur,122,19,4,1,1,2021-22
+Punjab,Gurdaspur,222,33,13,1,1,2021-22
+Punjab,Hoshiarpur,244,33,12,3,1,2021-22
+Punjab,Jalandhar,198,37,14,2,1,2021-22
+Punjab,Kapurthala,88,14,5,3,1,2021-22
+Punjab,Ludhiana,265,47,16,4,1,2021-22
+Punjab,Malerkotla,50,7,2,0,1,2021-22
+Punjab,Mansa,103,15,4,2,1,2021-22
+Punjab,Moga,122,23,6,0,1,2021-22
+Punjab,Pathankot,69,11,4,0,1,2021-22
+Punjab,Patiala,185,40,10,3,1,2021-22
+Punjab,Rupnagar,85,14,4,2,1,2021-22
+Punjab,S.A.S Nagar,76,19,5,2,1,2021-22
+Punjab,Sangrur,142,26,6,3,1,2021-22
+Punjab,Shahid Bhagat Singh Nagar,95,18,4,1,1,2021-22
+Punjab,Sri Muktsar Sahib,102,20,5,3,1,2021-22
+Punjab,Tarn Taran,153,18,11,2,1,2021-22
+Haryana,Ambala,106,22,5,2,1,2021-22
+Haryana,Bhiwani,139,26,6,3,1,2021-22
+Haryana,Charki Dadri,78,12,3,0,1,2021-22
+Haryana,Faridabad,61,26,2,1,1,2021-22
+Haryana,Fatehabad,131,23,7,1,1,2021-22
+Haryana,Gurugram,80,31,3,2,1,2021-22
+Haryana,Hisar,198,32,9,3,1,2021-22
+Haryana,Jhajjar,134,29,6,2,1,2021-22
+Haryana,Jind,173,27,7,3,1,2021-22
+Haryana,Kaithal,144,24,6,0,1,2021-22
+Haryana,Karnal,146,25,8,1,1,2021-22
+Haryana,Kurukshetra,117,17,7,0,1,2021-22
+Haryana,Mahendragarh,140,19,7,1,1,2021-22
+Haryana,Nuh,111,18,4,0,1,2021-22
+Haryana,Palwal,95,18,7,0,1,2021-22
+Haryana,Panchkula,46,9,2,0,1,2021-22
+Haryana,Panipat,89,18,7,1,1,2021-22
+Haryana,Rewari,114,19,5,1,1,2021-22
+Haryana,Rohtak,116,21,8,0,1,2021-22
+Haryana,Sirsa,158,28,8,1,1,2021-22
+Haryana,Sonipat,164,33,7,1,1,2021-22
+Haryana,Yamunanagar,113,20,7,1,1,2021-22
+Odisha,Anugul,166,32,9,3,1,2021-22
+Odisha,Balangir,226,48,15,2,1,2021-22
+Odisha,Baleshwar,275,74,17,1,1,2021-22
+Odisha,Bargarh,204,49,15,1,1,2021-22
+Odisha,Bhadrak,178,55,7,0,1,2021-22
+Odisha,Boudh,67,12,5,0,1,2021-22
+Odisha,Cuttack,332,73,22,2,1,2021-22
+Odisha,Deogarh,42,8,4,0,1,2021-22
+Odisha,Dhenkanal,167,38,10,2,1,2021-22
+Odisha,Gajapati,136,22,8,0,1,2021-22
+Odisha,Ganjam,460,101,28,4,1,2021-22
+Odisha,Jagatsinghapur,189,36,11,0,1,2021-22
+Odisha,Jajapur,260,63,12,0,1,2021-22
+Odisha,Jharsuguda,66,20,6,0,1,2021-22
+Odisha,Kalahandi,242,46,18,1,1,2021-22
+Odisha,Kandhamal,172,41,14,1,1,2021-22
+Odisha,Kendrapara,227,47,8,1,1,2021-22
+Odisha,Kendujhar,351,69,17,2,1,2021-22
+Odisha,Khordha,202,75,16,0,2,2021-22
+Odisha,Koraput,307,51,16,0,1,2021-22
+Odisha,Malkangiri,158,27,6,2,1,2021-22
+Odisha,Mayurbhanj,589,88,28,3,1,2021-22
+Odisha,Nabarangpur,289,42,10,1,1,2021-22
+Odisha,Nayagarh,166,38,12,1,1,2021-22
+Odisha,Nuapada,95,17,5,1,1,2021-22
+Odisha,Puri,241,52,17,0,1,2021-22
+Odisha,Rayagada,235,41,11,1,1,2021-22
+Odisha,Sambalpur,167,37,11,2,1,2021-22
+Odisha,Sonepur,89,20,5,1,1,2021-22
+Odisha,Sundargarh,390,71,21,1,2,2021-22
