@@ -1,0 +1,67 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Nagaland,Mon,57,14,3,0,1,2021-22,Mon,261,exact,250260
+Nagaland,Dimapur,54,12,2,0,1,2021-22,Dimapur,265,exact,378811
+Nagaland,Kiphire,25,4,1,0,1,2021-22,Kiphire,269,exact,74004
+Nagaland,Kohima,42,16,3,0,1,2021-22,Kohima,270,exact,267988
+Nagaland,Longleng,10,3,0,0,1,2021-22,Longleng,268,exact,50484
+Nagaland,Mokokchung,55,17,3,0,1,2021-22,Mokokchung,262,exact,194622
+Nagaland,Noklak,19,3,0,0,1,2021-22,Noklak,000,exact,
+Nagaland,Peren,18,7,2,0,1,2021-22,Peren,271,exact,95219
+Nagaland,Phek,49,22,4,0,1,2021-22,Phek,266,exact,163418
+Nagaland,Tuensang,36,11,1,0,1,2021-22,Tuensang,267,exact,196596
+Nagaland,Wokha,40,14,2,0,1,2021-22,Wokha,264,exact,166343
+Nagaland,Zunheboto,47,13,2,0,1,2021-22,Zunheboto,263,exact,140757
+Manipur,Bishnupur,33,7,2,0,1,2021-22,Bishnupur,275,exact,237399
+Manipur,Chandel,15,2,1,0,1,2021-22,Chandel,280,exact,144182
+Manipur,Churachandpur,50,7,0,0,1,2021-22,Churachandpur,274,exact,274143
+Manipur,Imphal East,44,14,1,0,0,2021-22,Imphal East,278,exact,456113
+Manipur,Imphal West,54,12,2,0,0,2021-22,Imphal West,277,exact,517992
+Manipur,Jiribam,6,1,1,0,0,2021-22,Jiribam,000,exact,
+Manipur,Kakching,13,6,2,0,0,2021-22,Kakching,000,exact,
+Manipur,Kamjong,21,2,1,0,0,2021-22,Kamjong,000,exact,
+Manipur,Kangpokpi,35,6,1,0,0,2021-22,Kangpokpi,000,exact,
+Manipur,Noney,15,3,1,0,0,2021-22,Noney,000,exact,
+Manipur,Pherzawl,19,4,1,0,0,2021-22,Pherzawl,000,exact,
+Manipur,Senapati,32,8,1,0,1,2021-22,Senapati,272,exact,479148
+Manipur,Tamenglong,15,3,0,0,1,2021-22,Tamenglong,273,exact,140651
+Manipur,Tengnoupal,9,4,0,1,0,2021-22,Tengnoupal,000,exact,
+Manipur,Thoubal,37,10,3,0,1,2021-22,Thoubal,276,exact,422168
+Manipur,Ukhrul,18,6,0,0,1,2021-22,Ukhrul,279,exact,183998
+Mizoram,Aizawl,67,12,3,1,2,2021-22,Aizawl,283,exact,400309
+Mizoram,Champhai,34,6,0,0,1,2021-22,Champhai,284,exact,125745
+Mizoram,Hnahthial,14,5,0,0,1,2021-22,Hnahthial,000,exact,
+Mizoram,Khawzawl,18,4,1,0,1,2021-22,Khawzawl,000,exact,
+Mizoram,Kolasib,28,5,1,0,1,2021-22,Kolasib,282,exact,83955
+Mizoram,Lawngtlai,38,5,1,0,1,2021-22,Lawngtlai,287,exact,117894
+Mizoram,Lunglei,56,7,0,1,1,2021-22,Lunglei,286,exact,161428
+Mizoram,Mamit,39,8,1,0,1,2021-22,Mamit,281,exact,86364
+Mizoram,Saiha,25,4,0,0,1,2021-22,Siaha,288,fuzzy,56574
+Mizoram,Saitual,25,5,1,0,1,2021-22,Saitual,000,exact,
+Mizoram,Serchhip,29,5,1,0,1,2021-22,Serchhip,285,exact,64937
+Arunachal Pradesh,Anjaw,8,6,4,0,1,2021-22,Anjaw,260,exact,21167
+Arunachal Pradesh,Changlang,25,7,5,0,1,2021-22,Changlang,253,exact,148226
+Arunachal Pradesh,Dibang Valley,5,1,0,0,1,2021-22,Dibang Valley,257,exact,8004
+Arunachal Pradesh,East Kameng,17,8,1,0,1,2021-22,East Kameng,247,exact,78690
+Arunachal Pradesh,East Siang,16,9,2,0,1,2021-22,East Siang,251,exact,99214
+Arunachal Pradesh,Kamle,20,4,2,0,0,2021-22,Kamle,000,exact,
+Arunachal Pradesh,Kra Daadi,8,6,0,0,1,2021-22,Kra Daadi,000,exact,
+Arunachal Pradesh,Kurung Kumey,13,4,2,0,1,2021-22,Kurung Kumey,256,exact,92076
+Arunachal Pradesh,Leparada,10,2,0,0,0,2021-22,Leparada,000,exact,
+Arunachal Pradesh,Lohit,13,4,2,0,1,2021-22,Lohit,259,exact,145726
+Arunachal Pradesh,Longding,8,2,3,0,0,2021-22,Longding,000,exact,
+Arunachal Pradesh,Lower Dibang Valley,13,4,4,0,1,2021-22,Lower Dibang Valley,258,exact,54080
+Arunachal Pradesh,Lower Siang,4,5,1,0,1,2021-22,Lower Siang,000,exact,
+Arunachal Pradesh,Lower Subansiri,23,5,2,0,1,2021-22,Lower Subansiri,255,exact,83030
+Arunachal Pradesh,Namsai,15,4,2,0,1,2021-22,Namsai,000,exact,
+Arunachal Pradesh,Pakke Kessang,10,3,2,0,0,2021-22,Pakke Kessang,000,exact,
+Arunachal Pradesh,Papum Pare,37,17,4,0,0,2021-22,Papum Pare,248,exact,176573
+Arunachal Pradesh,Shi Yomi,0,2,1,0,0,2021-22,Shi Yomi,000,exact,
+Arunachal Pradesh,Siang,27,7,2,0,1,2021-22,Siang,000,exact,
+Arunachal Pradesh,Tawang,12,6,2,0,1,2021-22,Tawang,245,exact,49977
+Arunachal Pradesh,Tirap,10,7,1,0,1,2021-22,Tirap,254,exact,111975
+Arunachal Pradesh,Upper Siang,13,2,4,0,1,2021-22,Upper Siang,252,exact,35320
+Arunachal Pradesh,Upper Subansiri,23,5,4,0,1,2021-22,Upper Subansiri,249,exact,83448
+Arunachal Pradesh,West Kameng,22,5,5,0,1,2021-22,West Kameng,246,exact,83947
+Arunachal Pradesh,West Siang,15,6,2,0,1,2021-22,West Siang,250,exact,112274
+Goa,North Goa,114,13,4,0,1,2021-22,North Goa,585,exact,818008
+Goa,South Goa,105,15,2,2,1,2021-22,South Goa,586,exact,640537

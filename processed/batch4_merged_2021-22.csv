@@ -1,0 +1,79 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Telangana,Adilabad,126,27,1,1,0,2021-22,Adilabad,532,exact,2741239
+Telangana,Bhadradri Kothagudem,240,34,4,2,0,2021-22,Bhadradri Kothagudem,000,exact,
+Telangana,Hanumakonda,81,26,0,0,0,2021-22,Hanumakonda,000,exact,
+Telangana,Hyderabad,133,85,9,3,1,2021-22,Hyderabad,536,exact,3943323
+Telangana,Jagitial,151,22,2,1,0,2021-22,Jagitial,000,exact,
+Telangana,Jangoan,104,13,0,0,0,2021-22,Jangoan,000,exact,
+Telangana,Jayashankar Bhupalapally,92,13,2,0,0,2021-22,Jayashankar Bhupalapally,000,exact,
+Telangana,Jogulamba Gadwal,91,13,1,1,0,2021-22,Jogulamba Gadwal,000,exact,
+Telangana,Kamareddy,169,20,6,2,0,2021-22,Kamareddy,000,exact,
+Telangana,Karimnagar,139,22,2,0,1,2021-22,Karimnagar,534,exact,3776269
+Telangana,Khammam,224,30,1,2,1,2021-22,Khammam,541,exact,2797370
+Telangana,Kumuram Bheem Asifabad,106,22,1,1,0,2021-22,Kumuram Bheem Asifabad,000,exact,
+Telangana,Mahabubabad,172,21,2,1,0,2021-22,Mahabubabad,000,exact,
+Telangana,Mahabubnagar,129,23,2,0,0,2021-22,Mahabubnagar,538,exact,4053028
+Telangana,Mancherial,121,21,3,1,0,2021-22,Mancherial,000,exact,
+Telangana,Medak,155,20,2,1,0,2021-22,Medak,535,exact,3033288
+Telangana,Medchal Malkajgiri,154,36,1,2,0,2021-22,Medchal Malkajgiri,000,exact,
+Telangana,Mulugu,87,13,2,1,0,2021-22,Mulugu,000,exact,
+Telangana,Nagarkurnool,178,25,3,1,0,2021-22,Nagarkurnool,000,exact,
+Telangana,Nalgonda,257,37,1,3,0,2021-22,Nalgonda,539,exact,3488809
+Telangana,Narayanpet,87,13,2,1,0,2021-22,Narayanpet,000,exact,
+Telangana,Nirmal,102,20,1,2,0,2021-22,Nirmal,000,exact,
+Telangana,Nizamabad,225,32,8,1,0,2021-22,Nizamabad,533,exact,2551335
+Telangana,Peddapalli,104,21,2,1,0,2021-22,Peddapalli,000,exact,
+Telangana,Rajanna Sircilla,89,15,0,1,0,2021-22,Rajanna Sircilla,000,exact,
+Telangana,Ranga Reddy,265,40,6,3,0,2021-22,Ranga Reddy,537,exact,5296741
+Telangana,Sangareddy,245,34,2,4,1,2021-22,Sangareddy,000,exact,
+Telangana,Siddipet,191,34,3,0,0,2021-22,Siddipet,000,exact,
+Telangana,Suryapet,161,26,3,1,0,2021-22,Suryapet,000,exact,
+Telangana,Vikarabad,154,22,3,1,1,2021-22,Vikarabad,000,exact,
+Telangana,Wanaparthy,98,14,2,1,0,2021-22,Wanaparthy,000,exact,
+Telangana,Warangal,143,19,3,0,0,2021-22,Warangal,540,exact,3512576
+Telangana,Yadadri Bhuvanagiri,137,21,2,2,0,2021-22,Yadadri Bhuvanagiri,000,exact,
+Andhra Pradesh,Anantapur,910,129,15,6,1,2021-22,Ananthapuramu,553,fuzzy,4081148
+Andhra Pradesh,Chittoor,1070,136,17,5,2,2021-22,Chittoor,554,exact,4174064
+Andhra Pradesh,East Godavari,1288,163,25,4,1,2021-22,East Godavari,545,exact,5154296
+Andhra Pradesh,Guntur,885,163,17,3,1,2021-22,Guntur,548,exact,4887813
+Andhra Pradesh,Krishna,855,152,13,2,1,2021-22,Krishna,547,exact,4517398
+Andhra Pradesh,Kurnool,926,131,17,4,1,2021-22,Kurnool,552,exact,4053463
+Andhra Pradesh,Prakasam,911,115,13,4,1,2021-22,Prakasam,549,exact,3397448
+Andhra Pradesh,Spsr Nellore,683,112,14,2,1,2021-22,Sri Potti Sriramulu Nellore,550,crosswalk,2963557
+Andhra Pradesh,Srikakulam,850,99,13,4,2,2021-22,Srikakulam,542,exact,2703114
+Andhra Pradesh,Visakhapatanam,808,163,10,4,2,2021-22,Visakhapatnam,544,fuzzy,4290589
+Andhra Pradesh,Vizianagaram,673,88,8,3,2,2021-22,Vizianagaram,543,exact,2344474
+Andhra Pradesh,West Godavari,940,128,10,6,1,2021-22,West Godavari,546,exact,3936966
+Andhra Pradesh,Y.S.R.,681,110,9,4,1,2021-22,Y.S.R.,551,exact,2882469
+Uttarakhand,Almora,203,65,9,2,1,2021-22,Almora,064,exact,622506
+Uttarakhand,Bageshwar,89,29,3,0,1,2021-22,Bageshwar,063,exact,259898
+Uttarakhand,Chamoli,111,39,5,1,1,2021-22,Chamoli,057,exact,391605
+Uttarakhand,Champawat,66,18,1,1,1,2021-22,Champawat,065,exact,259648
+Uttarakhand,Dehradun,181,57,5,4,1,2021-22,Dehradun,060,exact,1696694
+Uttarakhand,Haridwar,160,41,8,2,1,2021-22,Haridwar,068,exact,1890422
+Uttarakhand,Nainital,136,48,10,4,1,2021-22,Nainital,066,exact,954605
+Uttarakhand,Pauri Garhwal,225,94,13,2,1,2021-22,Pauri Garhwal,061,exact,687271
+Uttarakhand,Pithoragarh,161,54,4,0,1,2021-22,Pithoragarh,062,exact,483439
+Uttarakhand,Rudra Prayag,75,38,2,0,1,2021-22,Rudra Prayag,058,exact,242285
+Uttarakhand,Tehri Garhwal,208,54,11,1,1,2021-22,Tehri Garhwal,059,exact,618931
+Uttarakhand,Udam Singh Nagar,154,41,5,2,1,2021-22,Udam Singh Nagar,067,exact,1648902
+Uttarakhand,Uttar Kashi,82,29,4,0,1,2021-22,Uttar Kashi,056,exact,330086
+Tripura,Dhalai,121,16,2,3,1,2021-22,Dhalai,291,exact,378230
+Tripura,Gomati,145,11,3,2,1,2021-22,Gomati,000,exact,
+Tripura,Khowai,104,10,1,1,1,2021-22,Khowai,000,exact,
+Tripura,North Tripura,99,16,4,1,1,2021-22,North Tripura,292,exact,693947
+Tripura,Sepahijala,142,15,4,2,0,2021-22,Sepahijala,000,exact,
+Tripura,South Tripura,148,18,5,2,1,2021-22,South Tripura,290,exact,876001
+Tripura,Unakoti,70,11,1,1,1,2021-22,Unakoti,000,exact,
+Tripura,West Tripura,171,20,3,0,1,2021-22,West Tripura,289,exact,1725739
+Meghalaya,East Garo Hills,31,9,1,0,1,2021-22,East Garo Hills,294,exact,317917
+Meghalaya,East Jaintia Hills,36,6,2,0,0,2021-22,East Jaintia Hills,000,exact,
+Meghalaya,East Khasi Hills,74,44,6,1,2,2021-22,East Khasi Hills,298,exact,825922
+Meghalaya,North Garo Hills,50,11,1,0,0,2021-22,North Garo Hills,000,exact,
+Meghalaya,Ri Bhoi,35,10,3,0,1,2021-22,Ri Bhoi,297,exact,258840
+Meghalaya,South Garo Hills,26,7,1,0,1,2021-22,South Garo Hills,295,exact,142334
+Meghalaya,South West Garo Hills,27,9,2,0,1,2021-22,South West Garo Hills,000,exact,
+Meghalaya,South West Khasi Hills,21,4,2,0,0,2021-22,South West Khasi Hills,000,exact,
+Meghalaya,West Garo Hills,67,15,5,1,2,2021-22,West Garo Hills,293,exact,643291
+Meghalaya,West Jaintia Hills,46,15,3,0,1,2021-22,West Jaintia Hills,299,exact,395124
+Meghalaya,West Khasi Hills,46,17,2,0,2,2021-22,West Khasi Hills,296,exact,383461
