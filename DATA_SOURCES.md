@@ -173,3 +173,45 @@ model features. **Decision: dropped from scope.** RHS + Census + LGD
 already provide the genuine district-level signal; NHP would not add any.
 
 
+
+## 9. National Dataset Build (all 35 states/UTs × 3 years)
+
+**Output:** `processed/national_all_years_merged.csv` — 2,166 district-year
+rows (2019-20: 702, 2020-21: 731, 2021-22: 733). Every state-year's
+facility counts were checked against the RHS report's own "Total
+Districts" line (exact match on all state-years with a total line).
+
+**Coverage:** 7 rows could not be matched to any LGD district (Warangal
+Rural/Urban in 2019-20 and 2020-21, Aizawl East/West in 2019-20, Brihan
+Mumbai in 2019-20). These are 1-to-2 splits: LGD/Census only hold the
+combined district, so no clean 1-to-1 match exists and none was forced.
+263 rows (12.1%) have no population: 256 are post-2011 districts (LGD
+code 000) plus the 7 unmatched rows above.
+
+**Transcription issues found and handled (copy-paste from scanned PDFs):**
+- Text fused across rows/states (e.g. a total line running into the next
+  state name) — split manually and re-verified against totals.
+- District/state names wrapped across lines — rejoined.
+- Pasted blocks duplicated or corrupted by page overlap (stray rows from
+  another state) — only the complete block was kept.
+- Rows with a missing value (2 Telangana rows, 2020-21) — the missing
+  column was identified by sum-checking against the state total, not
+  guessed.
+- One typo fixed by the same sum check (Dadra & Nagar Haveli, 2020-21).
+
+**Join/parser bugs found (worth remembering):**
+- State names must match LGD's spelling exactly ("Jammu And Kashmir",
+  "Andaman And Nicobar Islands", "The Dadra And Nagar Haveli And Daman
+  And Diu"); a mismatch silently drops the whole state.
+- Identity collision: "Kamrup M" and "Kamrup R" both fuzzy-matched to
+  one LGD district. Fixed with explicit crosswalk entries. Every
+  non-exact match must be reviewed, especially split districts.
+- `norm()` strips digits, so district names starting with a number
+  (24 Parganas) need crosswalk keys written without the digit; a leading
+  number can also be mistaken for an S.No prefix by the parser.
+- A district named the same as its state (Puducherry) breaks state-prefix
+  stripping.
+
+**Open items:** population source for the 256 post-2011 districts, and
+whether to keep Census 2011 (see section 6). Cross-year consistency of
+facility counts has not been checked yet.
