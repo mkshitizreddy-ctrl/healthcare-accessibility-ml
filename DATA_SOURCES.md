@@ -215,3 +215,23 @@ code 000) plus the 7 unmatched rows above.
 **Open items:** population source for the 256 post-2011 districts, and
 whether to keep Census 2011 (see section 6). Cross-year consistency of
 facility counts has not been checked yet.
+
+## 10. Known Anomaly: Jharkhand 2020-21 District Values
+
+Cross-year comparison (Day 2 sanity check) flagged that several Jharkhand
+districts' 2020-21 facility counts exactly match a *different* district's
+2019-20/2021-22 values (e.g. Palamu's 2020-21 row = Pashchimi Singhbhum's
+2019-20/2021-22 values; Ramgarh's 2020-21 row = Purbi Singhbhum's values;
+and so on for Pakur, Ranchi, Sahebganj, East/West Singhbhum).
+
+This was re-checked against a fresh copy of the source PDF table and
+confirmed to be **present in the official RHS 2020-21 report itself**,
+not a transcription error — the state total (3848, 350, 176, 13, 22)
+matches exactly in both the original extraction and the re-check.
+
+Left as-is (not corrected), since we cannot verify what the "true" value
+per district should have been, and altering official government figures
+would be worse than flagging the anomaly. Affected districts: Pakur,
+Palamu, Ramgarh, Ranchi, Sahebganj, Pashchimi/Purbi Singhbhum
+(West/East Singhbhum), for year 2020-21 only. Treat any 2020-21
+Jharkhand district-level model output for these 7 districts with caution.
