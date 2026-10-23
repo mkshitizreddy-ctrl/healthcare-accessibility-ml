@@ -1,8 +1,6 @@
 # Data Sources & Methodology Notes
 
-This documents where every piece of the pilot dataset came from, the decisions
-made while joining it together, and the known limitations — written while
-still fresh, for reuse in the final report.
+This documents where every piece of the pilot dataset came from, the decisions made while joining it together, and the known limitations — written while still fresh, for reuse in the final report.
 
 ## 1. Source Catalog
 
@@ -14,48 +12,30 @@ still fresh, for reuse in the final report.
 | `raw/population/census2011_districts.csv` | Census of India 2011, district-level population | GitHub mirror (nishusharma1608/India-Census-2011-Analysis) | Community-compiled CSV of official Census 2011 figures |
 | `raw/lgd/lgd_districts.csv` | Local Government Directory (LGD), Ministry of Panchayati Raj | data.gov.in — official LGD districts resource | Provides the `district_census2011_code` used as the join key |
 
-**Table used from each RHS report:** Section II, "District-wise Health Care
-Infrastructure in India" — the only genuinely district-level table (columns:
-Sub Centres, PHCs, CHCs, Sub Divisional Hospital, District Hospital). RHS
-manpower data (doctors, nurses, health workers) is reported only at
-state/UT level via separate "Comparative Statement" tables — not usable as a
-true district-level feature.
+**Table used from each RHS report:** Section II, "District-wise Health Care Infrastructure in India" — the only genuinely district-level table (columns: Sub Centres, PHCs, CHCs, Sub Divisional Hospital, District Hospital). RHS manpower data (doctors, nurses, health workers) is reported only at state/UT level via separate "Comparative Statement" tables — not usable as a true district-level feature.
 
 ## 2. Extraction & Verification
 
-RHS district tables were extracted for the 5 pilot states (Karnataka,
-Maharashtra, Rajasthan, Tamil Nadu, Uttar Pradesh) across all 3 years.
-Every state's extracted row sums were checked against the report's own
-"Total Districts = ..." summary line and matched exactly in all 15
-state-year combinations (5 states × 3 years) — no transcription errors.
+RHS district tables were extracted for the 5 pilot states (Karnataka, Maharashtra, Rajasthan, Tamil Nadu, Uttar Pradesh) across all 3 years. Every state's extracted row sums were checked against the report's own "Total Districts = ..." summary line and matched exactly in all 15 state-year combinations (5 states × 3 years) — no transcription errors.
 
 ## 3. District Join: RHS → LGD → Population
 
-Districts were matched across sources using **LGD codes**, not district
-names, because RHS district names are inconsistent both across years and
-against the LGD's official spelling.
+Districts were matched across sources using **LGD codes**, not district names, because RHS district names are inconsistent both across years and against the LGD's official spelling.
 
 **Join process:**
+
 1. Normalize district name text (lowercase, strip punctuation).
 2. Try exact match against LGD district names within the same state.
 3. Apply a manual crosswalk for known historical renames (below).
-4. Fall back to fuzzy string matching only for cosmetic spelling drift
-   (accent/spacing differences), reviewed manually.
-5. Use the resulting `district_census2011_code` to join Census 2011
-   population.
+4. Fall back to fuzzy string matching only for cosmetic spelling drift (accent/spacing differences), reviewed manually.
+5. Use the resulting `district_census2011_code` to join Census 2011 population.
 
-**Important finding:** naive fuzzy matching (no manual review) produced two
-silent wrong matches:
-- "Faizabad" (old name for Ayodhya, UP) → incorrectly matched to
-  "Firozabad" (a real, different UP district)
-- "Sant Ravidas Nagar" (old name for Bhadohi, UP) → incorrectly matched to
-  "Sant Kabir Nagar" (a real, different UP district)
+**Important finding:** naive fuzzy matching (no manual review) produced two silent wrong matches:
 
-Both were caught by manually reviewing every non-exact match rather than
-trusting the fuzzy-match score alone. **Lesson for scaling up:** every
-non-exact match must be manually reviewed before being trusted, especially
-for renamed districts, since fuzzy string similarity can be high between
-genuinely different places.
+- "Faizabad" (old name for Ayodhya, UP) → incorrectly matched to "Firozabad" (a real, different UP district).
+- "Sant Ravidas Nagar" (old name for Bhadohi, UP) → incorrectly matched to "Sant Kabir Nagar" (a real, different UP district).
+
+Both were caught by manually reviewing every non-exact match rather than trusting the fuzzy-match score alone. **Lesson for scaling up:** every non-exact match must be manually reviewed before being trusted, especially for renamed districts, since fuzzy string similarity can be high between genuinely different places.
 
 ### Manual crosswalk (verified against `lgd_districts.csv`)
 
@@ -82,156 +62,68 @@ genuinely different places.
 ## 4. Known Limitations
 
 - **Post-2011 new districts have no Census 2011 population figure.**
-  Districts created after the 2011 Census (e.g. Palghar, Chengalpattu,
-  Ranipet, Hapur, Sambhal, Shamli, Amethi in some years) carry
-  `district_census2011_code = 000` in LGD and cannot be joined to a 2011
-  population figure. This affects 27 of the 629 pilot rows (4.3%). These
-  districts will need either a modern population estimate from a different
-  source or exclusion, decided before the full-scale build.
-- **Mumbai / Mumbai Suburban combined-entry mismatch.** In RHS 2019-20,
-  Mumbai and Mumbai Suburban are reported as one combined "Brihan Mumbai"
-  row, while LGD/Census treat them as two separate districts. This single
-  row (1 of 629) could not be cleanly matched or split without further
-  work and was left unmatched for the pilot.
-- **Manpower data is state-level, not district-level.** RHS reports doctors,
-  nurses, and health worker counts only at the state/UT level. Any
-  manpower-based feature in the final model will be a state-level value
-  applied uniformly to all districts in that state — not a true
-  district-level measurement. This should be stated explicitly in the
-  final report, not implied to be district-specific.
-- **A code-formatting mismatch between LGD and Census files** (LGD stores
-  codes with leading zeros, e.g. "099"; Census stores them without, e.g.
-  "99") caused one initially-missed join (Ganganagar, Rajasthan) until
-  codes were normalized on both sides before joining. Worth checking for
-  when scaling to the full nationwide dataset.
+
+  Districts created after the 2011 Census (e.g. Palghar, Chengalpattu, Ranipet, Hapur, Sambhal, Shamli, Amethi in some years) carry `district_census2011_code = 000` in LGD and cannot be joined to a 2011 population figure. This affects 27 of the 629 pilot rows (4.3%). These districts will need either a modern population estimate from a different source or exclusion, decided before the full-scale build.
+
+- **Mumbai / Mumbai Suburban combined-entry mismatch.** In RHS 2019-20, Mumbai and Mumbai Suburban are reported as one combined "Brihan Mumbai" row, while LGD/Census treat them as two separate districts. This single row (1 of 629) could not be cleanly matched or split without further work and was left unmatched for the pilot.
+
+- **Manpower data is state-level, not district-level.** RHS reports doctors, nurses, and health worker counts only at the state/UT level. Any manpower-based feature in the final model will be a state-level value applied uniformly to all districts in that state — not a true district-level measurement. This should be stated explicitly in the final report, not implied to be district-specific.
+
+- **A code-formatting mismatch between LGD and Census files** (LGD stores codes with leading zeros, e.g. "099"; Census stores them without, e.g. "99") caused one initially-missed join (Ganganagar, Rajasthan) until codes were normalized on both sides before joining. Worth checking for when scaling to the full nationwide dataset.
 
 ## 5. Pilot Test Result
 
-629 district-year rows across 5 states × 3 years, with 95.5% population
-coverage. Every gap in the remaining 4.5% is explained by one of the
-limitations above — none are unexplained data loss. This clears the pilot's
-pass condition from the feasibility note.
+629 district-year rows across 5 states × 3 years, with 95.5% population coverage. Every gap in the remaining 4.5% is explained by one of the limitations above — none are unexplained data loss. This clears the pilot's pass condition from the feasibility note.
 
 ## 6. National-Scale Audit (done ahead of full build)
 
-Before scaling beyond the 5 pilot states, the LGD and Census files
-(which already cover all of India) were audited directly:
+Before scaling beyond the 5 pilot states, the LGD and Census files (which already cover all of India) were audited directly:
 
-- **Leading-zero code bug: 99 districts nationwide affected**, not just
-  Ganganagar. Any LGD code under 100 (mostly Jammu & Kashmir, Ladakh,
-  Himachal Pradesh, Punjab, Haryana, Uttarakhand, Delhi) is zero-padded to
-  3 digits in the LGD file but stored without padding in the Census file.
-  This is already fixed by normalizing codes to integers before joining —
-  confirmed to resolve all 99 cases, not just the one found in the pilot.
-- **Post-2011 new districts: 125 of 785 nationwide (15.9%)** have no
-  Census 2011 population match — much higher than the pilot's 4.3%, because
-  the pilot states happened to have few reorganizations. Telangana alone
-  has 23 new districts (its 2016 split), Chhattisgarh 15, Andhra Pradesh 13.
-  **This needs a decision before the full build**: either source a newer
-  population estimate for these ~126 districts, or accept that ~16% of
-  districts nationwide will be missing this feature.
-- **The rename crosswalk is necessarily incremental** — it can only be
-  built as each state's actual RHS district names are seen and compared
-  against LGD, since old names aren't predictable in advance. One known
-  major rename added as a head start: Madhya Pradesh's Hoshangabad →
-  Narmadapuram (2021). Expect more to surface as extraction continues.
-- **Census 2011 population is now 15 years stale.** No official
-  government district-level population projection exists for all of
-  India — the Registrar General only projects at the state level (2020
-  report, covering 2011-2036). UNFPA has published district-level
-  projections, but only for a handful of states (Bihar, Madhya Pradesh,
-  Odisha, Rajasthan for 2021/2026; an older 2006-2016 report also covered
-  Maharashtra, UP, Chhattisgarh, Jharkhand) — never nationwide, and never
-  Karnataka or Tamil Nadu. One genuinely national alternative exists:
-  "Population Estimates for Districts and Parliamentary Constituencies in
-  India, 2020" (Harvard Dataverse), built from WorldPop satellite-based
-  gridded population summed over 2020 district boundaries, covering all
-  736 districts. **Not yet adopted** — it's a modelled estimate rather
-  than a measured census figure, and switching the population source
-  would affect the D-HAI formula currently being built, so this is
-  flagged for a team decision rather than changed unilaterally. Current
-  default remains Census 2011, consistent with the proposal.
+- **Leading-zero code bug: 99 districts nationwide affected**, not just Ganganagar. Any LGD code under 100 (mostly Jammu & Kashmir, Ladakh, Himachal Pradesh, Punjab, Haryana, Uttarakhand, Delhi) is zero-padded to 3 digits in the LGD file but stored without padding in the Census file. This is already fixed by normalizing codes to integers before joining — confirmed to resolve all 99 cases, not just the one found in the pilot.
+
+- **LGD districts without a Census 2011 population match: 125 of 785 nationwide (15.9%)** — much higher than the pilot's 4.3%, because the pilot states happened to have few reorganizations. Telangana alone has 23 districts without a Census 2011 population match, Chhattisgarh 15, Andhra Pradesh 13.
+
+  **This needs a decision before the full build:** either source a newer population estimate for these ~126 districts, or accept that ~16% of districts nationwide will be missing this feature.
+
+- **The rename crosswalk is necessarily incremental** — it can only be built as each state's actual RHS district names are seen and compared against LGD, since old names aren't predictable in advance. One known major rename added as a head start: Madhya Pradesh's Hoshangabad → Narmadapuram (2021). Expect more to surface as extraction continues.
+
+- **Census 2011 population is now 15 years stale.** No official government district-level population projection exists for all of India — the Registrar General only projects at the state level (2020 report, covering 2011-2036). UNFPA has published district-level projections, but only for a handful of states (Bihar, Madhya Pradesh, Odisha, Rajasthan for 2021/2026; an older 2006-2016 report also covered Maharashtra, UP, Chhattisgarh, Jharkhand) — never nationwide, and never Karnataka or Tamil Nadu. One genuinely national alternative exists: "Population Estimates for Districts and Parliamentary Constituencies in India, 2020" (Harvard Dataverse), built from WorldPop satellite-based gridded population summed over 2020 district boundaries, covering all 736 districts. **Not yet adopted** — it's a modelled estimate rather than a measured census figure, and switching the population source would affect the D-HAI formula currently being built, so this is flagged for a team decision rather than changed unilaterally. Current default remains Census 2011, consistent with the proposal.
 
 ## 7. Reusable Pipeline
 
-`merge_pipeline.py` generalizes the pilot's one-off script: takes any RHS
-extract + any state list, applies the same crosswalk/fuzzy-match/exact-match
-logic, and outputs both the merged file and a `.review.csv` listing every
-non-exact match for manual review before trusting it. Verified to reproduce
-the pilot's exact 629-row result before being adopted.
+`merge_pipeline.py` generalizes the pilot's one-off script: takes any RHS extract + any state list, applies the same crosswalk/fuzzy-match/exact-match logic, and outputs both the merged file and a `.review.csv` listing every non-exact match for manual review before trusting it. Verified to reproduce the pilot's exact 629-row result before being adopted.
 
 ## 8. National Health Profile (NHP) — Resolved: Not Adopted
 
-NHP was flagged in the feasibility note as "use if compatible." Checked
-directly: NHP is structured as 6 chapters (Demographic, Socio-Economic,
-Health Status, Health Finance, Human Resources, Health Infrastructure),
-and every indicator is reported **state-wise/UT-wise/national**, not
-district-wise. The only district-level mentions found across several NHP
-editions are incidental counts (e.g. "X habitations in Y districts
-affected by fluoride contamination") — not structured tables usable as
-model features. **Decision: dropped from scope.** RHS + Census + LGD
-already provide the genuine district-level signal; NHP would not add any.
-
-
+NHP was flagged in the feasibility note as "use if compatible." Checked directly: NHP is structured as 6 chapters (Demographic, Socio-Economic, Health Status, Health Finance, Human Resources, Health Infrastructure), and every indicator is reported **state-wise/UT-wise/national**, not district-wise. The only district-level mentions found across several NHP editions are incidental counts (e.g. "X habitations in Y districts affected by fluoride contamination") — not structured tables usable as model features. **Decision: dropped from scope.** RHS + Census + LGD already provide the genuine district-level signal; NHP would not add any.
 
 ## 9. National Dataset Build (all 35 states/UTs × 3 years)
 
-**Output:** `processed/national_all_years_merged.csv` — 2,166 district-year
-rows (2019-20: 702, 2020-21: 731, 2021-22: 733). Every state-year's
-facility counts were checked against the RHS report's own "Total
-Districts" line (exact match on all state-years with a total line).
+**Output:** `processed/national_all_years_merged.csv` — 2,166 district-year rows (2019-20: 702, 2020-21: 731, 2021-22: 733). Every state-year's facility counts were checked against the RHS report's own "Total Districts" line (exact match on all state-years with a total line).
 
-**Coverage:** 7 rows could not be matched to any LGD district (Warangal
-Rural/Urban in 2019-20 and 2020-21, Aizawl East/West in 2019-20, Brihan
-Mumbai in 2019-20). These are 1-to-2 splits: LGD/Census only hold the
-combined district, so no clean 1-to-1 match exists and none was forced.
-263 rows (12.1%) have no population: 256 are post-2011 districts (LGD
-code 000) plus the 7 unmatched rows above.
+**Coverage:** 7 rows could not be matched to any LGD district (Warangal Rural/Urban in 2019-20 and 2020-21, Aizawl East/West in 2019-20, Brihan Mumbai in 2019-20). These are 1-to-2 splits: LGD/Census only hold the combined district, so no clean 1-to-1 match exists and none was forced. 263 rows (12.1%) have no population: 256 have LGD Census 2011 district code `000`, which cannot be joined to the Census 2011 population file, plus the 7 unmatched rows above. The `000` code does not by itself confirm that every affected district was created after 2011.
 
 **Transcription issues found and handled (copy-paste from scanned PDFs):**
-- Text fused across rows/states (e.g. a total line running into the next
-  state name) — split manually and re-verified against totals.
+
+- Text fused across rows/states (e.g. a total line running into the next state name) — split manually and re-verified against totals.
 - District/state names wrapped across lines — rejoined.
-- Pasted blocks duplicated or corrupted by page overlap (stray rows from
-  another state) — only the complete block was kept.
-- Rows with a missing value (2 Telangana rows, 2020-21) — the missing
-  column was identified by sum-checking against the state total, not
-  guessed.
+- Pasted blocks duplicated or corrupted by page overlap (stray rows from another state) — only the complete block was kept.
+- Rows with a missing value (2 Telangana rows, 2020-21) — the missing column was identified by sum-checking against the state total, not guessed.
 - One typo fixed by the same sum check (Dadra & Nagar Haveli, 2020-21).
 
 **Join/parser bugs found (worth remembering):**
-- State names must match LGD's spelling exactly ("Jammu And Kashmir",
-  "Andaman And Nicobar Islands", "The Dadra And Nagar Haveli And Daman
-  And Diu"); a mismatch silently drops the whole state.
-- Identity collision: "Kamrup M" and "Kamrup R" both fuzzy-matched to
-  one LGD district. Fixed with explicit crosswalk entries. Every
-  non-exact match must be reviewed, especially split districts.
-- `norm()` strips digits, so district names starting with a number
-  (24 Parganas) need crosswalk keys written without the digit; a leading
-  number can also be mistaken for an S.No prefix by the parser.
-- A district named the same as its state (Puducherry) breaks state-prefix
-  stripping.
 
-**Open items:** population source for the 256 post-2011 districts, and
-whether to keep Census 2011 (see section 6). Cross-year consistency of
-facility counts has not been checked yet.
+- State names must match LGD's spelling exactly ("Jammu And Kashmir", "Andaman And Nicobar Islands", "The Dadra And Nagar Haveli And Daman And Diu"); a mismatch silently drops the whole state.
+- Identity collision: "Kamrup M" and "Kamrup R" both fuzzy-matched to one LGD district. Fixed with explicit crosswalk entries. Every non-exact match must be reviewed, especially split districts.
+- `norm()` strips digits, so district names starting with a number (24 Parganas) need crosswalk keys written without the digit; a leading number can also be mistaken for an S.No prefix by the parser.
+- A district named the same as its state (Puducherry) breaks state-prefix stripping.
+
+**Open items:** population source for the 256 rows with LGD Census 2011 district code `000`, and whether to keep Census 2011 (see section 6). Cross-year consistency of facility counts has not been checked yet.
 
 ## 10. Known Anomaly: Jharkhand 2020-21 District Values
 
-Cross-year comparison (Day 2 sanity check) flagged that several Jharkhand
-districts' 2020-21 facility counts exactly match a *different* district's
-2019-20/2021-22 values (e.g. Palamu's 2020-21 row = Pashchimi Singhbhum's
-2019-20/2021-22 values; Ramgarh's 2020-21 row = Purbi Singhbhum's values;
-and so on for Pakur, Ranchi, Sahebganj, East/West Singhbhum).
+Cross-year comparison (Day 2 sanity check) flagged that several Jharkhand districts' 2020-21 facility counts exactly match a *different* district's 2019-20/2021-22 values (e.g. Palamu's 2020-21 row = Pashchimi Singhbhum's 2019-20/2021-22 values; Ramgarh's 2020-21 row = Purbi Singhbhum's values; and so on for Pakur, Ranchi, Sahebganj, East/West Singhbhum).
 
-This was re-checked against a fresh copy of the source PDF table and
-confirmed to be **present in the official RHS 2020-21 report itself**,
-not a transcription error — the state total (3848, 350, 176, 13, 22)
-matches exactly in both the original extraction and the re-check.
+This was re-checked against a fresh copy of the source PDF table and confirmed to be **present in the official RHS 2020-21 report itself**, not a transcription error — the state total (3848, 350, 176, 13, 22) matches exactly in both the original extraction and the re-check.
 
-Left as-is (not corrected), since we cannot verify what the "true" value
-per district should have been, and altering official government figures
-would be worse than flagging the anomaly. Affected districts: Pakur,
-Palamu, Ramgarh, Ranchi, Sahebganj, Pashchimi/Purbi Singhbhum
-(West/East Singhbhum), for year 2020-21 only. Treat any 2020-21
-Jharkhand district-level model output for these 7 districts with caution.
+Left as-is (not corrected), since we cannot verify what the "true" value per district should have been, and altering official government figures would be worse than flagging the anomaly. Affected districts: Pakur, Palamu, Ramgarh, Ranchi, Sahebganj, Pashchimi/Purbi Singhbhum (West/East Singhbhum), for year 2020-21 only. Treat any 2020-21 Jharkhand district-level model output for these 7 districts with caution.
