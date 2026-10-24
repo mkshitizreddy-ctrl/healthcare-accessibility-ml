@@ -298,7 +298,7 @@ def run(rhs_path, lgd_path, census_path, out_path, states=None):
     if review_rows:
         print(f"\n{len(review_rows)} non-exact matches written to {review_path}")
         print("IMPORTANT: review all non-exact rows in the review file before trusting the merge.")
-	print("Fuzzy candidates are not automatically accepted; see DATA_SOURCES.md.")
+        print("Fuzzy candidates are not automatically accepted; see DATA_SOURCES.md.")
 
 
 if __name__ == "__main__":
