@@ -73,6 +73,97 @@ RENAME_CROSSWALK = {
     ("West Bengal", "medinipur west"): "Paschim Medinipur",
     # Known major renames not yet hit by our pilot states, added as a head start:
     ("Madhya Pradesh", "hoshangabad"): "Narmadapuram",
+    ("Karnataka", "bangalore rural"): "Bengaluru Rural",
+    ("Karnataka", "bangalore urban"): "Bengaluru Urban",
+    ("Karnataka", "shimoga"): "Shivamogga",
+    ("Karnataka", "tumkur"): "Tumakuru",
+    ("Maharashtra", "ahmadnagar"): "Ahmednagar",
+    ("Maharashtra", "buldana"): "Buldhana",
+    ("Maharashtra", "gondiya"): "Gondia",
+    ("Tamil Nadu", "tirupur"): "Tiruppur",
+    ("Tamil Nadu", "tiruvanamalai"): "Tiruvannamalai",
+    ("Uttar Pradesh", "bulandshahar"): "Bulandshahr",
+    ("Uttar Pradesh", "kushi nagar"): "Kushinagar",
+        ("Karnataka", "chamrajnagar"): "Chamarajanagara",
+    ("Karnataka", "chikkaballapur"): "Chikkaballapura",
+    ("Karnataka", "chikmagalur"): "Chikkamagaluru",
+    ("Karnataka", "ramanagar"): "Ramanagara",
+    ("Karnataka", "bagalkot"): "Bagalkote",
+    ("Karnataka", "chikballapur"): "Chikkaballapura",
+    ("Karnataka", "dakshin kannad"): "Dakshina Kannada",
+    ("Karnataka", "uttar kannad"): "Uttara Kannada",
+    ("Maharashtra", "raigarh"): "Raigad",
+    ("Tamil Nadu", "nilgiris"): "The Nilgiris",
+    ("Tamil Nadu", "toothukudi"): "Thoothukkudi",
+    ("Tamil Nadu", "kanchipuram"): "Kancheepuram",
+    ("Tamil Nadu", "villupuram"): "Viluppuram",
+    ("Tamil Nadu", "kanyakumari"): "Kanniyakumari",
+    ("Tamil Nadu", "pudukottai"): "Pudukkottai",
+    ("Tamil Nadu", "thoothukudi"): "Thoothukkudi",
+    ("Tamil Nadu", "tiruchirapalli"): "Tiruchirappalli",
+    ("Tamil Nadu", "tiruvallur"): "Thiruvallur",
+    ("Tamil Nadu", "tiruvarur"): "Thiruvarur",
+    ("Uttar Pradesh", "bagpat"): "Baghpat",
+    ("Uttar Pradesh", "barabanki"): "Bara Banki",
+    ("Uttar Pradesh", "maharajganj"): "Mahrajganj",
+    ("Uttar Pradesh", "siddharth nagar"): "Siddharthnagar",
+    ("Uttar Pradesh", "unnav"): "Unnao",
+    ("Uttar Pradesh", "shravasti"): "Shrawasti",
+    ("Uttar Pradesh", "sant kabeer nagar"): "Sant Kabir Nagar",
+    ("Karnataka", "davanagere"): "Davangere",
+    ("Karnataka", "chamarajanagar"): "Chamarajanagara",
+    ('Andaman And Nicobar Islands', 'nicobar'): 'Nicobars',
+    ('Andaman And Nicobar Islands', 'north middle andman'): 'North And Middle Andaman',
+    ('Andaman And Nicobar Islands', 'south andman'): 'South Andamans',
+    ('Andhra Pradesh', 'anantapur'): 'Ananthapuramu',
+    ('Andhra Pradesh', 'visakhapatanam'): 'Visakhapatnam',
+    ('Andhra Pradesh', 'vishakapatnam'): 'Visakhapatnam',
+    ('Assam', 'sibsagar'): 'Sivasagar',
+    ('Chhattisgarh', 'bemetra'): 'Bemetara',
+    ('Chhattisgarh', 'garyaband'): 'Gariyaband',
+    ('Chhattisgarh', 'gaurella pendra marwahi'): 'Gaurela-Pendra-Marwahi',
+    ('Chhattisgarh', 'janjgir champa'): 'Janjgir-Champa',
+    ('Chhattisgarh', 'kabirdham'): 'Kabeerdham',
+    ('Chhattisgarh', 'korya'): 'Korea',
+    ('Chhattisgarh', 'mungali'): 'Mungeli',
+    ('Gujarat', 'ahmadabad'): 'Ahmedabad',
+    ('Gujarat', 'banaskantha'): 'Banas Kantha',
+    ('Gujarat', 'chhota udepur'): 'Chhotaudepur',
+    ('Gujarat', 'dang'): 'Dangs',
+    ('Gujarat', 'panchmahal'): 'Panch Mahals',
+    ('Gujarat', 'sabarkantha'): 'Sabar Kantha',
+    ('Gujarat', 'surendrangr'): 'Surendranagar',
+    ('Haryana', 'charkhi dadri'): 'Charki Dadri',
+    ('Himachal Pradesh', 'lahul and spiti'): 'Lahaul And Spiti',
+    ('Himachal Pradesh', 'lahul spiti'): 'Lahaul And Spiti',
+    ('Jammu And Kashmir', 'rambam'): 'Ramban',
+    ('Jharkhand', 'kodarma'): 'Koderma',
+    ('Jharkhand', 'sahibganj'): 'Sahebganj',
+    ('Kerala', 'kasargod'): 'Kasaragod',
+    ('Madhya Pradesh', 'agar malwa'): 'Agar-Malwa',
+    ('Madhya Pradesh', 'ashok nagar'): 'Ashoknagar',
+    ('Madhya Pradesh', 'chhindwada'): 'Chhindwara',
+    ('Madhya Pradesh', 'narsinghpur'): 'Narsimhapur',
+    ('Madhya Pradesh', 'singroli'): 'Singrauli',
+    ('Mizoram', 'saiha'): 'Siaha',
+    ('Odisha', 'baudh'): 'Boudh',
+    ('Odisha', 'jagatsinghpur'): 'Jagatsinghapur',
+    ('Odisha', 'keonjhar'): 'Kendujhar',
+    ('Odisha', 'nabarangapur'): 'Nabarangpur',
+    ('Odisha', 'sonapur'): 'Sonepur',
+    ('Puducherry', 'pondicherry'): 'Puducherry',
+    ('Punjab', 'firozepur'): 'Ferozepur',
+    ('Tamil Nadu', 'thirupattur'): 'Tirupathur',
+    ('Telangana', 'jagtial'): 'Jagitial',
+    ('Telangana', 'jangaon'): 'Jangoan',
+    ('Telangana', 'komaram bheem asifabad'): 'Kumuram Bheem Asifabad',
+    ('Telangana', 'rangareddy'): 'Ranga Reddy',
+    ('Telangana', 'yadadri bhongir'): 'Yadadri Bhuvanagiri',
+    ('Tripura', 'sipahijala'): 'Sepahijala',
+    ('West Bengal', 'coochbehar'): 'Cooch Behar',
+    ('West Bengal', 'maldah'): 'Malda',
+    ('West Bengal', 'paschim bardhhaman'): 'Paschim Bardhaman',
+    ('West Bengal', 'purba bardhhaman'): 'Purba Bardhaman',
 }
 
 
@@ -101,7 +192,9 @@ def load_lgd(path, states):
             st = row["state_name_english"].strip()
             if states and st not in states:
                 continue
-            code = row["district_census2011_code"].strip()
+            code = norm_code(row["district_census2011_code"].strip())
+            if code == "0":
+                code = ""
             name = row["district_name_english"].strip()
             lgd_by_state[st].append((norm(name), name, code))
     return lgd_by_state
@@ -139,7 +232,8 @@ def match_district(state, district, lgd_by_state, fuzzy_cutoff=0.75):
     if close:
         for c in candidates:
             if c[0] == close[0]:
-                return c[2], c[1], "fuzzy"
+                # Keep the candidate for review, but do not accept its code.
+                return None, c[1], "fuzzy"
 
     return None, None, "none"
 
@@ -158,7 +252,7 @@ def run(rhs_path, lgd_path, census_path, out_path, states=None):
         st = row["state"].strip()
         dist = row["district"].strip()
         code, matched_name, match_type = match_district(st, dist, lgd_by_state)
-        pop_info = pop_by_code.get(norm_code(code)) if code and code != "000" else None
+        pop_info = pop_by_code.get(norm_code(code)) if code else None
 
         out = dict(row)
         out["lgd_matched_name"] = matched_name or ""
@@ -203,8 +297,8 @@ def run(rhs_path, lgd_path, census_path, out_path, states=None):
     print(f"Population coverage: {has_pop}/{total} ({has_pop/total:.1%})")
     if review_rows:
         print(f"\n{len(review_rows)} non-exact matches written to {review_path}")
-        print("IMPORTANT: manually review every 'fuzzy' match in that file before trusting it —")
-        print("fuzzy matching has produced silent wrong matches before (see DATA_SOURCES.md).")
+        print("IMPORTANT: review all non-exact rows in the review file before trusting the merge.")
+        print("Fuzzy candidates are not automatically accepted; see DATA_SOURCES.md.")
 
 
 if __name__ == "__main__":
