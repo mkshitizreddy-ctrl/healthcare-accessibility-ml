@@ -245,3 +245,25 @@ The values were rechecked against a fresh copy of the RHS 2020-21 source table. 
 The values have been left unchanged because the correct district-level figures could not be established from the available evidence. Altering the published government figures without verification would risk introducing additional errors.
 
 Affected districts are Pakur, Palamu, Ramgarh, Ranchi, Sahebganj, Pashchimi Singhbhum, and Purbi Singhbhum for 2020-21. Any district-level model output for these seven districts in that year should be treated with caution.
+
+## 11. Population Decision — Re-aggregation to Census-2011 Boundary Units
+
+**Decision (adopted):** the primary modelling dataset uses stable Census-2011 boundary units instead of current LGD districts. Modelled current-boundary population estimates (Harvard Dataverse, 2020) are kept only as a possible sensitivity analysis.
+
+**Why.** The 263 rows without population were not missing at random. 256 were districts carved out after 2011, concentrated in the Northeast, Telangana and Chhattisgarh. The other 7 were unmatched split or combined RHS entries. A second, less visible problem: the parent district of each split was still joined to its *undivided* 2011 population while reporting post-split facility counts. Its per-capita density was therefore biased downward by the factor $P_{\text{new}}/P_{2011}$. Example: Adilabad 2021-22 showed 126 sub-centres for 2.74M people (4.6 per 100k). The re-aggregated Adilabad unit has 455 sub-centres for the same 2.74M (16.6 per 100k). Dropping the code-`000` rows would not have fixed this parent bias.
+
+**Method** (`scripts/reaggregate_2011_units.py`):
+
+1. `raw/lineage/district_lineage.csv` links each post-2011 child (and the unmatched Warangal Rural/Urban, Aizawl East/West and Brihan Mumbai rows) to its Census-2011 parent code(s), with a `confidence` column.
+2. Census codes that share a child are merged into one unit (union-find). Facility counts are summed per (unit, year), and population is the exact sum of member Census-2011 populations.
+3. Validation asserts that national facility totals are conserved per year, that every unit has a population, and that each unit appears once per year.
+
+**Result:** 2,166 district-year rows become 1,839 unit-year rows (613 units × 3 years), with a balanced panel and 100% population coverage. The temporal table has 1,226 pairs. 12 units merge several 2011 districts. The largest are NCT Delhi (all 9 districts, because the 2012 reorganisation redrew every boundary) and a Telangana cluster of Karimnagar, Medak, Nalgonda, Warangal and Khammam (caused by the 2016 multi-parent reorganisation).
+
+**Known costs and caveats**
+
+- Spatial resolution is lower in Telangana, Delhi and Gujarat (Saurashtra). Results there describe larger areas.
+- Lineage rows marked `medium` confidence (Kamle, Leparada, Saitual, Jangoan, Hanumakonda/Warangal Urban, Jayashankar Bhupalapally) should be checked against state gazette notifications. A wrong parent changes cluster membership, not facility totals.
+- `rows_below_max` flags unit-years with fewer RHS rows than in other years (children not yet reported separately). Facility totals for these units were continuous across years, with one exception: Tuensang 2019-20 (38 sub-centres vs 55–56 later), which reflects the RHS figures rather than the split.
+- Census 2011 population is still stale relative to 2019–22.
+- RHS covers rural infrastructure, so metro units (Mumbai, Chennai, Kolkata, Chandigarh) show zero or near-zero sub-centres. These should be excluded or flagged before D-HAI thresholds are calibrated.
