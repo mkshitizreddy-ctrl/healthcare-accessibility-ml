@@ -16,3 +16,16 @@ venv/
 
 # Jupyter
 *.pyo
+# scratch / backups
+*.bak
+*.patch
+*.zip
+docs_diff.txt
+DATA_SOURCES.pre_*.md
+scripts/crosswalk_test/
+scripts/merge_pipeline.*.py
+processed/*.pre_*.csv
+processed/*baseline*.csv
+processed/*test*.csv
+processed/*candidate*.csv
+processed/*final_review*.csv
