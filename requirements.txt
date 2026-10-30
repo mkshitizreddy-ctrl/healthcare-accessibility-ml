@@ -1,3 +1,18 @@
+# Data pipeline (scripts/)
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1          # reads raw/population/harvard_2020_district_population.xlsx
+# System dependency for scripts/audit_rhs_totals.py: pdftotext (poppler-utils)
+#   Windows: conda install -c conda-forge poppler | Ubuntu: apt install poppler-utils | macOS: brew install poppler
+
+# Modelling & explainability (notebooks/d_hai_v1.ipynb)
+scikit-learn>=1.3
+matplotlib>=3.7
+shap>=0.44
+
+# Dashboard (ML_APP.py)
 streamlit
 plotly
-pandas
+
+# Notebooks
+jupyter
