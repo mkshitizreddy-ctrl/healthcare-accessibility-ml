@@ -501,9 +501,10 @@ U632,Tamil Nadu,Coimbatore,3458045,1,328,77,12,12,1,2019-20,2020-21,1,328,77,12,
 U633,Tamil Nadu,Tiruppur,2479052,1,242,54,13,10,1,2019-20,2020-21,1,242,54,13,9,0
 U532,Telangana,Adilabad,2741239,4,457,90,9,3,0,2019-20,2020-21,4,457,90,9,3,0
 U533,Telangana,Nizamabad,2551335,2,395,60,14,3,0,2019-20,2020-21,2,395,59,15,3,0
-U534,Telangana,Karimnagar + Medak + Nalgonda + Warangal + Khammam,16608312,18,2815,441,38,22,4,2019-20,2020-21,18,2818,441,38,22,3
+U534,Telangana,Karimnagar + Medak + Warangal + Khammam,13119503,15,2258,354,32,17,4,2019-20,2020-21,15,2261,354,31,17,3
 U536,Telangana,Hyderabad,3943323,1,53,91,10,3,1,2019-20,2020-21,1,152,85,9,3,1
 U537,Telangana,Rangareddy + Mahbubnagar,9349769,8,1121,203,24,6,1,2019-20,2020-21,8,1178,188,24,6,1
+U539,Telangana,Nalgonda,3488809,3,557,87,6,5,0,2019-20,2020-21,3,557,87,7,5,0
 U494,The Dadra And Nagar Haveli And Daman And Diu,Diu,52074,1,6,1,1,0,1,2019-20,2020-21,1,6,1,1,0,1
 U495,The Dadra And Nagar Haveli And Daman And Diu,Daman,191173,1,20,3,1,0,1,2019-20,2020-21,1,20,3,1,0,1
 U496,The Dadra And Nagar Haveli And Daman And Diu,Dadra AND Nagar Haveli,343709,1,71,9,2,1,1,2019-20,2020-21,1,71,10,2,1,0
@@ -1114,9 +1115,10 @@ U632,Tamil Nadu,Coimbatore,3458045,1,328,77,12,12,1,2020-21,2021-22,1,328,77,12,
 U633,Tamil Nadu,Tiruppur,2479052,1,242,54,13,9,0,2020-21,2021-22,1,242,54,13,9,0
 U532,Telangana,Adilabad,2741239,4,457,90,9,3,0,2020-21,2021-22,4,455,90,6,5,0
 U533,Telangana,Nizamabad,2551335,2,395,59,15,3,0,2020-21,2021-22,2,394,52,14,3,0
-U534,Telangana,Karimnagar + Medak + Nalgonda + Warangal + Khammam,16608312,18,2818,441,38,22,3,2020-21,2021-22,18,2772,421,33,20,3
+U534,Telangana,Karimnagar + Medak + Warangal + Khammam,13119503,15,2261,354,31,17,3,2020-21,2021-22,15,2217,337,27,14,3
 U536,Telangana,Hyderabad,3943323,1,152,85,9,3,1,2020-21,2021-22,1,133,85,9,3,1
 U537,Telangana,Rangareddy + Mahbubnagar,9349769,8,1178,188,24,6,1,2020-21,2021-22,8,1156,186,20,10,1
+U539,Telangana,Nalgonda,3488809,3,557,87,7,5,0,2020-21,2021-22,3,555,84,6,6,0
 U494,The Dadra And Nagar Haveli And Daman And Diu,Diu,52074,1,6,1,1,0,1,2020-21,2021-22,1,6,1,1,0,1
 U495,The Dadra And Nagar Haveli And Daman And Diu,Daman,191173,1,20,3,1,0,1,2020-21,2021-22,1,20,3,1,0,1
 U496,The Dadra And Nagar Haveli And Daman And Diu,Dadra AND Nagar Haveli,343709,1,71,10,2,1,0,2020-21,2021-22,1,71,10,2,1,0
