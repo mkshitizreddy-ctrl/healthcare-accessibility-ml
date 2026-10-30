@@ -279,3 +279,19 @@ Affected districts are Pakur, Palamu, Ramgarh, Ranchi, Sahebganj, Pashchimi Sing
 | `known_anomaly`, `anomaly_reason` | Unit-year contains a documented source anomaly listed in `raw/known_anomalies.csv` | 8 unit-years: the seven Jharkhand districts in 2020-21 (§10) and Tuensang in 2019-20 (§11). |
 
 The flags only mark rows; no rows are dropped. Whether to exclude or down-weight flagged rows is a modelling decision. To add a new anomaly, append a row (`census2011_code, year, reason`) to `raw/known_anomalies.csv` and re-run the script. The script stops with an error if a code doesn't belong to any unit.
+
+## 13. Alternative Denominator: Harvard 2020 Modelled Population (Sensitivity Only)
+
+**Source:** Wang W., Kim R., Subramanian S.V. (2021). *Population Estimates for Districts and Parliamentary Constituencies in India, 2020.* Harvard Dataverse, [doi:10.7910/DVN/RXYJR6](https://doi.org/10.7910/DVN/RXYJR6), CC0. The figures are WorldPop 2020 100 m raster counts summed over community-made (DataMeet) district shapefiles that follow 2020 boundaries. There are 736 districts, and Mumbai and Mumbai Suburban are reported together. Stored as `raw/population/harvard_2020_district_population.xlsx` (MD5 `9267ffaf1e493fc0b1bdfdd45d1d4010`, which matches the Dataverse record).
+
+**Mapping** (`scripts/add_population_2020.py`): each Harvard district name is matched to its LGD district (normalised exact match, or the 100-row `raw/population/harvard2020_name_crosswalk.csv` for spelling variants and renamings). That gives its Census-2011 code, either directly from LGD or through `raw/lineage/district_lineage.csv` for post-2011 districts. The code gives the `unit_id`, and populations are summed per unit. Output: `processed/unit_population_2020.csv`.
+
+**Result:** 730 of 736 districts are mapped, and all 614 units receive a 2020 population. Not mapped: Mirpur and Muzaffarabad (PoK, which has no RHS or LGD counterpart) and the 4 Sikkim districts (Sikkim is absent from the RHS panel; see below).
+
+**Caveats**
+
+- These are modelled estimates, not a census count. The source itself warns that the totals depend on how accurate the shapefiles are.
+- 34 units have implausible 2011→2020 growth (outside 0.90–1.50, against a national median of about 1.14). Examples are Srinagar at 0.58 alongside Ganderbal at 4.90, and Hazaribagh at 0.69 alongside Jamtara at 1.88. These look like population assigned to the neighbouring district by the shapefiles, not real change. They are flagged as `pop2020_plausible = False`.
+- Use this file only to check whether D-HAI rankings and labels hold up when the denominator changes. The primary denominator stays Census 2011.
+
+**Gap found:** Sikkim (4 districts) has no rows in any RHS extract or in the merged dataset, and this was not documented before. It needs to be extracted from the RHS reports.
