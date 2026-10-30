@@ -144,14 +144,14 @@ The district-level mentions found in NHP material were incidental counts, rather
 
 **Output:** `processed/national_all_years_merged.csv`
 
-The promoted dataset contains 2,166 district-year rows:
+The promoted dataset contains 2,178 district-year rows (2,166 before Sikkim was added on 2026-10-30; see §14):
 
 | RHS reporting year | District-year rows |
 |---|---:|
-| 2019-20 | 702 |
-| 2020-21 | 731 |
-| 2021-22 | 733 |
-| **Total** | **2,166** |
+| 2019-20 | 706 |
+| 2020-21 | 735 |
+| 2021-22 | 737 |
+| **Total** | **2,178** |
 
 Extracted facility counts were checked against the RHS report's own "Total Districts" line wherever such a total was available.
 
@@ -162,16 +162,16 @@ The final promoted dataset has the following match classifications:
 | Match type | Rows | Meaning |
 |---|---:|---|
 | Exact | 1,965 | Matched through the exact-name process |
-| Crosswalk | 194 | Matched through explicit crosswalk entries |
+| Crosswalk | 206 | Matched through explicit crosswalk entries |
 | Fuzzy | 0 | No fuzzy candidate was automatically accepted as a match |
 | None | 7 | No valid one-to-one LGD match was assigned |
-| **Total** | **2,166** | |
+| **Total** | **2,178** | |
 
 The crosswalk category includes mappings previously classified as fuzzy and subsequently represented through explicit crosswalk entries. This change in classification does not, by itself, change the population values associated with those rows.
 
 ### Population coverage
 
-Population is available for 1,903 of the 2,166 rows, giving coverage of **87.9%**.
+Population is available for 1,915 of the 2,178 rows, giving coverage of **87.9%**. (At district level; the Census-2011 unit dataset in §11 has 100% coverage.)
 
 The remaining 263 rows have no population value:
 
@@ -258,7 +258,7 @@ Affected districts are Pakur, Palamu, Ramgarh, Ranchi, Sahebganj, Pashchimi Sing
 2. Census codes that share a child are merged into one unit (union-find). Facility counts are summed per (unit, year), and population is the exact sum of member Census-2011 populations.
 3. Validation asserts that national facility totals are conserved per year, that every unit has a population, and that each unit appears once per year.
 
-**Result:** 2,166 district-year rows become 1,842 unit-year rows (614 units × 3 years), with a balanced panel and 100% population coverage. The temporal table has 1,228 pairs. 12 units merge several 2011 districts. The largest are NCT Delhi (all 9 districts, because the 2012 reorganisation redrew every boundary) and a Telangana cluster of Karimnagar, Medak, Warangal and Khammam (caused by the 2016 multi-parent reorganisation).
+**Result:** 2,178 district-year rows become 1,854 unit-year rows (618 units × 3 years), with a balanced panel and 100% population coverage. The temporal table has 1,236 pairs. 12 units merge several 2011 districts. The largest are NCT Delhi (all 9 districts, because the 2012 reorganisation redrew every boundary) and a Telangana cluster of Karimnagar, Medak, Warangal and Khammam (caused by the 2016 multi-parent reorganisation).
 
 **Known costs and caveats**
 
@@ -286,7 +286,7 @@ The flags only mark rows; no rows are dropped. Whether to exclude or down-weight
 
 **Mapping** (`scripts/add_population_2020.py`): each Harvard district name is matched to its LGD district (normalised exact match, or the 100-row `raw/population/harvard2020_name_crosswalk.csv` for spelling variants and renamings). That gives its Census-2011 code, either directly from LGD or through `raw/lineage/district_lineage.csv` for post-2011 districts. The code gives the `unit_id`, and populations are summed per unit. Output: `processed/unit_population_2020.csv`.
 
-**Result:** 730 of 736 districts are mapped, and all 614 units receive a 2020 population. Not mapped: Mirpur and Muzaffarabad (PoK, which has no RHS or LGD counterpart) and the 4 Sikkim districts (Sikkim is absent from the RHS panel; see below).
+**Result:** 734 of 736 districts are mapped, and all 618 units receive a 2020 population. Not mapped: Mirpur and Muzaffarabad (PoK, which has no RHS or LGD counterpart).
 
 **Caveats**
 
@@ -294,4 +294,22 @@ The flags only mark rows; no rows are dropped. Whether to exclude or down-weight
 - 34 units have implausible 2011→2020 growth (outside 0.90–1.50, against a national median of about 1.14). Examples are Srinagar at 0.58 alongside Ganderbal at 4.90, and Hazaribagh at 0.69 alongside Jamtara at 1.88. These look like population assigned to the neighbouring district by the shapefiles, not real change. They are flagged as `pop2020_plausible = False`.
 - Use this file only to check whether D-HAI rankings and labels hold up when the denominator changes. The primary denominator stays Census 2011.
 
-**Gap found:** Sikkim (4 districts) has no rows in any RHS extract or in the merged dataset, and this was not documented before. It needs to be extracted from the RHS reports.
+**Gap found and resolved:** Sikkim was missing from every RHS extract. It has now been added; see §14.
+
+## 14. Completeness Audit and Sikkim Addition (2026-10-30)
+
+**Audit.** `scripts/audit_rhs_totals.py` reads every "Total Districts = N" line in RHS Section II of all three reports (with `pdftotext`). It checks that some state-year in `processed/national_all_years_merged.csv` has exactly the same district count and five facility totals. The match is made on the numbers rather than state names, because the PDF splits state cells across lines.
+
+Before this fix, every multi-district state-year reconciled exactly except **Sikkim, which was missing in all three years** (in 2019-20 its table rows break across pages 117–118). Single-district UTs (Chandigarh, Lakshadweep) have no total line and cannot be checked this way.
+
+**Sikkim addition.** The 12 rows (4 districts × 3 years) were transcribed into `processed/rhs_sikkim_all_years.csv`. RHS uses the pre-2021 names East, North, South and West (with "District" added from 2020-21). Crosswalk entries in `scripts/merge_pipeline.py` map them to the LGD names Gangtok (244), Mangan (241), Namchi (243) and Gyalshing (242). Every year matches the report's Sikkim total line:
+
+| Year | Sub Centres | PHCs | CHCs | SDH | DH |
+|---|---:|---:|---:|---:|---:|
+| 2019-20 | 153 | 25 | 2 | 1 | 4 |
+| 2020-21 | 153 | 26 | 2 | 1 | 4 |
+| 2021-22 | 153 | 26 | 2 | 1 | 4 |
+
+The merge output (`processed/rhs_sikkim_all_years_merged.csv`, 12/12 matched by crosswalk, 100% population) was appended to `processed/national_all_years_merged.csv`. All downstream outputs were then rebuilt: 618 units, 1,854 unit-years, 1,236 pairs, and Harvard 2020 population for all 618 units. RHS still reports 4 Sikkim districts in 2021-22, so Pakyong and Soreng (created in 2021) don't need lineage rows yet.
+
+**Note:** the copies of `national_all_years_merged.csv` at the repo root and in `clean_dataset/` are not updated by the pipeline. They now lack the Sikkim rows.
