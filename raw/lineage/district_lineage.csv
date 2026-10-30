@@ -1,7 +1,7 @@
 state,child_name,parent_census2011_codes,parent_names,created,confidence,note
-Arunachal Pradesh,Kamle,255;249,Lower Subansiri;Upper Subansiri,2017,medium,carved mainly from Lower Subansiri
+Arunachal Pradesh,Kamle,255;249,Lower Subansiri;Upper Subansiri,2017,high,Wikipedia: formed from circles of Lower Subansiri and Upper Subansiri
 Arunachal Pradesh,Kra Daadi,256,Kurung Kumey,2015,high,
-Arunachal Pradesh,Leparada,250,West Siang,2018,medium,Basar area; via Lower Siang
+Arunachal Pradesh,Leparada,250,West Siang,2018,high,LGD village codes: 100% in 2011 West Siang
 Arunachal Pradesh,Longding,254,Tirap,2012,high,
 Arunachal Pradesh,Lower Siang,250;251,West Siang;East Siang,2017,high,
 Arunachal Pradesh,Namsai,259,Lohit,2014,high,
@@ -51,7 +51,7 @@ Meghalaya,South West Garo Hills,293,West Garo Hills,2012,high,
 Meghalaya,South West Khasi Hills,296,West Khasi Hills,2012,high,
 Mizoram,Hnahthial,286,Lunglei,2019,high,
 Mizoram,Khawzawl,284,Champhai,2019,high,
-Mizoram,Saitual,283;284,Aizawl;Champhai,2019,medium,
+Mizoram,Saitual,283;284,Aizawl;Champhai,2019,high,LGD village codes: Phullen block in 2011 Aizawl; Ngopa block partly in 2011 Champhai
 Mizoram,Aizawl East,283,Aizawl,n/a,high,RHS 2019-20 health-admin split; unmatched in merge
 Mizoram,Aizawl West,283,Aizawl,n/a,high,RHS 2019-20 health-admin split; unmatched in merge
 Nagaland,Noklak,267,Tuensang,2017,high,
@@ -65,12 +65,12 @@ Tamil Nadu,Ranipet,605,Vellore,2019,high,
 Tamil Nadu,Tenkasi,628,Tirunelveli,2019,high,
 Tamil Nadu,Tirupathur,605,Vellore,2019,high,
 Telangana,Bhadradri Kothagudem,541,Khammam,2016,high,
-Telangana,Hanumakonda,540;534,Warangal;Karimnagar,2021,medium,renamed Warangal Urban
-Telangana,Warangal Urban,540;534,Warangal;Karimnagar,2016,medium,unmatched in merge
+Telangana,Hanumakonda,540;534,Warangal;Karimnagar,2021,high,renamed Warangal Urban; LGD village codes: Kamalapur/Elkathurthy/Bheemadevarpalli/Velair from 2011 Karimnagar
+Telangana,Warangal Urban,540;534,Warangal;Karimnagar,2016,high,unmatched in merge; LGD village codes: Kamalapur/Elkathurthy/Bheemadevarpalli/Velair from 2011 Karimnagar
 Telangana,Warangal Rural,540,Warangal,2016,medium,unmatched in merge; renamed Warangal in 2021
 Telangana,Jagitial,534,Karimnagar,2016,high,
-Telangana,Jangoan,540;539,Warangal;Nalgonda,2016,medium,
-Telangana,Jayashankar Bhupalapally,540;534,Warangal;Karimnagar,2016,medium,
+Telangana,Jangoan,540,Warangal,2016,high,LGD village directory (2022): all 12 mandals fall in the 2011 Warangal village-code block; Gundala (ex-Nalgonda) moved to Yadadri Bhuvanagiri - exact transfer date unverified
+Telangana,Jayashankar Bhupalapally,540;534,Warangal;Karimnagar,2016,high,Wikipedia + LGD village codes: Bhupalpally division from Warangal; Kataram division from Karimnagar
 Telangana,Jogulamba Gadwal,538,Mahbubnagar,2016,high,
 Telangana,Kamareddy,533,Nizamabad,2016,high,
 Telangana,Kumuram Bheem Asifabad,532,Adilabad,2016,high,
