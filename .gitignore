@@ -29,3 +29,4 @@ processed/*baseline*.csv
 processed/*test*.csv
 processed/*candidate*.csv
 processed/*final_review*.csv
+scripts/add_reviewed_crosswalk.py
