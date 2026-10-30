@@ -1,0 +1,13 @@
+state,district,sub_centres,phcs,chcs,sub_divisional_hospital,district_hospital,year,lgd_matched_name,district_census2011_code,match_type,population
+Sikkim,East,54,7,1,1,1,2019-20,Gangtok,244,crosswalk,283583
+Sikkim,North,19,5,0,0,1,2019-20,Mangan,241,crosswalk,43709
+Sikkim,South,39,6,1,0,1,2019-20,Namchi,243,crosswalk,146850
+Sikkim,West,41,7,0,0,1,2019-20,Gyalshing,242,crosswalk,136435
+Sikkim,East District,54,8,1,1,1,2020-21,Gangtok,244,crosswalk,283583
+Sikkim,North District,19,5,0,0,1,2020-21,Mangan,241,crosswalk,43709
+Sikkim,South District,39,6,1,0,1,2020-21,Namchi,243,crosswalk,146850
+Sikkim,West District,41,7,0,0,1,2020-21,Gyalshing,242,crosswalk,136435
+Sikkim,East District,54,8,1,1,1,2021-22,Gangtok,244,crosswalk,283583
+Sikkim,North District,19,5,0,0,1,2021-22,Mangan,241,crosswalk,43709
+Sikkim,South District,39,6,1,0,1,2021-22,Namchi,243,crosswalk,146850
+Sikkim,West District,41,7,0,0,1,2021-22,Gyalshing,242,crosswalk,136435

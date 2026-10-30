@@ -1,0 +1,13 @@
+state,year,rhs_district,matched_lgd_name,match_type,district_census2011_code,population_found
+Sikkim,2019-20,East,Gangtok,crosswalk,244,yes
+Sikkim,2019-20,North,Mangan,crosswalk,241,yes
+Sikkim,2019-20,South,Namchi,crosswalk,243,yes
+Sikkim,2019-20,West,Gyalshing,crosswalk,242,yes
+Sikkim,2020-21,East District,Gangtok,crosswalk,244,yes
+Sikkim,2020-21,North District,Mangan,crosswalk,241,yes
+Sikkim,2020-21,South District,Namchi,crosswalk,243,yes
+Sikkim,2020-21,West District,Gyalshing,crosswalk,242,yes
+Sikkim,2021-22,East District,Gangtok,crosswalk,244,yes
+Sikkim,2021-22,North District,Mangan,crosswalk,241,yes
+Sikkim,2021-22,South District,Namchi,crosswalk,243,yes
+Sikkim,2021-22,West District,Gyalshing,crosswalk,242,yes

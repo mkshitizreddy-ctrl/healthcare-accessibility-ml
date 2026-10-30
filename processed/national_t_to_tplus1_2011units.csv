@@ -467,6 +467,10 @@ U128,Rajasthan,Baran,1222755,False,1,False,265,53,14,0,1,2019-20,2020-21,1,False
 U129,Rajasthan,Jhalawar,1411129,False,1,False,323,48,14,0,0,2019-20,2020-21,1,False,323,44,14,1,0
 U130,Rajasthan,Udaipur,3068420,False,1,False,624,115,29,1,0,2019-20,2020-21,1,False,623,108,31,1,0
 U131,Rajasthan,Pratapgarh,867848,False,1,False,203,32,8,0,1,2019-20,2020-21,1,False,204,32,8,0,1
+U241,Sikkim,North  District,43709,False,1,False,19,5,0,0,1,2019-20,2020-21,1,False,19,5,0,0,1
+U242,Sikkim,West District,136435,False,1,False,41,7,0,0,1,2019-20,2020-21,1,False,41,7,0,0,1
+U243,Sikkim,South District,146850,False,1,False,39,6,1,0,1,2019-20,2020-21,1,False,39,6,1,0,1
+U244,Sikkim,East District,283583,False,1,False,54,7,1,1,1,2019-20,2020-21,1,False,54,8,1,1,1
 U602,Tamil Nadu,Thiruvallur,3728104,False,1,False,303,54,14,8,1,2019-20,2020-21,1,False,303,54,14,11,0
 U603,Tamil Nadu,Chennai,4646732,True,1,False,0,144,15,3,1,2019-20,2020-21,1,False,0,144,15,4,0
 U604,Tamil Nadu,Kancheepuram,3998252,False,1,False,364,64,13,9,1,2019-20,2020-21,2,False,364,64,13,10,1
@@ -1081,6 +1085,10 @@ U128,Rajasthan,Baran,1222755,False,1,False,263,52,14,0,1,2020-21,2021-22,1,False
 U129,Rajasthan,Jhalawar,1411129,False,1,False,323,44,14,1,0,2020-21,2021-22,1,False,323,45,14,0,0
 U130,Rajasthan,Udaipur,3068420,False,1,False,623,108,31,1,0,2020-21,2021-22,1,False,621,110,33,1,0
 U131,Rajasthan,Pratapgarh,867848,False,1,False,204,32,8,0,1,2020-21,2021-22,1,False,204,34,8,0,1
+U241,Sikkim,North  District,43709,False,1,False,19,5,0,0,1,2020-21,2021-22,1,False,19,5,0,0,1
+U242,Sikkim,West District,136435,False,1,False,41,7,0,0,1,2020-21,2021-22,1,False,41,7,0,0,1
+U243,Sikkim,South District,146850,False,1,False,39,6,1,0,1,2020-21,2021-22,1,False,39,6,1,0,1
+U244,Sikkim,East District,283583,False,1,False,54,8,1,1,1,2020-21,2021-22,1,False,54,8,1,1,1
 U602,Tamil Nadu,Thiruvallur,3728104,False,1,False,303,54,14,11,0,2020-21,2021-22,1,False,303,54,14,11,0
 U603,Tamil Nadu,Chennai,4646732,True,1,False,0,144,15,4,0,2020-21,2021-22,1,False,0,144,15,5,0
 U604,Tamil Nadu,Kancheepuram,3998252,False,2,False,364,64,13,10,1,2020-21,2021-22,2,False,364,64,13,10,1
