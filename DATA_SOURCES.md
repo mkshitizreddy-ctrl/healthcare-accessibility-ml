@@ -267,3 +267,15 @@ Affected districts are Pakur, Palamu, Ramgarh, Ranchi, Sahebganj, Pashchimi Sing
 - `rows_below_max` flags unit-years with fewer RHS rows than in other years (children not yet reported separately). Facility totals for these units were continuous across years, with one exception: Tuensang 2019-20 (38 sub-centres vs 55–56 later), which reflects the RHS figures rather than the split.
 - Census 2011 population is still stale relative to 2019–22.
 - RHS covers rural infrastructure, so metro units (Mumbai, Chennai, Kolkata, Chandigarh) show zero or near-zero sub-centres. These should be excluded or flagged before D-HAI thresholds are calibrated.
+
+## 12. Data-Quality Flags in the Unit Dataset
+
+`scripts/reaggregate_2011_units.py` writes these columns to `processed/national_all_years_2011units.csv` (and their `_t` / `_tp1` versions to the pairs table):
+
+| Column | Definition | Why |
+|---|---|---|
+| `rural_hh_share_2011` | Rural households ÷ all households, summed over the unit's Census-2011 districts | RHS measures *rural* infrastructure, so how meaningful its counts are depends on how rural the unit is. |
+| `is_urban_unit` | `rural_hh_share_2011 < 0.10` (constant `URBAN_UNIT_MAX_RURAL_SHARE`) | Metro cores report about 0 sub-centres or PHCs because of how RHS is defined, not because they are underserved. Flagged: Mumbai, Kolkata, Chennai, Hyderabad, Bangalore, Srinagar, Chandigarh, NCT Delhi, Yanam, Mahe. |
+| `known_anomaly`, `anomaly_reason` | Unit-year contains a documented source anomaly listed in `raw/known_anomalies.csv` | 8 unit-years: the seven Jharkhand districts in 2020-21 (§10) and Tuensang in 2019-20 (§11). |
+
+The flags only mark rows; no rows are dropped. Whether to exclude or down-weight flagged rows is a modelling decision. To add a new anomaly, append a row (`census2011_code, year, reason`) to `raw/known_anomalies.csv` and re-run the script. The script stops with an error if a code doesn't belong to any unit.

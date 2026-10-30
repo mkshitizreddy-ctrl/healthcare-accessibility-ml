@@ -32,12 +32,16 @@ ROOT = Path(__file__).resolve().parents[1]
 MERGED = ROOT / "processed" / "national_all_years_merged.csv"
 LINEAGE = ROOT / "raw" / "lineage" / "district_lineage.csv"
 CENSUS = ROOT / "raw" / "population" / "census2011_districts.csv"
+ANOMALIES = ROOT / "raw" / "known_anomalies.csv"
 OUT_DIR = ROOT / "processed"
 
 FACILITY_COLS = [
     "sub_centres", "phcs", "chcs", "sub_divisional_hospital", "district_hospital",
 ]
 YEARS = ["2019-20", "2020-21", "2021-22"]
+# RHS counts *rural* infrastructure; units whose 2011 households are almost all urban
+# (metro cores) report ~0 sub-centres by construction, not because they are underserved.
+URBAN_UNIT_MAX_RURAL_SHARE = 0.10
 
 
 class UnionFind:
@@ -63,9 +67,11 @@ def load_inputs() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     lin["parents"] = lin["parent_census2011_codes"].astype(str).str.split(";").apply(
         lambda xs: [int(x) for x in xs]
     )
-    census = pd.read_csv(CENSUS, usecols=["District code", "District name", "Population"])
+    census = pd.read_csv(CENSUS, usecols=["District code", "District name", "Population",
+                                          "Rural_Households", "Households"])
     census = census.rename(columns={"District code": "code", "District name": "census_name",
-                                    "Population": "pop2011"})
+                                    "Population": "pop2011", "Rural_Households": "rural_hh",
+                                    "Households": "hh"})
     return df, lin, census
 
 
@@ -112,10 +118,28 @@ def build_units(df: pd.DataFrame, census: pd.DataFrame) -> pd.DataFrame:
              .agg(unit_codes=("code", lambda s: ";".join(map(str, s))),
                   unit_name=("census_name", lambda s: " + ".join(s)),
                   n_census_districts=("code", "size"),
-                  population=("pop2011", "sum"))
+                  population=("pop2011", "sum"),
+                  rural_hh=("rural_hh", "sum"),
+                  hh=("hh", "sum"))
              .reset_index())
+    units["rural_hh_share_2011"] = units["rural_hh"] / units["hh"]
+    units["is_urban_unit"] = units["rural_hh_share_2011"] < URBAN_UNIT_MAX_RURAL_SHARE
     units["unit_id"] = "U" + units["unit_codes"].str.split(";").str[0].str.zfill(3)
     return df, units, mem
+
+
+def flag_anomalies(panel: pd.DataFrame, mem: pd.DataFrame) -> pd.DataFrame:
+    """Mark unit-years containing a documented source anomaly (raw/known_anomalies.csv)."""
+    an = pd.read_csv(ANOMALIES)
+    code_to_unit = dict(zip(mem["code"], mem["unit_id"]))
+    an["unit_id"] = an["census2011_code"].map(code_to_unit)
+    if an["unit_id"].isna().any():
+        raise ValueError(f"Anomaly codes not in any unit: {an[an.unit_id.isna()].census2011_code.tolist()}")
+    reasons = an.groupby(["unit_id", "year"])["reason"].agg(lambda s: " | ".join(sorted(set(s))))
+    panel = panel.copy()
+    panel["anomaly_reason"] = [reasons.get((u, y), "") for u, y in zip(panel.unit_id, panel.year)]
+    panel["known_anomaly"] = panel["anomaly_reason"].ne("")
+    return panel
 
 
 def aggregate(df: pd.DataFrame, units: pd.DataFrame) -> pd.DataFrame:
@@ -137,17 +161,20 @@ def aggregate(df: pd.DataFrame, units: pd.DataFrame) -> pd.DataFrame:
         out[f"{c}_per_100k"] = out[c] / out["population"] * 1e5  # Shape: [N_unit_years]
 
     cols = (["unit_id", "state", "unit_name", "unit_codes", "year", "n_census_districts",
-             "n_rhs_rows", "rhs_districts", "is_aggregated", "rows_below_max", "population"]
+             "n_rhs_rows", "rhs_districts", "is_aggregated", "rows_below_max", "population",
+             "rural_hh_share_2011", "is_urban_unit"]
             + FACILITY_COLS + [f"{c}_per_100k" for c in FACILITY_COLS])
     return out[cols].sort_values(["state", "unit_id", "year"]).reset_index(drop=True)
 
 
 def make_pairs(panel: pd.DataFrame) -> pd.DataFrame:
-    keep = ["unit_id", "state", "unit_name", "population", "n_rhs_rows"] + FACILITY_COLS
+    keep = ["unit_id", "state", "unit_name", "population", "is_urban_unit",
+            "n_rhs_rows", "known_anomaly"] + FACILITY_COLS
     pairs = []
     for y0, y1 in zip(YEARS[:-1], YEARS[1:]):
         a = panel.loc[panel.year == y0, keep + ["year"]]
-        b = panel.loc[panel.year == y1, ["unit_id", "year", "n_rhs_rows"] + FACILITY_COLS]
+        b = panel.loc[panel.year == y1, ["unit_id", "year", "n_rhs_rows", "known_anomaly"]
+                      + FACILITY_COLS]
         p = a.merge(b, on="unit_id", suffixes=("_t", "_tp1"))
         pairs.append(p)
     return pd.concat(pairs, ignore_index=True)
@@ -169,20 +196,21 @@ def main() -> None:
     raw, lin, census = load_inputs()
     df = attach_parents(raw, lin)
     df, units, mem = build_units(df, census)
-    panel = aggregate(df, units)
+    mem = mem.merge(units[["unit_root", "unit_id"]], on="unit_root")
+    panel = flag_anomalies(aggregate(df, units), mem)
     validate(raw, panel)
     pairs = make_pairs(panel)
 
     panel.to_csv(OUT_DIR / "national_all_years_2011units.csv", index=False)
     pairs.to_csv(OUT_DIR / "national_t_to_tplus1_2011units.csv", index=False)
-    mem.merge(units[["unit_root", "unit_id"]], on="unit_root")[
-        ["unit_id", "code", "census_name", "pop2011"]
-    ].sort_values(["unit_id", "code"]).to_csv(OUT_DIR / "unit_membership.csv", index=False)
+    mem[["unit_id", "code", "census_name", "pop2011"]].sort_values(["unit_id", "code"]).to_csv(OUT_DIR / "unit_membership.csv", index=False)
 
     print(f"rows in : {len(raw)} district-years")
     print(f"rows out: {len(panel)} unit-years | {panel.unit_id.nunique()} units | "
           f"population coverage {panel.population.notna().mean():.1%}")
     print(f"pairs   : {len(pairs)}")
+    print(f"urban units: {panel.loc[panel.is_urban_unit, 'unit_name'].unique().tolist()}")
+    print(f"anomalous unit-years: {int(panel.known_anomaly.sum())}")
     print(f"aggregated units: {units.query('n_census_districts > 1').shape[0]} multi-parent clusters")
 
 
