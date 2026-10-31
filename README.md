@@ -48,8 +48,8 @@ Hyperparameters were tuned by cross-validation on the training period only (`res
 | Persistence baseline (label at t) | 0.972 | 0.931 | 0.951 | 0.941 | 0.964 | 0.897 |
 
 **How to read this.**
-- **Labels:** Random Forest **matches** the persistence baseline (F1 0.941 for both) when predicting the labels themselves.
-- **Ranking:** it is clearly better at ranking units by risk (ROC-AUC 0.992 vs 0.964, PR-AUC 0.971 vs 0.897).
+- **Labels:** Random Forest **matches** the persistence baseline when predicting the labels themselves (F1 0.9412 vs 0.9408).
+- **Ranking:** it is clearly better at ranking units by risk (ROC-AUC 0.992 vs 0.964, PR-AUC 0.971 vs 0.897). The persistence baseline only produces 0/1 scores, so its ROC-AUC and PR-AUC have a single operating point and limited resolution. The gap partly reflects that RF outputs a continuous probability.
 - **Why the labels are so persistent:** population is fixed at Census 2011, so year-to-year changes in the features come only from facility counts, which change little. The model's main added value is the probability ranking, not the hard labels.
 
 **Explainability and robustness**
