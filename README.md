@@ -30,9 +30,38 @@ Identification in India — M.Tech Advanced Machine Learning course project.
   Flags mark rows; nothing is dropped (§12–13).
 - The older district-level files `processed/national_t_to_tplus1.csv` (1,267 pairs) and the copies of `national_all_years_merged.csv` at the repo root and in `clean_dataset/` are **superseded**. Use the `*_2011units.csv` files.
 
-### Modelling: pilot complete, national pending (owner: Yashovardhan)
+### Modelling: national results complete (owner: Yashovardhan, PR #9)
 
-The tuned Random Forest on the 5-state pilot reached Accuracy 0.970 / F1 0.946 / ROC-AUC 0.993, with SHAP, permutation importance, error analysis and a facility-only ablation. National D-HAI labels and model evaluation on the 618-unit panel are not done yet.
+**D-HAI (national).** The five `*_per_100k` facility rates are min-max normalised using **2019-20 (baseline year) parameters only** and averaged with equal weights. A unit is labelled *underserved* when its D-HAI ≤ the baseline-year 25th percentile (0.0312). Urban units (30 rows) and known-anomaly unit-years (8 rows) are excluded, leaving 1,816 of 1,854 records. Outputs: `processed/national_dhai_results.csv` and `processed/national_dhai_metadata.json`.
+
+**Task.** Predict whether a unit will be underserved in year t+1 from its five facility rates in year t.
+- Train: 2019-20 → 2020-21 (600 units)
+- Test: 2020-21 → 2021-22 (601 units, 142 underserved)
+
+Hyperparameters were tuned by cross-validation on the training period only (`results/national_best_parameters.json`).
+
+| Model (test set) | Accuracy | Precision | Recall | F1 | ROC-AUC | PR-AUC |
+|---|---:|---:|---:|---:|---:|---:|
+| Random Forest | 0.972 | 0.925 | 0.958 | 0.941 | 0.992 | 0.971 |
+| Logistic Regression | 0.962 | 0.922 | 0.915 | 0.919 | 0.990 | 0.963 |
+| Decision Tree | 0.948 | 0.849 | 0.951 | 0.897 | 0.976 | 0.918 |
+| Persistence baseline (label at t) | 0.972 | 0.931 | 0.951 | 0.941 | 0.964 | 0.897 |
+
+**How to read this.**
+- **Labels:** Random Forest **matches** the persistence baseline (F1 0.941 for both) when predicting the labels themselves.
+- **Ranking:** it is clearly better at ranking units by risk (ROC-AUC 0.992 vs 0.964, PR-AUC 0.971 vs 0.897).
+- **Why the labels are so persistent:** population is fixed at Census 2011, so year-to-year changes in the features come only from facility counts, which change little. The model's main added value is the probability ranking, not the hard labels.
+
+**Explainability and robustness**
+- **SHAP (mean |SHAP|).** The most important feature is sub-centres per 100k (0.172), followed by PHCs (0.105), sub-divisional hospitals (0.071), CHCs (0.054) and district hospitals (0.019). Files: `results/shap_*`.
+- **Errors.** 17 of 601 test units were misclassified (11 false positives, 6 false negatives). Listed in `results/national_misclassified_units.csv`.
+- **Threshold sensitivity.** At the 20th, 25th and 30th percentiles, Random Forest F1 is 0.898, 0.941 and 0.943 (`results/threshold_sensitivity_results.csv`).
+- **Anomaly sensitivity.** Keeping the 8 anomalous unit-years changes F1 from 0.941 to 0.943 (`results/anomaly_sensitivity_results.csv`).
+- **Reproducibility.** `python reproduce_predictions.py` reloads `models/random_forest.joblib` and regenerates the test predictions.
+
+Pipeline scripts, in order: `national_dhai.py` → `validate_national_dhai.py` → `prepare_temporal_dataset.py` → `validate_temporal_split.py` → `train_temporal_models.py` → `evaluate_persistence_baseline.py` → `final_evaluation.py` → `shap_explainability.py` → `error_analysis.py` → `threshold_sensitivity.py` / `anomaly_sensitivity.py`.
+
+Not done yet: a robustness check using the Harvard 2020 population (`processed/unit_population_2020.csv`).
 
 ### Visualisation / dashboard (owner: Pranit)
 
@@ -74,8 +103,12 @@ Check them with `certutil -hashfile <file> MD5` on Windows or `md5sum <file>` on
   per-year intermediate files are kept for history and auditing.
 - `scripts/` — pipeline code: `merge_pipeline.py` (RHS → LGD → Census join),
   `reaggregate_2011_units.py`, `add_population_2020.py`, `audit_rhs_totals.py`.
-- `notebooks/` — EDA, modeling, and SHAP analysis notebooks (includes
-  `d_hai_v1.ipynb`).
+  Modelling: `national_dhai.py`, `train_temporal_models.py`, `final_evaluation.py`,
+  `shap_explainability.py` and related scripts (see Modelling above).
+- `notebooks/` — pilot (`d_hai_v1.ipynb`) and national
+  (`national_dhai_analysis.ipynb`) analysis notebooks.
+- `models/` — trained model (`random_forest.joblib`).
+- `results/` — national evaluation tables, predictions, SHAP outputs and figures.
 - `DATA_SOURCES.md` — full source catalog, join methodology, crosswalk
   decisions, and known limitations/anomalies. Read this before touching
   the data.
