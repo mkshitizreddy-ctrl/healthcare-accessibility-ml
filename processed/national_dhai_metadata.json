@@ -1,0 +1,46 @@
+{
+    "project": "National District Healthcare Accessibility Index",
+    "baseline_year": "2019-20",
+    "threshold_percentile": 25,
+    "threshold_value": 0.031167281044349265,
+    "eligible_baseline_records": 607,
+    "total_records": 1854,
+    "eligible_records": 1816,
+    "urban_records_excluded": 30,
+    "anomaly_records_excluded": 8,
+    "normalization_method": "Baseline Min-Max normalization",
+    "aggregation_method": "Equal-weight arithmetic mean",
+    "features": [
+        "sub_centres_per_100k",
+        "phcs_per_100k",
+        "chcs_per_100k",
+        "sub_divisional_hospital_per_100k",
+        "district_hospital_per_100k"
+    ],
+    "normalization_parameters": {
+        "sub_centres_per_100k": {
+            "minimum": 2.783563982537775,
+            "maximum": 114.05398555316182
+        },
+        "phcs_per_100k": {
+            "minimum": 0.1950814123504091,
+            "maximum": 53.858826511215305
+        },
+        "chcs_per_100k": {
+            "minimum": 0.0,
+            "maximum": 18.897340199366937
+        },
+        "sub_divisional_hospital_per_100k": {
+            "minimum": 0.0,
+            "maximum": 3.1020737362927115
+        },
+        "district_hospital_per_100k": {
+            "minimum": 0.0,
+            "maximum": 12.49375312343828
+        }
+    },
+    "label_definition": {
+        "underserved": "D-HAI <= baseline threshold",
+        "not_underserved": "D-HAI > baseline threshold"
+    }
+}
