@@ -61,7 +61,7 @@ Hyperparameters were tuned by cross-validation on the training period only (`res
 
 Pipeline scripts, in order: `national_dhai.py` → `validate_national_dhai.py` → `prepare_temporal_dataset.py` → `validate_temporal_split.py` → `train_temporal_models.py` → `evaluate_persistence_baseline.py` → `final_evaluation.py` → `shap_explainability.py` → `error_analysis.py` → `threshold_sensitivity.py` / `anomaly_sensitivity.py`.
 
-Not done yet: a robustness check using the Harvard 2020 population (`processed/unit_population_2020.csv`).
+**Population robustness.** `scripts/population_sensitivity.py` reruns the Random Forest with the Harvard 2020 population in place of the Census 2011 figure, for all units and for the 573 test units whose 2020 population is plausible. F1 is 0.941 (2011) vs 0.915 (2020) for all units, and 0.932 vs 0.927 for plausible units. ROC-AUC stays at about 0.99 in every case, so the conclusions do not depend on which population is used (`results/population_sensitivity/`).
 
 ### Visualisation / dashboard (owner: Pranit)
 
